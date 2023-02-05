@@ -1,0 +1,34 @@
+// ---------------------------------------------
+// ### RESETS N GLOBAL STYLES ###
+// ----------------------------------------------
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+a{
+    all: initial;
+    box-sizing: border-box;
+    font-size: 130%;
+    cursor: pointer;
+}
+
+button{
+    all: initial;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}
+
+*{
+    box-sizing: border-box;
+}

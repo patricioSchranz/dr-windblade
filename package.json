@@ -1,0 +1,14 @@
+{
+  "name": "dr_windblade",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "built:common": "sass ./src/scss/scss_basement/pages/common.scss ./style/common.css --style=compressed --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}

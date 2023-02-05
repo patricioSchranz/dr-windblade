@@ -1,0 +1,173 @@
+@import '../core/resets';
+@import '../abstracts/variables';
+@import '../abstracts/mixins';
+@import '../core/font';
+
+
+// ---------------------------------------------------
+// ### COMMON ###
+// --------------------------------------------------
+
+.header{
+    height: 5rem;
+    background-color: $color-background-first;
+    @include box-shadow-default(rgba(0, 0, 0, 0.3));
+    // overflow: hidden;
+    @include flex-variable(row, wrap, space-evenly, center);
+    position: relative;
+
+  
+    &_logo{
+        width: 3rem;
+        flex-shrink: 1;
+    }
+
+
+    &_link-list{
+        @include flex-variable(row, wrap, space-evenly, center);
+        // @include testing-border-1();
+        height: 100%;
+        margin: 0;
+        flex-grow: 1;
+
+        & > li{
+            // @include testing-border-2();
+            height: 100%;
+            margin: 0 .7rem;
+            @include flex-row-center();
+            // background-color: tomato;
+            position: relative;
+
+            & > a:hover{
+                font-weight: bold;
+            }
+        }
+
+        &_mega-menu-opener:hover span{
+            font-weight: bold;
+        }
+
+        &_mega-menu-opener:hover .header_mega-menu{
+            display: flex;
+        }
+
+        &_sub-menu-opener:hover > a{
+           font-weight: bold;
+        }
+
+        &_sub-menu-opener:hover .header_sub-menu{
+            display: flex;
+        }
+
+    }
+
+    &_menu-hint,
+    a,
+    button{
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 400;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+
+
+    // &_menu-hint {
+    //     &:hover + .header_mega-menu{
+    //         display: flex;
+    //     }
+
+    // } 
+
+    &_mega-menu{
+        position: absolute;
+        top: 5rem;
+        left: 0;
+
+        @include flex-variable(row, nowrap, space-evenly, stretch);
+        @include box-shadow-default(rgba(0, 0, 0, 0.3));
+        display: none; 
+
+        &_list-point{
+            width: 17rem;
+            border-right: 1px solid rgba(0, 0, 0, 0.2);
+            @include flex-variable(column, nowrap, flex-start, center);
+            padding-bottom: 2rem;
+            
+
+            &:last-of-type{
+                border: none;
+            }
+        }
+
+        &_sub-heading{
+            @include testing-border-3();
+            width: 100%;
+            padding: .5rem;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        &_list{
+            li{
+                // margin-bottom: .5em;
+                padding: .5rem;
+
+                &:hover{
+                    background-color: rgba(0, 0, 0, 0.2);
+                }
+            }
+        }
+
+        &_sub-list{
+            margin-left: 1rem;
+        }
+        
+    }
+
+    &_sub-menu{
+        @include flex-variable(column, nowrap, flex-start, stretch);
+        display: none;
+        position: absolute;
+        top: 5rem;
+        left: 0;
+        @include box-shadow-default(rgba(0, 0, 0, 0.2));
+
+        li{
+            padding: .5rem;
+            width: 17rem;
+
+            &:hover{
+                background-color: rgba(0, 0, 0, 0.2);
+            }
+        }
+
+        &_sub-sub-opener{
+            position: relative;
+
+            &:hover .header_sub-menu_sub-menu{
+                display: block;
+            }
+        }
+
+        &_sub-menu{
+            // margin-left: 1rem;
+            position: absolute;
+            top: 0;
+            left: 17rem;
+            width: inherit;
+            @include box-shadow-default(rgba(0, 0, 0, 0.2));
+            display: none;
+        }
+    }
+}
+
+
+
+.button{
+    &_e-medikation,
+    &_online-terminkalender{
+        padding: .5rem;
+        @include testing-border-2();
+        margin: 0rem;
+    }
+}
