@@ -2,53 +2,146 @@
 @import '../abstracts/variables';
 @import '../abstracts/mixins';
 @import '../core/font';
+@import '../core/scrollbar';
 
 
 // ---------------------------------------------------
 // ### COMMON ###
 // --------------------------------------------------
 
+body,
+a{
+    @include font-main();
+}
+
+//
+// 'HEADER'
+//
+
 .header{
     height: 5rem;
-    background-color: $color-background-first;
+    background-color: $color-secondary;
     @include box-shadow-default(rgba(0, 0, 0, 0.3));
     // overflow: hidden;
     @include flex-variable(row, wrap, space-evenly, center);
     position: relative;
 
+    @media screen and (max-width: 1350px){
+        justify-content: space-between;
+    }
+
   
     &_logo{
         width: 3rem;
         flex-shrink: 1;
+        margin-left: 1rem;
+    }
+
+    &_nav{
+        flex-grow: 1;
+        display: none;
     }
 
 
+    // 'NAV UL'
     &_link-list{
         @include flex-variable(row, wrap, space-evenly, center);
         // @include testing-border-1();
         height: 100%;
         margin: 0;
-        flex-grow: 1;
+
+        @media screen and (max-width: 1350px) { 
+            // @include testing-border-1();
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0; 
+            background-color: $color-secondary;
+            @include flex-variable(row, wrap, flex-start, center);
+            align-content: flex-start;
+            padding-top: 10rem;
+            overflow-y: scroll;
+            gap: 1rem;
+        }
 
         & > li{
             // @include testing-border-2();
             height: 100%;
-            margin: 0 .7rem;
+            margin: 0 1rem;
             @include flex-row-center();
             // background-color: tomato;
             position: relative;
 
             & > a:hover{
                 font-weight: bold;
+                // color: $color-akzent;
+            }
+
+            @media screen and(max-width: 1350px) {
+                width: 100%;
+                height: initial;
+                min-height: 3rem;
+                // background-color: $color-secondary-variant;
+                // display: block;
+                @include flex-variable(row, wrap, flex-start, center);
+                padding-left: 2rem;
+                // border: 1px solid $color-secondary-variant; 
+
+                &:hover{
+                     background-color: $color-secondary-variant-2;
+                }
+            }
+
+        }
+
+        // 'LIST ELEMENTS WITH A SUBMENU / MEGA MENU'
+        &_mega-menu-opener,
+        &_sub-menu-opener{
+            position: relative;
+
+            // @media screen and(max-width: 1350px) {
+            //     height: auto;
+            // }
+
+            // @media screen and(max-width: 1350px) {
+            //     padding-top: 1rem;
+            // }
+
+            &::after{
+                // content: '';
+                // background: url('../../../../graphics/icons_n_co/add.png') center center / cover no-repeat;
+                content: attr(data-sign);
+                font-size: 1.5rem;
+                font-weight: bold;
+                width: 1rem;
+                height: 1rem;
+                // position: absolute;
+                // right: 1rem;
+                position: absolute;
+                right: 1rem;
+                // top: calc(1.5rem - .4rem);
+                top: 0.7rem;
+                opacity: .7;
+                display: none;
+
+                @media screen and(max-width: 1350px) {
+                    display: block;
+                }
             }
         }
 
         &_mega-menu-opener:hover span{
             font-weight: bold;
+            cursor: default;
         }
 
         &_mega-menu-opener:hover .header_mega-menu{
             display: flex;
+           
+            
+            // @media screen and(max-width: 1350px) {
+            //     display: none;
+            // }
         }
 
         &_sub-menu-opener:hover > a{
@@ -61,13 +154,25 @@
 
     }
 
+    // 'LIST POINT THAT IS NO LINK (it's a span), LINKS, BUTTONS IN THE NAV
     &_menu-hint,
     a,
     button{
-        font-family: 'Courier New', Courier, monospace;
-        font-weight: 400;
         font-size: 1rem;
         cursor: pointer;
+    }
+
+    .button-li{
+        position: initial;
+        height: 0;
+        min-height: 0;
+        border: none;
+    }
+
+    &_menu-hint{
+        @media screen and(max-width: 1350px) {
+            width: 100%;
+        }
     }
 
 
@@ -78,6 +183,8 @@
 
     // } 
 
+
+    // 'MEGA MENU'
     &_mega-menu{
         position: absolute;
         top: 5rem;
@@ -86,12 +193,30 @@
         @include flex-variable(row, nowrap, space-evenly, stretch);
         @include box-shadow-default(rgba(0, 0, 0, 0.3));
         display: none; 
+        border-top: 1px solid transparent;
 
+        @media screen and(max-width: 1350px) {
+            position: relative;
+            @include flex-variable(column, nowrap, flex-start, center);
+            top: 0;
+            left: 0;
+            margin-top: 1rem;
+            box-shadow: none;
+            width: 100%;
+
+            display: none; 
+        }
+
+        // 'LIST POINT OF MEGA MENU'
         &_list-point{
             width: 17rem;
             border-right: 1px solid rgba(0, 0, 0, 0.2);
             @include flex-variable(column, nowrap, flex-start, center);
             padding-bottom: 2rem;
+
+            @media screen and(max-width: 1350px) {
+                width: 100%;
+            }
             
 
             &:last-of-type{
@@ -99,31 +224,50 @@
             }
         }
 
+        // 'HEADING OF THE MEGA MENU LIST POINT'
         &_sub-heading{
-            @include testing-border-3();
+            // @include testing-border-3();
             width: 100%;
             padding: .5rem;
             text-align: center;
             margin-bottom: 1rem;
+            background: $color-secondary-variant;
+            position: relative;
+            // z-index: -1;
+            cursor: pointer;
+
+            @media screen and(max-width: 1350px) {
+                text-align: left;
+                padding-left: 2rem;
+                // background-color: transparent;
+            }
+                
+            &:hover{
+                background-color: $color-primary-light-1;
+            }
+           
         }
 
+        // 'THE SUB MENU OF THE MEGA MENU'
         &_list{
             li{
                 // margin-bottom: .5em;
                 padding: .5rem;
 
                 &:hover{
-                    background-color: rgba(0, 0, 0, 0.2);
+                    background-color: $color-primary-light-1;
                 }
             }
         }
 
+        // 'THE SUB MENU OF THE MEGA MENU SUB MENU'
         &_sub-list{
             margin-left: 1rem;
         }
         
     }
 
+    // 'NORMAL SUBMENU'
     &_sub-menu{
         @include flex-variable(column, nowrap, flex-start, stretch);
         display: none;
@@ -132,15 +276,29 @@
         left: 0;
         @include box-shadow-default(rgba(0, 0, 0, 0.2));
 
+        @media screen and(max-width: 1350px) {
+            position: relative;
+            @include flex-variable(column, nowrap, flex-start, flex-start);
+            top: 0;
+            left: 2rem;
+            margin-top: 1rem;
+            box-shadow: none;
+            width: 100%;
+           
+              display: none;
+        }
+
         li{
             padding: .5rem;
             width: 17rem;
+            overflow-x: hidden;
 
             &:hover{
-                background-color: rgba(0, 0, 0, 0.2);
+                background-color: $color-primary-light-1;
             }
         }
 
+        // 'LIST POINT WITH A SUB SUB MENU'
         &_sub-sub-opener{
             position: relative;
 
@@ -149,6 +307,7 @@
             }
         }
 
+        // 'THE SUB SUB MENU'
         &_sub-menu{
             // margin-left: 1rem;
             position: absolute;
@@ -157,17 +316,113 @@
             width: inherit;
             @include box-shadow-default(rgba(0, 0, 0, 0.2));
             display: none;
+
+            @media screen and (max-width: 1350px) {
+                box-shadow: unset;
+                display: block;
+                position: relative;
+                left: 1rem;
+            }
+        }
+    }
+}
+
+
+//
+// 'BUTTONS'
+//
+
+// HAMBURGER
+
+.hamburger{
+
+    &_button{
+        display: block;
+        width: 2.5rem;
+        height: 2.5rem;
+        // @include testing-border-1();
+        position: absolute;
+        top: 1rem;
+        right: 2rem;
+        @include flex-variable(column, nowrap, space-evenly, center);
+        display: none;
+
+        @media screen and(max-width: 1350px) {
+            display: flex;
+            z-index: 10;
+        }
+    }
+
+    &_line{
+        width: 95%;
+        height: .2rem;
+        background-color: $color-on-secondary;
+        border-radius: 50%;
+        transition: transform .3s;
+    }
+
+}
+
+
+// DIVERSE BUTTONS
+
+.button{
+    &_e-medikation,
+    &_online-terminkalender{
+        padding: .5rem 1.5rem;
+        // @include testing-border-2();
+        margin: 0rem;
+        @include font-main();
+        @include color-set-akzent();
+        border-radius: .5rem;
+        @include box-shadow-alternate();
+
+        @media screen and(max-width: 1350px) {
+            position: absolute;
+            top: 1rem;
+        }
+    }
+
+    &_e-medikation{
+        left: 1rem;
+    }
+
+    &_online-terminkalender{
+        left: 15rem;
+
+        @media screen and(max-width: 600px) {
+            top: 5rem;
+            left: 1rem;
         }
     }
 }
 
 
 
-.button{
-    &_e-medikation,
-    &_online-terminkalender{
-        padding: .5rem;
-        @include testing-border-2();
-        margin: 0rem;
+//
+// 'TOGGLE CLASSES'
+//
+
+// 'HAMBURGER BUTTON ACTIVE'
+
+.hamburger-active{
+    span{
+        background-color: tomato;
+
+        &:nth-of-type(1){
+            transform: rotate(45deg) translateX(.4rem);
+        }
+        
+        &:nth-of-type(2){
+            display: none;
+        }
+
+        &:nth-of-type(3){
+            transform: rotate(-45deg) translateX(.2rem);
+        }
     }
+}
+
+.nav-in{
+    display: block;
 }

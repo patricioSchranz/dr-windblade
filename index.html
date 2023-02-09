@@ -14,14 +14,16 @@
         <header class="header">
 
             <!-- LOGO -->
-            <img src="graphics/icons_n_co/heart-shaped-tree.png" alt="heart" class="header_logo">
+            <a href="#">
+                <img src="graphics/icons_n_co/heart-shaped-tree.png" alt="heart" class="header_logo">
+            </a>
 
             <!-- NAV -->
             <nav class="header_nav">
                 <ul class="header_link-list">
 
                 <!-- LEISTUNGEN-->
-                    <li class="header_link-list_mega-menu-opener">
+                    <li class="header_link-list_mega-menu-opener" data-sign="&#43;">
                         <span class="header_menu-hint">Leistungen</span>
 
                         <!-- MEGA MENU -->
@@ -126,14 +128,14 @@
                     </li><!-- END LEISTUNGEN-->
 
                 <!-- BEAUTY AND BALANCE -->
-                    <li class="header_link-list_sub-menu-opener">
+                    <li class="header_link-list_sub-menu-opener" data-sign="&#43;">
                         <a href="#">Beauty & Balance</a>
 
                         <!-- SUB MENU -->
                         <ul class="header_sub-menu">
 
                             <!-- PIMP YOUR GLOW -->
-                            <li class="header_sub-menu_sub-sub-opener">
+                            <li class="header_sub-menu_sub-sub-opener" data-sign="&#43;">
                                 <a href="#">Pimp Your Glow</a>
 
                                 <ul class="header_sub-menu_sub-menu">
@@ -195,21 +197,32 @@
                     </li>
 
                 <!-- E - MEDIKATION -->
-                    <li>
+                    <li class="button-li">
                         <button class="button_e-medikation">E - Medikation</button>
                     </li>
 
                 <!-- E - MEDIKATION -->
-                    <li>
+                    <li class="button-li">
                         <button class="button_online-terminkalender">Online Terminkalender</button>
                     </li>
 
                 </ul>
             </nav>
+
+            <!-- HAMBURGER -->
+            <button class="hamburger_button">
+                <span class="hamburger_line"></span>
+                <span class="hamburger_line"></span>
+                <span class="hamburger_line"></span>
+            </button>
         </header>
 
         
 
     </div><!-- end big container-->
+
+    <!-- SCRIPTS -->
+    <script src="src/js/dom-elements.js"></script>
+    <script src="src/js/hamburger.js"></script>
 </body>
 </html>

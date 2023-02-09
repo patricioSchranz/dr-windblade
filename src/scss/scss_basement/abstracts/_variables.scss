@@ -6,14 +6,35 @@
 // 'COLORS'
 //
 
+
+// --- CLASSIC NOTATION ---
+
+$color-primary: #D0EFB1;
+$color-primary-light-1: rgba(208, 239, 177, 0.8); 
+$color-secondary: #fff;
+$color-secondary-variant: #F6F6F6;
+$color-secondary-variant-2: rgba(246, 246, 246, 0.5);
+$color-akzent: #BCE4FB;
+
+$color-on-primary: #000;
+$color-on-secondary: #000;
+$color-on-akzent: rgba(0, 0, 0, 0.5);
+
+
+
 // --- BACKGROUND COLORS ---
 
 $color-background-first: #fff; 
-$color-background-second: #FDFCDC;
+$color-background-second: #2EC4B6;
 $color-background-third: #FED9B7;
-$color-background-fourth: #F07167;
+$color-background-fourth: #F07167; 
 $color-background-fifth: #0081A7;
 
+$color-background-second-light-1: #D7EDEB;
+$color-background-second-light-2: #EBF6F5;
+
+// F5F5F5
+// 20A4F3
 
 
 // --- FONT COLORS ---
