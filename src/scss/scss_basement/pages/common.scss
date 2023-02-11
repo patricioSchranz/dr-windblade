@@ -39,7 +39,9 @@ a{
 
     &_nav{
         flex-grow: 1;
-        display: none;
+        @media screen and (max-width: 1350px) {
+            display: none;
+        }
     }
 
 
@@ -99,9 +101,10 @@ a{
         &_sub-menu-opener{
             position: relative;
 
-            // @media screen and(max-width: 1350px) {
-            //     height: auto;
-            // }
+            @media screen and(max-width: 1350px) {
+               padding: .5rem;
+            //    @include testing-border-1();
+            }
 
             // @media screen and(max-width: 1350px) {
             //     padding-top: 1rem;
@@ -133,24 +136,29 @@ a{
         &_mega-menu-opener:hover span{
             font-weight: bold;
             cursor: default;
+
+            @media screen and(max-width: 1350px) {
+                cursor: pointer;
+             }
         }
 
-        &_mega-menu-opener:hover .header_mega-menu{
-            display: flex;
+        // &_mega-menu-opener:hover .header_mega-menu{
+        //     display: flex;
            
             
-            // @media screen and(max-width: 1350px) {
-            //     display: none;
-            // }
-        }
+        //     // @media screen and(max-width: 1350px) {
+        //     //     display: none;
+        //     // }
+        // }
+
 
         &_sub-menu-opener:hover > a{
            font-weight: bold;
         }
 
-        &_sub-menu-opener:hover .header_sub-menu{
-            display: flex;
-        }
+        // &_sub-menu-opener:hover .header_sub-menu{
+        //     display: flex;
+        // }
 
     }
 
@@ -216,6 +224,7 @@ a{
 
             @media screen and(max-width: 1350px) {
                 width: 100%;
+                border: none;
             }
             
 
@@ -291,7 +300,10 @@ a{
         li{
             padding: .5rem;
             width: 17rem;
-            overflow-x: hidden;
+            
+            @media screen and (max-width: 1350px) {
+                overflow-x: hidden;
+            }
 
             &:hover{
                 background-color: $color-primary-light-1;
@@ -425,4 +437,28 @@ a{
 
 .nav-in{
     display: block;
+}
+
+
+// 'SUB MENU OPENER ON HOVER'
+.open{
+
+    &_mega-menu{
+
+        &:hover .header_mega-menu{
+            display: flex;
+        }
+    }
+
+    &_sub-menu{
+        &:hover .header_sub-menu{
+            display: flex;
+        }
+    }
+}
+
+
+// 'ELEMENTS COME IN'
+.element-in{
+    display: flex; 
 }
