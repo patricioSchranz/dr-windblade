@@ -6,12 +6,16 @@
     <title>Dr. Windblade</title>
 
     <link rel="stylesheet" href="style/common.css">
+    <link rel="stylesheet" href="style/home.css">
 </head>
 <body>
     <div class="home_big-container">
 
 <!-- HEADER-->
         <header class="header">
+
+            <!-- MAIN HEADING (hidden => only 4 the outline)-->
+            <h1 class="hidden">Dr. Windblade</h1>
 
             <!-- LOGO -->
             <a href="#">
@@ -20,6 +24,10 @@
 
             <!-- NAV -->
             <nav class="header_nav">
+
+                <!-- TITLE 4 THE NAV -->
+                <h2 class="hidden">Hauptnavigation</h2>
+
                 <ul class="header_link-list">
 
                 <!-- LEISTUNGEN-->
@@ -201,7 +209,7 @@
                         <button class="button_e-medikation">E - Medikation</button>
                     </li>
 
-                <!-- E - MEDIKATION -->
+                <!-- ONLINE TERMINKALENDER -->
                     <li class="button-li">
                         <button class="button_online-terminkalender">Online Terminkalender</button>
                     </li>
@@ -216,6 +224,253 @@
                 <span class="hamburger_line"></span>
             </button>
         </header>
+
+
+
+<!-- INTRO SECTION -->
+        <section class="startpage_intro">
+            <div class="startpage_intro_picture"></div>
+
+            <div class="startpage_intro_heading-container">
+                <h2>Ich bin Dr. Windblade</h2>
+                <p>aus Liebe zum Mensch</p>
+            </div>     
+        </section>
+
+
+<!-- LEISTUNGEN -->
+        <section class="startpage_leistungen clippy-off">
+            <header>
+                <img src="./graphics/icons_n_co/caduceus.png" alt="caduceus">
+                <h2>Meine Leistungen</h2>
+            </header>
+
+
+            <div class="startpage_leistungen_card-container">
+        <!-- CARD KASSENLEISTUNGEN -->
+            <div class="startpage_leistungen_card">
+                <div class="startpage_leistungen_card_header">
+                    <img src="graphics/pics/stethoscope.jpg" alt="stethoscope">
+                    <h3>Kassenleistungen</h3>
+                </div>
+
+                <ul class="startpage_leistungen_card_list">
+                    <li>
+                        <span>Vorsorgeuntersuchung</span>
+                    </li>
+                    <li>
+                        <span>Ruhe EKG</span>
+                    </li>
+                    <li>
+                        <span>Lungenfunktion</span>
+                    </li>
+                    <li>
+                        <span>uvm.</span>
+                    </li>
+                </ul>
+
+                <button class="startpage_leistungen_card_button" id="button_kassenleistungen">zu den Kassenleistungen</button>
+            </div>
+
+
+        <!-- CARD WAHLARZTLEISTUNGEN -->
+            <div class="startpage_leistungen_card">
+                <div class="startpage_leistungen_card_header">
+                    <img src="graphics/pics/analysis.jpg" alt="stethoscope">
+                    <h3>Wahlarztleistungen</h3>
+                </div>
+
+                <ul class="startpage_leistungen_card_list">
+                    <li>
+                        <span>24h EKG</span>
+                    </li>
+                    <li>
+                        <span>24h Blutdruck</span>
+                    </li>
+                    <li>
+                        <span>Eventrecorder</span>
+                    </li>
+                    <li>
+                        <span>uvm.</span>
+                    </li>
+                </ul>
+
+                <button class="startpage_leistungen_card_button" id="button_wahlarztleistungen">zu den Wahlarztleistungen</button>
+            </div>
+
+
+        <!-- CARD ÄSTHETISCHE MEDIZIN (big card) -->
+            <div class="startpage_leistungen_card big-card">
+                <img src="./graphics/pics/aesthetic_medicine.jpg" alt="woman" class="card-pic">
+
+                <div class="big-card_card-container">
+                    <div class="startpage_leistungen_card_header">
+                        <h3>Ästhetische Medizin</h3>
+                    </div>
+        
+                    <ul class="startpage_leistungen_card_list">
+                        <li>
+                            <span>Fruchtsäure Peeling</span>
+                        </li>
+                        <li>
+                            <span>Botox Behandlung</span>
+                        </li>
+                        <li>
+                            <span>Microneedling</span>
+                        </li>
+                        <li>
+                            <span>uvm.</span>
+                        </li>
+                    </ul>
+        
+                    <button class="startpage_leistungen_card_button" id="button_aesthetic">zur Ästhetischen Medizin</button>
+                </div>
+            </div>
+
+        <!-- CARD WEITERE LEISTUNGEN (big card) -->
+            <div class="startpage_leistungen_card big-card">
+                <img src="./graphics/pics/team.jpg" alt="woman">
+
+                <div class="big-card_card-container">
+                    <div class="startpage_leistungen_card_header">
+                        <h3>Weitere Leistungen</h3>
+                    </div>
+        
+                    <ul class="big-card_list">
+                        <li>
+                            <!-- <span>Alles zum Thema Corona</span> -->
+                            <button class="startpage_leistungen_card_button" id="button_corona">Alles zum Thema Corona</button>
+                        </li>
+                        <li>
+                            <!-- <span>24h Blutdruck</span> -->
+                            <button class="startpage_leistungen_card_button" id="button_herz-fit">Herz Fit Gruppe</button>
+                        </li>
+                        <li>
+                            <!-- <span>Eventrecorder</span> -->
+                            <button class="startpage_leistungen_card_button" id="button_physiotherapie">Physiotherapie</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            </div><!-- end card container -->
+
+
+        <!-- BOTTOM (need 4 styling) -->
+            <div class="startpage_leistungen_bottom"></div>
+
+        </section><!-- end section "Meine Leistungen" -->
+
+
+<!-- FOOTER -->
+        <footer class="footer">
+
+    <!-- OPEN TIMES-->
+            <section class="footer_open-times">
+                <h2>Öffnungszeiten</h2>
+
+              <!-- ORDINATION -->
+              <div class="footer_open-times_ordination">
+                <h3>Ordination: </h3>
+
+                <div class="weekday-container">
+                   <p>Montag</p>
+                   <div class="weekday-container_time-wrapper">
+                        <time>08:00</time> - <time>13:00</time>
+                   </div>
+                </div>
+
+                 <div class="weekday-container">
+                    <p>Dienstag</p>
+                    <div class="weekday-container_time-wrapper">
+                         <time>14:00</time> - <time>19:00</time>
+                    </div>
+                 </div>
+
+                 <div class="weekday-container">
+                    <p>Mittwoch</p>
+                    <div class="weekday-container_time-wrapper">
+                         <time>07:30</time> - <time>12:30</time>
+                    </div>
+                 </div>
+
+                 <div class="weekday-container">
+                    <p>Donnerstag</p>
+                    <div class="weekday-container_time-wrapper">
+                         <time>08:00</time> - <time>13:00</time>
+                    </div>
+                 </div>
+
+                 <div class="weekday-container">
+                    <p>Freitag</p>
+                    <div class="weekday-container_time-wrapper">
+                         <time>08:00</time> - <time>10:00</time>
+                    </div>
+                 </div>
+              </div><!-- end ordination times -->
+
+
+              <!-- COVID -->
+              <div class="footer_open-times_covid">
+                <h3>Covid-19 Ag + PCR Test </h3>
+
+                <div class="weekday-container">
+                   <p>Mo - Fr</p>
+                   <div class="weekday-container_time-wrapper">
+                        <time>09:00</time> - <time>11:00</time>
+                   </div>
+                </div>
+              </div><!-- end covid times -->
+
+            </section>
+
+
+        <!-- CONTACT-->
+            <section class="footer_contact">
+                <h2 class="hidden">Kontakt</h2>
+
+                <!-- ADRESS-->
+                <adress>
+
+                    <!-- POSTAL ADRESS -->
+                    <div class="footer_contact_adress">
+                        <strong>Dr. Christina Windblade</strong>
+                        <strong>Internistin</strong>
+                        <p>Optimus Straße 13</p>
+                        <p>9020 Klagenfurt</p>
+                    </div>
+
+                    <div class="footer_contact_telephone">
+                        <div class="telephone-container">
+                            <p>Tel. :</p>
+                            <a href="tel:+4312345">0463/12345</a>
+                        </div>
+                        <div class="telephone-container">
+                            <p>Fax :</p>
+                            <a href="tel:+4312345">0463/12345 4</a>
+                        </div>
+                        <div class="telephone-container">
+                            <p>Beauty Telefon :</p>
+                            <a href="tel:+4312345">0463/12345 34</a>
+                        </div>
+                        
+                    </div>
+                </adress>
+            </section>
+
+
+        <!-- IMPORTANT PAGES -->
+            <section class="footer_important-pages">
+                <ul>
+                    <li>
+                        <a href="#">Kassenleistungen</a>
+                        <a href="#">Wahlarztleistungen</a>
+                        <a href="#">Ästhetische Medizin</a>
+                        <a href="#">Beauty & Balance</a>
+                        <a href="#">Physiotherapie</a>
+                    </li>
+                </ul>
+            </section>
+        </footer>
 
         
 

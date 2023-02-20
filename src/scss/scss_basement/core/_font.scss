@@ -14,24 +14,28 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 
+
+
 // NUNITO
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
 
+// HANDWRITING
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
 
+// PERSONAL
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+
+// HEADING
+@import url('https://fonts.googleapis.com/css2?family=Spectral+SC&display=swap');
 
 //
 // 'USE'
 // 
 
 @mixin font-heading-1{
-    font-family: 'Amatic SC', cursive;
-    font-weight: 700;
+    font-family: 'Spectral SC', serif;
+    font-weight: 400;
 }
-
-// @mixin font-main{
-//     font-family: 'Lekton', sans-serif;
-//     font-weight: 400;
-// }
 
 @mixin font-main{
     font-family: 'Nunito Sans', sans-serif;
@@ -39,13 +43,34 @@
     line-height: 1.6rem;
 }
 
-@mixin font-heading-2{
-    font-family: 'Poiret One', cursive;
-    font-weight: 400;
-    text-shadow: 1px 1px 5px rgba($color: #000, $alpha: 0.5);
+@mixin font-handwriting{
+    font-family: 'Allison', cursive;
+    font-weight: 400; 
 }
 
-@mixin blockquote-font{
-    font-family: 'Special Elite', cursive;
+@mixin font-personal{
+    font-family: 'Grape Nuts', cursive;
     font-weight: 400;
 }
+
+// @mixin font-heading-1{
+//     font-family: 'Amatic SC', cursive;
+//     font-weight: 700;
+// }
+
+// @mixin font-main{
+//     font-family: 'Lekton', sans-serif;
+//     font-weight: 400;
+// }
+
+// @mixin font-heading-2{
+//     font-family: 'Poiret One', cursive;
+//     font-weight: 400;
+//     text-shadow: 1px 1px 5px rgba($color: #000, $alpha: 0.5);
+// }
+
+// @mixin blockquote-font{
+//     font-family: 'Special Elite', cursive;
+//     font-weight: 400;
+// }
+

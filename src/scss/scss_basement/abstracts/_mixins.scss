@@ -32,6 +32,10 @@
     box-shadow: 1px 3px 6px $color;
 }
 
+@mixin box-shadow-soft($color){
+    box-shadow: 0px 3px 20px $color;
+}
+
 // @mixin box-shadow-default($color){
 //     box-shadow: 0px 3px 20px $color;
 // }
