@@ -11,5 +11,8 @@
     "built:home": "sass ./src/scss/scss_basement/pages/home.scss ./style/home.css --style=compressed --watch"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  }
 }

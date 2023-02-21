@@ -16,6 +16,7 @@ a{
 
 body{
     overflow-x: hidden;
+    padding-top: 5rem;
 }
 
 //
@@ -28,7 +29,12 @@ body{
     @include box-shadow-default(rgba(0, 0, 0, 0.3));
     // overflow: hidden;
     @include flex-variable(row, wrap, space-evenly, center);
-    position: relative;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    transition: top .3s;
 
     @media screen and (max-width: 1350px){
         justify-content: space-between;
@@ -432,13 +438,220 @@ body{
 //
 
 .footer{
-    @include testing-border-1();
+    // @include testing-border-1();
     @include flex-variable(row, wrap, flex-start, stretch);
+    border-top: 1px solid $color-on-secondary-light;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2) inset;
 
-    & section{
-        @include testing-border-2();
+    section{
+        // @include testing-border-2();
         width: 33%;
-        @include flex-variable(columne, nowrap, flex-start, center);
+        @include flex-variable(column, nowrap, flex-start, center);
+        padding-bottom: 3rem;
+        // padding-top: 1rem;
+        position: relative;
+        
+        @media screen and (max-width: 1000px) {
+            width: 100%;
+            padding-bottom: 2rem;
+            @include flex-variable(row, wrap, flex-start, flex-start);
+            padding: 0 1rem 3rem;
+        }
+    }
+
+    section:not(:last-of-type){
+        border-right: 1px solid $color-on-secondary-light;
+        
+        @media screen and (max-width: 1000px) {
+            border-right: none;
+            border-bottom: 1px solid $color-on-secondary-light;
+        }
+    }
+
+    h2{
+        // @include testing-border-1();
+        font-size: 1.3rem;
+        margin-bottom: 0;
+        // position: absolute;
+        // top: .5rem;
+
+        @media screen and (max-width: 1000px) {
+         text-align: left;
+         width: 100%;
+         margin-bottom: 2rem;
+         background-color: $color-secondary-variant;
+         padding: .5rem;
+        }
+    }
+
+    h3{
+        font-size: 1.1rem;
+    }
+
+
+    // 'OPEN TIMES'
+    &_open-times{
+        // @include flex-variable(column, nowrap, flex-start, center);
+        padding: 0 1rem;
+
+        .weekday-container{
+            // @include testing-border-2();
+            @include flex-variable(row, wrap, space-between, center);
+        //    margin: 0 auto;
+        //    width: 95%;
+            width: 45%;
+            margin: 0 auto;
+
+            @media screen and (max-width: 1440px) {
+                width: 60%;
+            }
+
+            @media screen and (max-width: 1440px) {
+                width: 75%;
+            }
+
+            @media screen and (max-width: 1000px) {
+                margin: 0;
+               }
+
+            p{
+            margin: 0;
+
+            &::after{
+                content: ' :';
+            }
+           }
+        }
+
+        &_ordination{
+            // @include testing-border-3();
+            width: 100%;
+
+            @media screen and (max-width: 1000px) {
+                
+                width: 50%;
+               }
+
+            @media screen and(max-width: 570px) {
+                width: 100%;
+            
+            }
+        }
+
+        &_covid{
+            width: 100%;
+            margin-top: 2rem;
+
+            @media screen and (max-width: 1000px) {
+                width: 50%;
+                margin: 0;
+            }
+
+            @media screen and(max-width: 570px) {
+                width: 100%;
+                margin-top: 2rem;
+            }
+        }
+        
+    }
+
+
+    // 'CONTACT'
+    &_contact{
+        // justify-content: space-between !important;
+
+        @media screen and (max-width: 1000px) {
+            h2.hidden{
+                display: block;
+            }
+         }
+
+        .google-maps{
+            all: initial;
+            width: 95%;
+            margin-top: 2rem;
+            // display: none;
+
+            @media screen and (max-width: 1000px) {
+                // @include testing-border-2();
+               width: 50%;
+               height: 12rem;
+            }
+
+            @media screen and(max-width: 570px) {
+                width: 100%;
+            }
+        }
+
+        adress{
+            // @include testing-border-2();
+            // width: 100%;
+            @include flex-variable(column, nowrap, flex-start, stretch);
+
+            @media screen and (max-width: 1000px) {
+                // width: 50%;
+                // height: 100%;
+                @include flex-variable(column, nowrap, flex-start, stretch);
+                margin-left: 2rem;
+             }
+
+             @media screen and(max-width: 570px) {
+                // width: 100%;
+                margin: 2rem auto 0;
+            }
+        }
+
+        &_adress{
+            // @include testing-border-3();
+            @include flex-variable(column, nowrap, flex-start, flex-start);
+            margin-top: 2rem;
+            // width: 70%;
+            margin-bottom: 1rem;
+
+            strong:first-of-type{
+                font-size: 1.1rem;
+            }
+
+            strong:nth-of-type(2){
+                margin-bottom: .5rem;
+            }
+
+            p{
+                margin: 0;
+            }
+        }
+
+        &_telephone{
+            // width: 70%;
+
+            p{
+                display: inline-block;
+                margin: 0;
+            }
+        }
+    }
+
+    //'IMPORTANT PAGES'
+    &_important-pages{
+        h2{
+            margin-bottom: 2rem;
+        }
+
+        ul li{
+            margin-bottom: .5rem;
+        }
+
+        a:hover{
+            font-weight: bold;
+        }
+
+        @media screen and (max-width: 1000px) {
+            ul{
+                @include flex-variable(row, wrap, space-evenly,center);
+                gap: 2rem;
+                padding: 0 1rem;
+            }
+        }
     }
 }
 
@@ -450,6 +663,8 @@ body{
 // 'HAMBURGER BUTTON ACTIVE'
 
 .hamburger-active{
+    position: fixed;
+    
     span{
         background-color: tomato;
 

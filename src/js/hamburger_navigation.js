@@ -6,6 +6,7 @@ hamburgerButton.addEventListener('click', ()=>{
 
     hamburgerButton.classList.toggle('hamburger-active')
     nav.classList.toggle('nav-in')
+
 })
 
 // => handle the mega-menu / sub-menu openers on viewports with hamburger menu
@@ -37,7 +38,7 @@ if(window.innerWidth <= 1350){
         subMenu.classList.toggle('element-in')
 
         subMenu.classList.contains('element-in')
-        ? listPointServices.dataset.sign = minus
-        : listPointServices.dataset.sign = plus
+        ? listPointBeautyAndBalance.dataset.sign = minus
+        : listPointBeautyAndBalance.dataset.sign = plus
     })
 }

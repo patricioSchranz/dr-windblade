@@ -7,7 +7,12 @@ const
     listPointServices = document.querySelector('.header_link-list_mega-menu-opener'),
     listPointBeautyAndBalance = document.querySelector('.header_link-list_sub-menu-opener'),
     megaMenu = document.querySelector('.header_mega-menu'),
-    subMenu = document.querySelector('.header_sub-menu')
+    subMenu = document.querySelector('.header_sub-menu'),
+
+    header = document.querySelector('.header'),
+    sectionLeistungen = document.querySelector('.startpage_leistungen'),
+    introImage = document.querySelector('.startpage_intro_picture'),
+    sectionLeistungenHeading = sectionLeistungen.querySelector('header h2')
 
 
 
