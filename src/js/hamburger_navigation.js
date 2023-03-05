@@ -14,7 +14,7 @@ if(window.innerWidth <= 1350){
 
     // => remove the hover classes
     listPointServices.classList.remove('open_mega-menu')
-    listPointBeautyAndBalance.classList.remove('open_sub-menu')
+    listPointAlternativeWegee.classList.remove('open_sub-menu')
 
     // => mega menu opener => add click event instead of the hover class
     listPointServices.addEventListener('click', ()=>{
@@ -30,7 +30,7 @@ if(window.innerWidth <= 1350){
     })
 
      // => submenu opener => add click event instead of the hover class
-    listPointBeautyAndBalance.addEventListener('click', ()=>{
+    listPointAlternativeWegee.addEventListener('click', ()=>{
         const 
             minus = '\u2212',
             plus = '\u002B'
@@ -38,7 +38,7 @@ if(window.innerWidth <= 1350){
         subMenu.classList.toggle('element-in')
 
         subMenu.classList.contains('element-in')
-        ? listPointBeautyAndBalance.dataset.sign = minus
-        : listPointBeautyAndBalance.dataset.sign = plus
+        ? listPointAlternativeWegee.dataset.sign = minus
+        : listPointAlternativeWegee.dataset.sign = plus
     })
 }

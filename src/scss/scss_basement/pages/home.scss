@@ -81,7 +81,7 @@
                     background-color: $color-secondary;
                     position: absolute;
                     right: 0;
-                    animation: remove-width 2s 1.5s forwards linear;
+                    animation: remove-width 4s .3s forwards linear;
                 }
             }
         }
@@ -440,8 +440,61 @@
 
 
 //
+// 'CARDS ID' (4 js)
+//
+
+// #card-kassen,
+// #card-wahlarzt{
+//     opacity: 0;
+// }
+
+// .startpage_leistungen_card.big-card{
+//     opacity: 0;
+// }
+
+#card-kassen{
+    transform: perspective(1000px) rotateY(25deg) translateX(5rem);
+    transition: all 2s;
+
+    @media screen and (orientation: portrait) {
+        transform: perspective(1000px) rotateY(0) translateX(0);
+        opacity: 0.2;
+    }
+}
+
+#card-wahlarzt{
+    transform: perspective(1000px) rotateY(-25deg) translateX(-5rem);
+    transition: all 2s;
+
+    @media screen and (orientation: portrait) {
+        transform: perspective(1000px) rotateY(0) translateX(0);
+        opacity: 0.2;
+    }
+}
+
+#card-aesthetic,
+#card-more{
+    transform: perspective(1000px) rotateX(25deg);
+    transition: all 2s;
+
+    @media screen and (orientation: portrait) {
+        transform: perspective(1000px) rotateY(0) translateX(0);
+        opacity: 0.2;
+    }
+}
+
+
+//
 // 'TOGGLE CLASSES'
 //
+
+.perspective-off{
+    transform: perspective(1000px) rotateY(0) translateX(0) !important;
+
+    @media screen and (orientation: portrait) {
+        opacity: 1 !important;
+    }
+}
 
 .clippy-off{
     // background-color: #fff;
