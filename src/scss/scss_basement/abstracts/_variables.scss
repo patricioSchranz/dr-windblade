@@ -2,6 +2,21 @@
 // ### VARIABLES ###
 // ---------------------------------------------
 
+:root.default{
+    --color-primary: #D0EFB1;
+    --color-primary-light-1: rgba(208, 239, 177, 0.8); 
+    --color-primary-light-2: #E8F7D8;
+    --color-secondary: #fff;
+    --color-secondary-variant: #F6F6F6;
+    --color-secondary-variant-2: rgba(246, 246, 246, 0.5);
+    --color-akzent: #BCE4FB;
+    
+    --color-on-primary: #000;
+    --color-on-secondary: #000;
+    --color-on-secondary-light: rgba(0, 0, 0, 0.3);
+    --color-on-akzent: rgba(0, 0, 0, 0.5);
+}
+
 //
 // 'COLORS'
 //

@@ -159,44 +159,44 @@
 //
 
 @mixin color-set-primary{
-    background-color: $color-primary;
-    color: $color-on-primary;
+    background-color: var(--color-primary);
+    color: var(--color-on-primary);
 }
 
 @mixin color-set-secondary{
-    background-color: $color-secondary;
-    color: $color-on-secondary;
+    background-color: var(--color-secondary);
+    color: var(--color-on-secondary);
 }
 
 
 @mixin color-set-akzent{
-    background-color: $color-akzent;
-    color: $color-on-akzent;
+    background-color:var(--color-akzent);
+    color: var(--color-on-akzent);
 }
 
 
-@mixin color-set-1{  
-    background-color: $color-background-first;
-    color: $color-font-first;
-}
+// @mixin color-set-1{  
+//     background-color: $color-background-first;
+//     color: $color-font-first;
+// }
 
-@mixin color-set-2{
-    background-color: $color-background-second;
-    color: $color-font-se$color-background-second;
-}
+// @mixin color-set-2{
+//     background-color: $color-background-second;
+//     color: $color-font-se$color-background-second;
+// }
 
 
-@mixin color-set-3{
-    background-color: $color-background-third;
-    color: $color-font-third;
-}
+// @mixin color-set-3{
+//     background-color: $color-background-third;
+//     color: $color-font-third;
+// }
 
-@mixin color-set-4{
-    background-color: $color-background-fourth;
-    color: $color-font-fourth;
-}
+// @mixin color-set-4{
+//     background-color: $color-background-fourth;
+//     color: $color-font-fourth;
+// }
 
-@mixin color-set-5 {
-    background-color: $color-background-fifth;
-    color: $color-font-fifth;
-}
+// @mixin color-set-5 {
+//     background-color: $color-background-fifth;
+//     color: $color-font-fifth;
+// }

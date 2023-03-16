@@ -25,7 +25,7 @@ body{
 
 .header{
     height: 5rem;
-    background-color: $color-secondary;
+    background-color: var(--color-secondary);
     @include box-shadow-default(rgba(0, 0, 0, 0.3));
     // overflow: hidden;
     @include flex-variable(row, wrap, space-evenly, center);
@@ -69,7 +69,7 @@ body{
             position: fixed;
             top: 0;
             left: 0; 
-            background-color: $color-secondary;
+            background-color: var(--color-secondary);
             @include flex-variable(row, wrap, flex-start, center);
             align-content: flex-start;
             padding-top: 10rem;
@@ -106,7 +106,7 @@ body{
                 // border: 1px solid $color-secondary-variant; 
 
                 &:hover{
-                     background-color: $color-secondary-variant-2;
+                     background-color: var(--color-secondary-variant-2);
                 }
             }
 
@@ -218,7 +218,7 @@ body{
         @include box-shadow-default(rgba(0, 0, 0, 0.3));
         display: none; 
         // border-top: 1px solid transparent;
-        background-color: $color-secondary;
+        background-color: var(--color-secondary);
 
         @media screen and(max-width: 1350px) {
             position: relative;
@@ -258,7 +258,7 @@ body{
             padding: .5rem;
             text-align: center;
             margin-bottom: 1rem;
-            background: $color-secondary-variant;
+            background: var(--color-secondary-variant);
             position: relative;
             // z-index: -1;
             cursor: pointer;
@@ -270,7 +270,7 @@ body{
             }
                 
             &:hover{
-                background-color: $color-primary-light-1;
+                background-color: var(--color-primary-light-1);
             }
            
         }
@@ -282,7 +282,7 @@ body{
                 padding: .5rem;
 
                 &:hover{
-                    background-color: $color-primary-light-1;
+                    background-color: var(--color-primary-light-1);
                 }
             }
         }
@@ -302,7 +302,7 @@ body{
         top: 5rem;
         left: 0;
         @include box-shadow-default(rgba(0, 0, 0, 0.2));
-        background-color: $color-secondary;
+        background-color: var(--color-secondary);
 
         @media screen and(max-width: 1350px) {
             position: relative;
@@ -326,7 +326,7 @@ body{
             }
 
             &:hover{
-                background-color: $color-primary-light-1;
+                background-color: var(--color-primary-light-1);
             }
         }
 
@@ -348,7 +348,7 @@ body{
             width: inherit;
             @include box-shadow-default(rgba(0, 0, 0, 0.2));
             display: none;
-            background-color: $color-secondary;
+            background-color: var(--color-secondary);
 
             @media screen and (max-width: 1350px) {
                 box-shadow: unset;
@@ -390,7 +390,7 @@ body{
     &_line{
         width: 95%;
         height: .2rem;
-        background-color: $color-on-secondary;
+        background-color: var(--color-on-secondary);
         border-radius: 50%;
         transition: transform .3s;
     }
@@ -440,7 +440,7 @@ body{
 .footer{
     // @include testing-border-1();
     @include flex-variable(row, wrap, flex-start, stretch);
-    border-top: 1px solid $color-on-secondary-light;
+    border-top: 1px solid var(--color-on-secondary-light);
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2) inset;
 
     section{
@@ -460,11 +460,11 @@ body{
     }
 
     section:not(:last-of-type){
-        border-right: 1px solid $color-on-secondary-light;
+        border-right: 1px solid var(--color-on-secondary-light);
         
         @media screen and (max-width: 1000px) {
             border-right: none;
-            border-bottom: 1px solid $color-on-secondary-light;
+            border-bottom: 1px solid var(--color-on-secondary-light);
         }
     }
 
@@ -479,7 +479,7 @@ body{
          text-align: left;
          width: 100%;
          margin-bottom: 2rem;
-         background-color: $color-secondary-variant;
+         background-color: var(--color-secondary-variant);
          padding: .5rem;
         }
     }
