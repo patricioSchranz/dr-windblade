@@ -49,6 +49,8 @@ body{
 
     &_nav{
         flex-grow: 1;
+        height: 100%;
+
         @media screen and (max-width: 1350px) {
             display: none;
         }

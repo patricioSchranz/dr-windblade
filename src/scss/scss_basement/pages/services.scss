@@ -1,0 +1,49 @@
+@import './common.scss';
+
+.services{
+    // HEADER
+    &_heading{
+        @include flex-row-center;
+        @include font-heading-1;
+        height: 20vh;
+    }
+
+    // REITER
+    &_reiter{
+        border-top: 10px rgba(0, 0, 0, 0.1) double;
+
+        &_list{
+            @include flex-variable(row, wrap, flex-start, center);
+            margin: 0;
+            @include box-shadow-default(rgba(0, 0, 0, 0.3));
+
+            li{
+                padding: 0.8rem;
+                margin-right: .5rem;
+
+                a{
+                    padding: 0.8rem;
+
+                    &:hover,
+                    &:focus{
+                        font-weight: bold;
+                        background-color: var(--color-primary);
+                    }
+
+                }
+               
+            }
+        }
+    }
+
+    // SERVICE
+    &_service{
+        img{
+            width: 100%;
+            // height: 100vh;
+            // object-fit: cover;
+            filter: grayscale(1);
+            opacity: .8;
+        }
+    }
+}
