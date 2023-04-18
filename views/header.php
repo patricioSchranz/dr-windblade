@@ -12,9 +12,11 @@
     <?php switch($page) :
         case 'index' ?>
             <link rel="stylesheet" href="./style/home.css">
+            <?php break; ?>
 
         <?php case "services" ?>
             <link rel="stylesheet" href="../style/services.css">
+            <?php break; ?>
 
     <?php endswitch; ?>
 
@@ -60,22 +62,45 @@
 
                             <!-- KASSENLEISTUNGEN-->
                             <li class="header_mega-menu_list-point">
-                                <a href="./docs/services.php" class="header_mega-menu_sub-heading">Kassenleistungen</a>
+
+                            <?php if($page === 'index') : ?>
+                                <a href="./docs/services.php#check-up" class="header_mega-menu_sub-heading">Kassenleistungen</a>
 
                                 <ul class="header_mega-menu_list">
                                     <li>
-                                        <a href="#">Vorsorgeuntersuchung</a>
+                                        <a href="./docs/services.php#check-up">Vorsorgeuntersuchung</a>
                                     </li>
                                     <li>
-                                        <a href="#">Ruhe EKG</a>
+                                        <a href="./docs/services.php#rest-ekg">Ruhe EKG</a>
                                     </li>
                                     <li>
-                                        <a href="#">Lungenfunktion</a>
+                                        <a href="./docs/services.php#lung-function">Lungenfunktion</a>
                                     </li>
                                     <li>
-                                        <a href="#">Infusionstherapie</a>
+                                        <a href="./docs/services.php#unfusion-therapy">Infusionstherapie</a>
                                     </li>
                                 </ul>
+
+                                <?php else :?>
+                                <a href="./services.php#check-up" class="header_mega-menu_sub-heading">Kassenleistungen</a>
+
+                                <ul class="header_mega-menu_list">
+                                    <li>
+                                        <a href="./services.php#check-up">Vorsorgeuntersuchung</a>
+                                    </li>
+                                    <li>
+                                        <a href="./services.php#rest-ekg">Ruhe EKG</a>
+                                    </li>
+                                    <li>
+                                        <a href="./services.php#lung-function">Lungenfunktion</a>
+                                    </li>
+                                    <li>
+                                        <a href="./services.php#infusion-therapy">Infusionstherapie</a>
+                                    </li>
+                                </ul>
+
+                            <?php endif; ?>
+
                             </li>
 
                             <!-- WAHLARZTLEISTUNGEN-->

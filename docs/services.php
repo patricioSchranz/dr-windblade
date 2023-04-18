@@ -14,16 +14,16 @@ require __DIR__ . './../views/header.php';
     <div class="services_reiter">
         <ul class="services_reiter_list">
             <li>
-                <a href="#">Vorsorgeuntersuchung</a>
+                <a href="#check-up">Vorsorgeuntersuchung</a>
             </li>
             <li>
-                <a href="#">Ruhe EKG</a>
+                <a href="#rest-ekg">Ruhe EKG</a>
             </li>
             <li>
-                <a href="#">Lungenfunktion</a>
+                <a href="#lung-function">Lungenfunktion</a>
             </li>
             <li>
-                <a href="#">Infusionstherapie</a>
+                <a href="#infusion-therapy">Infusionstherapie</a>
             </li>
         </ul>
     </div>
@@ -32,141 +32,161 @@ require __DIR__ . './../views/header.php';
 
     <!-- VORSORGEUNTERSUCHUNG -->
     <section class="services_service" id="check-up">
-        <img src="../graphics/pics/yoga-1.jpg">
+        <h2 class="outer-heading" data-id="#check-up">Vorsorgeuntersuchung</h2>
 
-        <div class="services_service_text">
-            <h2>Vorsorgeuntersuchung</h2>
+        <div class="services_service_content">
+            <img src="../graphics/pics/yoga-1.jpg">
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repellendus deserunt minima iusto quibusdam ea ipsa quas aliquam dolores maxime, nobis molestias voluptates omnis adipisci animi ratione, vero ducimus recusandae.</p>
+            <div class="services_service_text">
+                <h2 class="inner-heading">Vorsorgeuntersuchung</h2>
 
-            <h3>Lorem ipsum dolor sit amet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repellendus deserunt minima iusto quibusdam ea ipsa quas aliquam dolores maxime, nobis molestias voluptates omnis adipisci animi ratione, vero ducimus recusandae.</p>
 
-            <ul>
-                <li>
-                    Lorem, ipsum dolor.
-                </li>
-                <li>
-                    Lorem, ipsum dolor.
-                </li>
-                <li>
-                    Lorem, ipsum dolor.
-                </li>
-                <li>
-                    Lorem, ipsum dolor.
-                </li>
-                <li>
-                    Lorem, ipsum dolor.
-                </li>
-            </ul>
+                <h3>Lorem ipsum dolor sit amet.</h3>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magni accusantium atque saepe. Dicta tenetur amet quo exercitationem itaque alias ab totam hic esse, recusandae quasi optio? Fugit, quisquam adipisci.
-            Porro hic aut vel distinctio fugit, repellendus omnis adipisci in suscipit aliquam non dolorum eligendi aliquid, esse eaque doloribus ea et labore modi exercitationem quisquam! Voluptatum reprehenderit nam quidem fugiat!</p>
-        </div>  
+                <ul>
+                    <li>
+                        Lorem, ipsum dolor.
+                    </li>
+                    <li>
+                        Lorem, ipsum dolor.
+                    </li>
+                    <li>
+                        Lorem, ipsum dolor.
+                    </li>
+                    <li>
+                        Lorem, ipsum dolor.
+                    </li>
+                    <li>
+                        Lorem, ipsum dolor.
+                    </li>
+                </ul>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magni accusantium atque saepe. Dicta tenetur amet quo exercitationem itaque alias ab totam hic esse, recusandae quasi optio? Fugit, quisquam adipisci.
+                Porro hic aut vel distinctio fugit, repellendus omnis adipisci in suscipit aliquam non dolorum eligendi aliquid, esse eaque doloribus ea et labore modi exercitationem quisquam! Voluptatum reprehenderit nam quidem fugiat!</p>
+            </div>  
+        </div>
+        
     </section>
 
 
     <!-- RUHE EKG -->
     <section class="services_service" id="rest-ekg">
-        <img src="../graphics/pics/yoga-2.jpg">
+        <h2 class="outer-heading" data-id="#rest-ekg">Ruhe EKG</h2>
 
-        <div class="services_service_text">
-            <h2>Ruhe EKG</h2>
+        <div class="services_service_content">
+            <img src="../graphics/pics/yoga-2.jpg">
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repellendus deserunt minima iusto quibusdam ea ipsa quas aliquam dolores maxime, nobis molestias voluptates omnis adipisci animi ratione, vero ducimus recusandae.</p>
+            <div class="services_service_text">
+                <h2>Ruhe EKG</h2>
 
-            <h3>Lorem ipsum dolor sit amet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repellendus deserunt minima iusto quibusdam ea ipsa quas aliquam dolores maxime, nobis molestias voluptates omnis adipisci animi ratione, vero ducimus recusandae.</p>
 
-            <ul>
-                <li>
-                    Lorem, ipsum dolor.
-                </li>
-                <li>
-                    Lorem, ipsum dolor.
-                </li>
-                <li>
-                    Lorem, ipsum dolor.
-                </li>
-                <li>
-                    Lorem, ipsum dolor.
-                </li>
-                <li>
-                    Lorem, ipsum dolor.
-                </li>
-            </ul>
+                <h3>Lorem ipsum dolor sit amet.</h3>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magni accusantium atque saepe. Dicta tenetur amet quo exercitationem itaque alias ab totam hic esse, recusandae quasi optio? Fugit, quisquam adipisci.
-            Porro hic aut vel distinctio fugit, repellendus omnis adipisci in suscipit aliquam non dolorum eligendi aliquid, esse eaque doloribus ea et labore modi exercitationem quisquam! Voluptatum reprehenderit nam quidem fugiat!</p>
-        </div>  
+                <ul>
+                    <li>
+                        Lorem, ipsum dolor.
+                    </li>
+                    <li>
+                        Lorem, ipsum dolor.
+                    </li>
+                    <li>
+                        Lorem, ipsum dolor.
+                    </li>
+                    <li>
+                        Lorem, ipsum dolor.
+                    </li>
+                    <li>
+                        Lorem, ipsum dolor.
+                    </li>
+                </ul>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magni accusantium atque saepe. Dicta tenetur amet quo exercitationem itaque alias ab totam hic esse, recusandae quasi optio? Fugit, quisquam adipisci.
+                Porro hic aut vel distinctio fugit, repellendus omnis adipisci in suscipit aliquam non dolorum eligendi aliquid, esse eaque doloribus ea et labore modi exercitationem quisquam! Voluptatum reprehenderit nam quidem fugiat!</p>
+            </div>  
+        </div>
+        
     </section>
 
 
     <!-- LUNGENFUNKTION -->
     <section class="services_service" id="lung-function">
-        <img src="../graphics/pics/yoga-3.jpg">
+        <h2 class="outer-heading" data-id="#lung-function">Lungenfunktion</h2>
 
-        <div class="services_service_text">
-            <h2>Lungenfunktion</h2>
+        <div class="services_service_content">
+            <img src="../graphics/pics/yoga-3.jpg">
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repellendus deserunt minima iusto quibusdam ea ipsa quas aliquam dolores maxime, nobis molestias voluptates omnis adipisci animi ratione, vero ducimus recusandae.</p>
+            <div class="services_service_text">
+                <h2>Lungenfunktion</h2>
 
-            <h3>Lorem ipsum dolor sit amet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repellendus deserunt minima iusto quibusdam ea ipsa quas aliquam dolores maxime, nobis molestias voluptates omnis adipisci animi ratione, vero ducimus recusandae.</p>
 
-            <ul>
-                <li>
-                    Lorem, ipsum dolor.
-                </li>
-                <li>
-                    Lorem, ipsum dolor.
-                </li>
-                <li>
-                    Lorem, ipsum dolor.
-                </li>
-                <li>
-                    Lorem, ipsum dolor.
-                </li>
-                <li>
-                    Lorem, ipsum dolor.
-                </li>
-            </ul>
+                <h3>Lorem ipsum dolor sit amet.</h3>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magni accusantium atque saepe. Dicta tenetur amet quo exercitationem itaque alias ab totam hic esse, recusandae quasi optio? Fugit, quisquam adipisci.
-            Porro hic aut vel distinctio fugit, repellendus omnis adipisci in suscipit aliquam non dolorum eligendi aliquid, esse eaque doloribus ea et labore modi exercitationem quisquam! Voluptatum reprehenderit nam quidem fugiat!</p>
-        </div>  
+                <ul>
+                    <li>
+                        Lorem, ipsum dolor.
+                    </li>
+                    <li>
+                        Lorem, ipsum dolor.
+                    </li>
+                    <li>
+                        Lorem, ipsum dolor.
+                    </li>
+                    <li>
+                        Lorem, ipsum dolor.
+                    </li>
+                    <li>
+                        Lorem, ipsum dolor.
+                    </li>
+                </ul>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magni accusantium atque saepe. Dicta tenetur amet quo exercitationem itaque alias ab totam hic esse, recusandae quasi optio? Fugit, quisquam adipisci.
+                Porro hic aut vel distinctio fugit, repellendus omnis adipisci in suscipit aliquam non dolorum eligendi aliquid, esse eaque doloribus ea et labore modi exercitationem quisquam! Voluptatum reprehenderit nam quidem fugiat!</p>
+            </div>  
+        </div>
+        
     </section>
 
 
     <!-- INFUSTIONSTHERAPIE -->
     <section class="services_service" id="infusion-therapy">
-        <img src="../graphics/pics/yoga-4.jpg">
+        <h2 class="outer-heading" data-id="#infusion-therapy">Infusionstherapie</h2>
 
-        <div class="services_service_text">
-            <h2>Infustionstherapie</h2>
+        <div class="services_service_content">
+            <img src="../graphics/pics/yoga-4.jpg">
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repellendus deserunt minima iusto quibusdam ea ipsa quas aliquam dolores maxime, nobis molestias voluptates omnis adipisci animi ratione, vero ducimus recusandae.</p>
+            <div class="services_service_text">
+                <h2>Infustionstherapie</h2>
 
-            <h3>Lorem ipsum dolor sit amet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repellendus deserunt minima iusto quibusdam ea ipsa quas aliquam dolores maxime, nobis molestias voluptates omnis adipisci animi ratione, vero ducimus recusandae.</p>
 
-            <ul>
-                <li>
-                    Lorem, ipsum dolor.
-                </li>
-                <li>
-                    Lorem, ipsum dolor.
-                </li>
-                <li>
-                    Lorem, ipsum dolor.
-                </li>
-                <li>
-                    Lorem, ipsum dolor.
-                </li>
-                <li>
-                    Lorem, ipsum dolor.
-                </li>
-            </ul>
+                <h3>Lorem ipsum dolor sit amet.</h3>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magni accusantium atque saepe. Dicta tenetur amet quo exercitationem itaque alias ab totam hic esse, recusandae quasi optio? Fugit, quisquam adipisci.
-            Porro hic aut vel distinctio fugit, repellendus omnis adipisci in suscipit aliquam non dolorum eligendi aliquid, esse eaque doloribus ea et labore modi exercitationem quisquam! Voluptatum reprehenderit nam quidem fugiat!</p>
-        </div>  
+                <ul>
+                    <li>
+                        Lorem, ipsum dolor.
+                    </li>
+                    <li>
+                        Lorem, ipsum dolor.
+                    </li>
+                    <li>
+                        Lorem, ipsum dolor.
+                    </li>
+                    <li>
+                        Lorem, ipsum dolor.
+                    </li>
+                    <li>
+                        Lorem, ipsum dolor.
+                    </li>
+                </ul>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magni accusantium atque saepe. Dicta tenetur amet quo exercitationem itaque alias ab totam hic esse, recusandae quasi optio? Fugit, quisquam adipisci.
+                Porro hic aut vel distinctio fugit, repellendus omnis adipisci in suscipit aliquam non dolorum eligendi aliquid, esse eaque doloribus ea et labore modi exercitationem quisquam! Voluptatum reprehenderit nam quidem fugiat!</p>
+            </div>  
+        </div>
+       
     </section>
 
 

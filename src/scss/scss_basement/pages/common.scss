@@ -9,6 +9,10 @@
 // ### COMMON ###
 // --------------------------------------------------
 
+// html{
+//     scroll-behavior: smooth;
+// }
+
 body,
 a{
     @include font-main();

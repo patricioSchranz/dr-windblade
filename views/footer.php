@@ -129,17 +129,29 @@
 
 <?php if($page === "index") :?>
     <!-- <script src="src/js/resize.js"></script> -->
-    <script src="src/js/dom-elements.js"></script>
+    <script src="src/js/common-dom-elements.js"></script>
     <script src="src/js/hamburger_navigation.js"></script>
     <script src="src/js/header.js"></script>
     <script src="src/js/in-viewport.js"></script>
 
     <?php else :?>
-        <script src="../src/js/dom-elements.js"></script>
+        <script src="../src/js/common-dom-elements.js"></script>
         <script src="../src/js/hamburger_navigation.js"></script>
         <script src="../src/js/header.js"></script>
-        <script src="../src/js/in-viewport.js"></script>
+        <!-- <script src="../src/js/in-viewport.js"></script> -->
 
 <?php endif; ?>
+
+<?php switch($page) :
+    case 'services' ?>
+        <script src="../src/js/services.js"></script>
+        <?php break; ?>
+
+    <?php case 'index' ?>
+        <script src="./src/js/home.js"></script>
+        <?php break; ?>
+
+<?php endswitch; ?>
+
 </body>
 </html>

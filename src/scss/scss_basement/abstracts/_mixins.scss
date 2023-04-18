@@ -44,6 +44,10 @@
     box-shadow: 0 3px 5px rgba($color: #000000, $alpha: 0.2);
 }
 
+@mixin box-shadow-inset($color){
+    box-shadow: 0 3px 6px $color;
+}
+
 // --- GLOWING SHADOWS ---
 
 @mixin box-shadow-glowing($color){

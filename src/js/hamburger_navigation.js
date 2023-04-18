@@ -42,3 +42,15 @@ if(window.innerWidth <= 1350){
         : listPointAlternativeWegee.dataset.sign = plus
     })
 }
+
+
+// => hide the hamburger nav when a link is clicked
+if(window.innerWidth <= 1350){
+    allNavLinks.forEach(navLink =>{
+        navLink.addEventListener('click', ()=>{
+            hamburgerButton.classList.toggle('hamburger-active')
+            nav.classList.toggle('nav-in')
+        })
+    })
+}
+
