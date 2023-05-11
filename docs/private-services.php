@@ -90,7 +90,7 @@ require __DIR__ . './../views/header.php';
 
     <!-- 24h EKG -->
     <section class="services_service" id="24-ekg">
-        <h2 class="outer-heading" data-id="#24-ekg>24h EKG</h2>
+        <h2 class="outer-heading" data-id="#24-ekg">24h EKG</h2>
 
         <div class="services_service_content">
             <img src="../graphics/pics/yoga-6.jpg">

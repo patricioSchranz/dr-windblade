@@ -109,7 +109,7 @@
                         <!-- WAHLARZTLEISTUNGEN-->
                             <li class="header_mega-menu_list-point">
                                 <?php if($page === 'index') :?>
-                                <a href="./docs/private-services.php" class="header_mega-menu_sub-heading">Wahlarztleistungen</a>
+                                <a href="./docs/private-services.php#rest-ekg" class="header_mega-menu_sub-heading">Wahlarztleistungen</a>
 
                                 <ul class="header_mega-menu_list">
                                     <li>
@@ -145,7 +145,7 @@
                                 </ul>
 
                                 <?php else :?>
-                                    <a href="./private-services.php" class="header_mega-menu_sub-heading">Wahlarztleistungen</a>
+                                    <a href="./private-services.php#rest-ekg" class="header_mega-menu_sub-heading">Wahlarztleistungen</a>
 
                                     <ul class="header_mega-menu_list">
                                         <li>
