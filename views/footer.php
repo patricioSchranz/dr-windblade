@@ -146,6 +146,10 @@
     case 'services' ?>
         <script src="../src/js/services.js"></script>
         <?php break; ?>
+    
+    <?php case 'private-services' ?>
+        <script src="../src/js/services.js"></script>
+        <?php break; ?>
 
     <?php case 'index' ?>
         <script src="./src/js/home.js"></script>

@@ -18,6 +18,10 @@
             <link rel="stylesheet" href="../style/services.css">
             <?php break; ?>
 
+        <?php case "private-services" ?>
+            <link rel="stylesheet" href="../style/services.css">
+            <?php break; ?>
+
     <?php endswitch; ?>
 
 </head>
@@ -61,7 +65,7 @@
                         <!-- MEGA MENU -->
                         <ul class="header_mega-menu">
 
-                            <!-- KASSENLEISTUNGEN-->
+                        <!-- KASSENLEISTUNGEN-->
                             <li class="header_mega-menu_list-point">
 
                             <?php if($page === 'index') : ?>
@@ -102,45 +106,83 @@
                             <?php endif; ?>
                             </li>
 
-                            <!-- WAHLARZTLEISTUNGEN-->
+                        <!-- WAHLARZTLEISTUNGEN-->
                             <li class="header_mega-menu_list-point">
-                                <a href="#" class="header_mega-menu_sub-heading">Wahlarztleistungen</a>
+                                <?php if($page === 'index') :?>
+                                <a href="./docs/private-services.php" class="header_mega-menu_sub-heading">Wahlarztleistungen</a>
 
                                 <ul class="header_mega-menu_list">
                                     <li>
-                                        <a href="#">Ruhe EKG</a>
+                                        <a href="./docs/private-services.php#rest-ekg">Ruhe EKG</a>
                                     </li>
                                     <li>
-                                        <a href="#">24h EKG</a>
+                                        <a href="./docs/private-services.php#24-ekg">24h EKG</a>
                                     </li>
                                     <li>
-                                        <a href="#">24h Blutdruck</a>
+                                        <a href="./docs/private-services.php#24-blood-pressure">24h Blutdruck</a>
                                     </li>
                                     <li>
-                                        <a href="#">Eventrecorder</a>
+                                        <a href="./docs/private-services.php#eventrecorder">Eventrecorder</a>
                                     </li>
                                     <li>
-                                        <a href="#">Lungenfunktion</a>
+                                        <a href="./docs/private-services.php#lung-function">Lungenfunktion</a>
                                     </li>
                                     <li>
-                                        <a href="#">Ergometrie</a>
+                                        <a href="./docs/private-services.php#ergometrie">Ergometrie</a>
                                     </li>
                                     <li>
-                                        <a href="#">Schilddrüsensonographie</a>
+                                        <a href="./docs/private-services.php#thyroid-sonography">Schilddrüsensonographie</a>
                                     </li>
                                     <li>
-                                        <a href="#">OP Fähigkeit</a>
+                                        <a href="./docs/private-services.php#op-suitability">OP Fähigkeit</a>
                                     </li>
                                     <li>
-                                        <a href="#">Spezialthemen</a>
+                                        <a href="./docs/private-services.php#special-topics">Spezialthemen</a>
                                     </li>
                                     <li>
-                                        <a href="#">Physiotherapie</a>
+                                        <a href="./docs/private-services.php#physical-therapy">Physiotherapie</a>
                                     </li>
                                 </ul>
+
+                                <?php else :?>
+                                    <a href="./private-services.php" class="header_mega-menu_sub-heading">Wahlarztleistungen</a>
+
+                                    <ul class="header_mega-menu_list">
+                                        <li>
+                                            <a href="./private-services.php#rest-ekg">Ruhe EKG</a>
+                                        </li>
+                                        <li>
+                                            <a href="./private-services.php#24-ekg">24h EKG</a>
+                                        </li>
+                                        <li>
+                                            <a href="./private-services.php#24-blood-pressure">24h Blutdruck</a>
+                                        </li>
+                                        <li>
+                                            <a href="./private-services.php#eventrecorder">Eventrecorder</a>
+                                        </li>
+                                        <li>
+                                            <a href="./private-services.php#lung-function">Lungenfunktion</a>
+                                        </li>
+                                        <li>
+                                            <a href="./private-services.php#ergometrie">Ergometrie</a>
+                                        </li>
+                                        <li>
+                                            <a href="./private-services.php#thyroid-sonography">Schilddrüsensonographie</a>
+                                        </li>
+                                        <li>
+                                            <a href="./private-services.php#op-suitability">OP Fähigkeit</a>
+                                        </li>
+                                        <li>
+                                            <a href="./private-services.php#special-topics">Spezialthemen</a>
+                                        </li>
+                                        <li>
+                                            <a href="./private-services.php#physical-therapy">Physiotherapie</a>
+                                        </li>
+                                    </ul>
+                                <?php endif; ?>
                             </li>
 
-                            <!-- ALTERNATIVE MEDIZIN -->
+                        <!-- ALTERNATIVE MEDIZIN -->
                             <li class="header_mega-menu_list-point">
                                 <a href="#" class="header_mega-menu_sub-heading">Alternative Medizin</a>
 
