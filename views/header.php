@@ -51,9 +51,10 @@
                 <!-- TITLE 4 THE NAV -->
                 <h2 class="hidden">Hauptnavigation</h2>
 
+                <!-- NAV LINKS -->
                 <ul class="header_link-list">
 
-                <!-- LEISTUNGEN-->
+                     <!-- LEISTUNGEN-->
                     <li class="header_link-list_mega-menu-opener open_mega-menu" data-sign="&#43;">
                         <span class="header_menu-hint">Leistungen</span>
 
@@ -81,7 +82,7 @@
                                     </li>
                                 </ul>
 
-                                <?php else :?>
+                            <?php else :?>
                                 <a href="./services.php#check-up" class="header_mega-menu_sub-heading">Kassenleistungen</a>
 
                                 <ul class="header_mega-menu_list">
@@ -98,9 +99,7 @@
                                         <a href="./services.php#infusion-therapy">Infusionstherapie</a>
                                     </li>
                                 </ul>
-
                             <?php endif; ?>
-
                             </li>
 
                             <!-- WAHLARZTLEISTUNGEN-->

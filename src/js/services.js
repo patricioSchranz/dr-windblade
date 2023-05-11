@@ -101,8 +101,14 @@ if(window.innerWidth <= 1350){
                 hashtagIndex = megaMenuLinkHref.indexOf('#'),
                 searchedContentId = megaMenuLinkHref.slice(hashtagIndex)
 
+            console.log(link)
+
             alternateReiterLinks.forEach(reiterLink =>{
                 if(reiterLink.dataset.id === searchedContentId){
+
+                    alternateReiterLinks.forEach( link => link.classList.remove('active'))
+
+                    reiterLink.classList.add('active')
                     
                     servicesContents.forEach(content =>{
                         content.classList.remove('active')
