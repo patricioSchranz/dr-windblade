@@ -15,6 +15,7 @@
             <?php break; ?>
 
         <?php case "private-services" ?>
+        <?php case "alternate-services" ?>
             <link rel="stylesheet" href="../style/services.css">
             <?php break; ?>
 
@@ -112,35 +113,35 @@
 
                         <!-- ALTERNATIVE MEDIZIN -->
                             <li class="header_mega-menu_list-point">
-                                <a href="#" class="header_mega-menu_sub-heading">Alternative Medizin</a>
+                                <a href="../docs/alternate-services.php#acupuncture" class="header_mega-menu_sub-heading">Alternative Medizin</a>
 
                                 <ul class="header_mega-menu_list">
                                     <li>
-                                        <a href="#">TCM</a>
+                                        <a href="../docs/alternate-services.php#acupuncture">TCM</a>
 
                                         <ul class="header_mega-menu_sub-list">
                                             <li>
-                                                <a href="#">Akupunktur</a>
+                                                <a href="../docs/alternate-services.php#acupuncture">Akupunktur</a>
                                             </li>
                                             <li>
-                                                <a href="#">Tuina</a>
+                                                <a href="../docs/alternate-services.php#tuina">Tuina</a>
                                             </li>
                                             <li>
-                                                <a href="#">Moxibustion</a>
+                                                <a href="../docs/alternate-services.php#moxibustion">Moxibustion</a>
                                             </li>
                                             <li>
-                                                <a href="#">Ernährungsberatung</a>
+                                                <a href="../docs/alternate-services.php#nutritional-advice">Ernährungsberatung</a>
                                             </li>
                                             <li>
-                                                <a href="#">Qigong</a>
+                                                <a href="../docs/alternate-services.php#qi-gong">Qigong</a>
                                             </li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="#">Schröpfen</a>
+                                        <a href="../docs/alternate-services.php#cupping">Schröpfen</a>
                                     </li>
                                     <li>
-                                        <a href="#">Tibetische Massage</a>
+                                        <a href="../docs/alternate-services.php#tibetian-massage">Tibetische Massage</a>
                                     </li>
                                 </ul>
                             </li>
