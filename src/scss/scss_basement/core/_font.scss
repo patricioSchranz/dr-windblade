@@ -27,22 +27,26 @@
 @mixin font-heading-1{
     font-family: 'Spectral SC', serif;
     font-weight: 400;
+    font-display: block;
 }
 
 @mixin font-main{
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 400;
     line-height: 1.6rem;
+    font-display: block;
 }
 
 @mixin font-handwriting{
     font-family: 'Allison', cursive;
     font-weight: 400; 
+    font-display: block;
 }
 
 @mixin font-personal{
     font-family: 'Grape Nuts', cursive;
     font-weight: 400;
+    font-display: block;
 }
 
 

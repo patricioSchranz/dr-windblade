@@ -5,20 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dr. Windblade</title>
+    <link rel="stylesheet" href="./style/home.css">
 
-    <!-- <link rel="stylesheet" href="style/common.css"> -->
-    <!-- <link rel="stylesheet" href="./node_modules/animate.css/animate.css"> -->
-
-    <?php switch($page) :
-        case "services" ?>
-            <link rel="stylesheet" href="../style/services.css">
-            <?php break; ?>
-
-        <?php case "private-services" ?>
-            <link rel="stylesheet" href="../style/services.css">
-            <?php break; ?>
-
-    <?php endswitch; ?>
 
 </head>
 <body>
@@ -31,8 +19,8 @@
             <h1 class="hidden">Dr. Windblade</h1>
 
             <!-- LOGO -->
-                <a href="../index.php">
-                    <img src="../graphics/icons_n_co/heart-shaped-tree.png" alt="heart" class="header_logo">
+                <a href="#">
+                    <img src="graphics/icons_n_co/heart-shaped-tree.png" alt="heart" class="header_logo">
                 </a>
 
             <!-- NAV -->
@@ -53,27 +41,63 @@
 
                         <!-- KASSENLEISTUNGEN-->
                             <li class="header_mega-menu_list-point">
-
-                                <a href="./services.php#check-up" class="header_mega-menu_sub-heading">Kassenleistungen</a>
+                                <a href="./docs/services.php#check-up" class="header_mega-menu_sub-heading">Kassenleistungen</a>
 
                                 <ul class="header_mega-menu_list">
                                     <li>
-                                        <a href="./services.php#check-up">Vorsorgeuntersuchung</a>
+                                        <a href="./docs/services.php#check-up">Vorsorgeuntersuchung</a>
                                     </li>
                                     <li>
-                                        <a href="./services.php#rest-ekg">Ruhe EKG</a>
+                                        <a href="./docs/services.php#rest-ekg">Ruhe EKG</a>
                                     </li>
                                     <li>
-                                        <a href="./services.php#lung-function">Lungenfunktion</a>
+                                        <a href="./docs/services.php#lung-function">Lungenfunktion</a>
                                     </li>
                                     <li>
-                                        <a href="./services.php#infusion-therapy">Infusionstherapie</a>
+                                        <a href="./docs/services.php#unfusion-therapy">Infusionstherapie</a>
                                     </li>
                                 </ul>
                             </li>
 
                         <!-- WAHLARZTLEISTUNGEN-->
                             <li class="header_mega-menu_list-point">
+                                <?php if($page === 'index') :?>
+                                <a href="./docs/private-services.php#rest-ekg" class="header_mega-menu_sub-heading">Wahlarztleistungen</a>
+
+                                <ul class="header_mega-menu_list">
+                                    <li>
+                                        <a href="./docs/private-services.php#rest-ekg">Ruhe EKG</a>
+                                    </li>
+                                    <li>
+                                        <a href="./docs/private-services.php#24-ekg">24h EKG</a>
+                                    </li>
+                                    <li>
+                                        <a href="./docs/private-services.php#24-blood-pressure">24h Blutdruck</a>
+                                    </li>
+                                    <li>
+                                        <a href="./docs/private-services.php#eventrecorder">Eventrecorder</a>
+                                    </li>
+                                    <li>
+                                        <a href="./docs/private-services.php#lung-function">Lungenfunktion</a>
+                                    </li>
+                                    <li>
+                                        <a href="./docs/private-services.php#ergometrie">Ergometrie</a>
+                                    </li>
+                                    <li>
+                                        <a href="./docs/private-services.php#thyroid-sonography">Schilddrüsensonographie</a>
+                                    </li>
+                                    <li>
+                                        <a href="./docs/private-services.php#op-suitability">OP Fähigkeit</a>
+                                    </li>
+                                    <li>
+                                        <a href="./docs/private-services.php#special-topics">Spezialthemen</a>
+                                    </li>
+                                    <li>
+                                        <a href="./docs/private-services.php#physical-therapy">Physiotherapie</a>
+                                    </li>
+                                </ul>
+
+                                <?php else :?>
                                     <a href="./private-services.php#rest-ekg" class="header_mega-menu_sub-heading">Wahlarztleistungen</a>
 
                                     <ul class="header_mega-menu_list">
@@ -108,6 +132,7 @@
                                             <a href="./private-services.php#physical-therapy">Physiotherapie</a>
                                         </li>
                                     </ul>
+                                <?php endif; ?>
                             </li>
 
                         <!-- ALTERNATIVE MEDIZIN -->
