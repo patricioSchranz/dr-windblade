@@ -155,6 +155,10 @@
         <script src="../src/js/services.js"></script>
         <?php break; ?>
 
+    <?php case 'corona-services' ?>
+        <script src="../src/js/services.js"></script>
+    <?php break; ?>
+
     <?php case 'index' ?>
         <script src="./src/js/home.js"></script>
         <?php break; ?>

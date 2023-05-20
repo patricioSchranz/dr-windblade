@@ -7,47 +7,35 @@ require __DIR__ . './../views/header.php';
 
 <!-- HEADING -->
     <div class="services_heading">
-        <h1>Alternative Medizin</h1>
+        <h1>Corona</h1>
     </div>
 
 <!-- REITER NAVIGATION -->
     <div class="services_reiter">
         <ul class="services_reiter_list">
             <li>
-                <a href="#acupuncture">Akupunktur</a>
+                <a href="#covid-antigen">Covid 19 Antigentest</a>
             </li>
             <li>
-                <a href="#tuina">Tuina</a>
+                <a href="#covid-pcr">Covid 19 PCR Test</a>
             </li>
             <li>
-                <a href="#moxibustion">Moxibustion</a>
-            </li>
-            <li>
-                <a href="#nutritional-advice">Ernährungsberatung</a>
-            </li>
-            <li>
-                <a href="#qi-gong">Qi Gong</a>
-            </li>
-            <li>
-                <a href="#cupping">Schröpfen</a>
-            </li>
-            <li>
-                <a href="#tibetian-massage">Tibetische Massage</a>
+                <a href="#covid-accompaniment">Long Covid Begleitung</a>
             </li>
         </ul>
     </div>
 
-<!-- ALTERNATE SERVICES --> 
+<!-- COVID SERVICES --> 
 
-    <!-- AKUPUNKTUR -->
-    <section class="services_service" id="acupuncture">
-        <h2 class="outer-heading" data-id="#acupuncture">Akupunktur</h2>
+    <!-- ANTIGENTEST -->
+    <section class="services_service" id="covid-antigen">
+        <h2 class="outer-heading" data-id="#covid-antigen">Covid 19 Antigentest</h2>
 
         <div class="services_service_content">
-            <img src="../graphics/pics/acupuncture.jpg">
+            <img src="../graphics/pics/antigen.jpg">
 
             <div class="services_service_text">
-                <h2 class="inner-heading">Akupunktur</h2>
+                <h2 class="inner-heading">Covid 19 Antigentest</h2>
 
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repellendus deserunt minima iusto quibusdam ea ipsa quas aliquam dolores maxime, nobis molestias voluptates omnis adipisci animi ratione, vero ducimus recusandae.</p>
 
@@ -79,15 +67,15 @@ require __DIR__ . './../views/header.php';
     </section>
 
 
-    <!-- TUINA -->
-    <section class="services_service" id="tuina">
-        <h2 class="outer-heading" data-id="#tuina">Tuina</h2>
+    <!-- PCR -->
+    <section class="services_service" id="covid-pcr">
+        <h2 class="outer-heading" data-id="#covid-pcr">Covid 19 PCR Test</h2>
 
         <div class="services_service_content">
-            <img src="../graphics/pics/massage.jpg">
+            <img src="../graphics/pics/pcr.jpg">
 
             <div class="services_service_text">
-                <h2>Tuina</h2>
+                <h2>Covid 19 PCR Tes</h2>
 
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repellendus deserunt minima iusto quibusdam ea ipsa quas aliquam dolores maxime, nobis molestias voluptates omnis adipisci animi ratione, vero ducimus recusandae.</p>
 
@@ -119,15 +107,15 @@ require __DIR__ . './../views/header.php';
     </section>
 
 
-    <!-- MOXIBUSTION  -->
-    <section class="services_service" id="moxibustion">
-        <h2 class="outer-heading" data-id="#moxibustion">Moxibustion</h2>
+    <!-- BEGLEITUNG  -->
+    <section class="services_service" id="covid-accompaniment">
+        <h2 class="outer-heading" data-id="#covid-accompaniment">Long Covid Begleitung</h2>
 
         <div class="services_service_content">
-            <img src="../graphics/pics/moxibustion.jpg">
+            <img src="../graphics/pics/accompaniment.jpg">
 
             <div class="services_service_text">
-                <h2>Moxibustion</h2>
+                <h2>Long Covid Begleitung</h2>
 
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repellendus deserunt minima iusto quibusdam ea ipsa quas aliquam dolores maxime, nobis molestias voluptates omnis adipisci animi ratione, vero ducimus recusandae.</p>
 
@@ -156,160 +144,6 @@ require __DIR__ . './../views/header.php';
             </div>  
         </div>
         
-    </section>
-
-
-    <!-- ERNÄHRUNGSBERATUNG -->
-    <section class="services_service" id="nutritional-advice">
-        <h2 class="outer-heading" data-id="#nutritional-advice">Ernährungsberatung</h2>
-
-        <div class="services_service_content">
-            <img src="../graphics/pics/nutritional.jpg">
-
-            <div class="services_service_text">
-                <h2>Ernährungsberatung</h2>
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repellendus deserunt minima iusto quibusdam ea ipsa quas aliquam dolores maxime, nobis molestias voluptates omnis adipisci animi ratione, vero ducimus recusandae.</p>
-
-                <h3>Lorem ipsum dolor sit amet.</h3>
-
-                <ul>
-                    <li>
-                        Lorem, ipsum dolor.
-                    </li>
-                    <li>
-                        Lorem, ipsum dolor.
-                    </li>
-                    <li>
-                        Lorem, ipsum dolor.
-                    </li>
-                    <li>
-                        Lorem, ipsum dolor.
-                    </li>
-                    <li>
-                        Lorem, ipsum dolor.
-                    </li>
-                </ul>
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magni accusantium atque saepe. Dicta tenetur amet quo exercitationem itaque alias ab totam hic esse, recusandae quasi optio? Fugit, quisquam adipisci.
-                Porro hic aut vel distinctio fugit, repellendus omnis adipisci in suscipit aliquam non dolorum eligendi aliquid, esse eaque doloribus ea et labore modi exercitationem quisquam! Voluptatum reprehenderit nam quidem fugiat!</p>
-            </div>  
-        </div>
-       
-    </section>
-
-    <!-- QI GONG -->
-    <section class="services_service" id="qi-gong">
-        <h2 class="outer-heading" data-id="#qi-gong">Qi Gong</h2>
-
-        <div class="services_service_content">
-            <img src="../graphics/pics/qi-gong.jpg">
-
-            <div class="services_service_text">
-                <h2>Qi Gong</h2>
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repellendus deserunt minima iusto quibusdam ea ipsa quas aliquam dolores maxime, nobis molestias voluptates omnis adipisci animi ratione, vero ducimus recusandae.</p>
-
-                <h3>Lorem ipsum dolor sit amet.</h3>
-
-                <ul>
-                    <li>
-                        Lorem, ipsum dolor.
-                    </li>
-                    <li>
-                        Lorem, ipsum dolor.
-                    </li>
-                    <li>
-                        Lorem, ipsum dolor.
-                    </li>
-                    <li>
-                        Lorem, ipsum dolor.
-                    </li>
-                    <li>
-                        Lorem, ipsum dolor.
-                    </li>
-                </ul>
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magni accusantium atque saepe. Dicta tenetur amet quo exercitationem itaque alias ab totam hic esse, recusandae quasi optio? Fugit, quisquam adipisci.
-                Porro hic aut vel distinctio fugit, repellendus omnis adipisci in suscipit aliquam non dolorum eligendi aliquid, esse eaque doloribus ea et labore modi exercitationem quisquam! Voluptatum reprehenderit nam quidem fugiat!</p>
-            </div>  
-        </div> 
-    </section>
-
-     <!-- SCHRÖPFEN -->
-     <section class="services_service" id="cupping">
-        <h2 class="outer-heading" data-id="#cupping">Schröpfen</h2>
-
-        <div class="services_service_content">
-            <img src="../graphics/pics/cupping.jpg">
-
-            <div class="services_service_text">
-                <h2>Schröpfen</h2>
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repellendus deserunt minima iusto quibusdam ea ipsa quas aliquam dolores maxime, nobis molestias voluptates omnis adipisci animi ratione, vero ducimus recusandae.</p>
-
-                <h3>Lorem ipsum dolor sit amet.</h3>
-
-                <ul>
-                    <li>
-                        Lorem, ipsum dolor.
-                    </li>
-                    <li>
-                        Lorem, ipsum dolor.
-                    </li>
-                    <li>
-                        Lorem, ipsum dolor.
-                    </li>
-                    <li>
-                        Lorem, ipsum dolor.
-                    </li>
-                    <li>
-                        Lorem, ipsum dolor.
-                    </li>
-                </ul>
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magni accusantium atque saepe. Dicta tenetur amet quo exercitationem itaque alias ab totam hic esse, recusandae quasi optio? Fugit, quisquam adipisci.
-                Porro hic aut vel distinctio fugit, repellendus omnis adipisci in suscipit aliquam non dolorum eligendi aliquid, esse eaque doloribus ea et labore modi exercitationem quisquam! Voluptatum reprehenderit nam quidem fugiat!</p>
-            </div>  
-        </div> 
-    </section>
-
-    <!-- TIBETISCHE MASSAGE -->
-    <section class="services_service" id="tibetian-massage">
-        <h2 class="outer-heading" data-id="#tibetian-massage">Tibetische Massage</h2>
-
-        <div class="services_service_content">
-            <img src="../graphics/pics/tibetian-massage.jpg">
-
-            <div class="services_service_text">
-                <h2>Tibetische Massage</h2>
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repellendus deserunt minima iusto quibusdam ea ipsa quas aliquam dolores maxime, nobis molestias voluptates omnis adipisci animi ratione, vero ducimus recusandae.</p>
-
-                <h3>Lorem ipsum dolor sit amet.</h3>
-
-                <ul>
-                    <li>
-                        Lorem, ipsum dolor.
-                    </li>
-                    <li>
-                        Lorem, ipsum dolor.
-                    </li>
-                    <li>
-                        Lorem, ipsum dolor.
-                    </li>
-                    <li>
-                        Lorem, ipsum dolor.
-                    </li>
-                    <li>
-                        Lorem, ipsum dolor.
-                    </li>
-                </ul>
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magni accusantium atque saepe. Dicta tenetur amet quo exercitationem itaque alias ab totam hic esse, recusandae quasi optio? Fugit, quisquam adipisci.
-                Porro hic aut vel distinctio fugit, repellendus omnis adipisci in suscipit aliquam non dolorum eligendi aliquid, esse eaque doloribus ea et labore modi exercitationem quisquam! Voluptatum reprehenderit nam quidem fugiat!</p>
-            </div>  
-        </div> 
     </section>
 
 

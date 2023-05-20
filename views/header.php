@@ -16,6 +16,7 @@
 
         <?php case "private-services" ?>
         <?php case "alternate-services" ?>
+        <?php case "corona-services" ?>
             <link rel="stylesheet" href="../style/services.css">
             <?php break; ?>
 
@@ -113,52 +114,52 @@
 
                         <!-- ALTERNATIVE MEDIZIN -->
                             <li class="header_mega-menu_list-point">
-                                <a href="../docs/alternate-services.php#acupuncture" class="header_mega-menu_sub-heading">Alternative Medizin</a>
+                                <a href="./alternate-services.php#acupuncture" class="header_mega-menu_sub-heading">Alternative Medizin</a>
 
                                 <ul class="header_mega-menu_list">
                                     <li>
-                                        <a href="../docs/alternate-services.php#acupuncture">TCM</a>
+                                        <a href="./alternate-services.php#acupuncture">TCM</a>
 
                                         <ul class="header_mega-menu_sub-list">
                                             <li>
-                                                <a href="../docs/alternate-services.php#acupuncture">Akupunktur</a>
+                                                <a href="./alternate-services.php#acupuncture">Akupunktur</a>
                                             </li>
                                             <li>
-                                                <a href="../docs/alternate-services.php#tuina">Tuina</a>
+                                                <a href="./alternate-services.php#tuina">Tuina</a>
                                             </li>
                                             <li>
-                                                <a href="../docs/alternate-services.php#moxibustion">Moxibustion</a>
+                                                <a href="./alternate-services.php#moxibustion">Moxibustion</a>
                                             </li>
                                             <li>
-                                                <a href="../docs/alternate-services.php#nutritional-advice">Ernährungsberatung</a>
+                                                <a href="./alternate-services.php#nutritional-advice">Ernährungsberatung</a>
                                             </li>
                                             <li>
-                                                <a href="../docs/alternate-services.php#qi-gong">Qigong</a>
+                                                <a href="./alternate-services.php#qi-gong">Qigong</a>
                                             </li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="../docs/alternate-services.php#cupping">Schröpfen</a>
+                                        <a href="./alternate-services.php#cupping">Schröpfen</a>
                                     </li>
                                     <li>
-                                        <a href="../docs/alternate-services.php#tibetian-massage">Tibetische Massage</a>
+                                        <a href="./alternate-services.php#tibetian-massage">Tibetische Massage</a>
                                     </li>
                                 </ul>
                             </li>
 
                             <!-- CORONA-->
                             <li class="header_mega-menu_list-point">
-                                <a href="#" class="header_mega-menu_sub-heading">Corona</a>
+                                <a href="./corona-services.php#covid-antigen" class="header_mega-menu_sub-heading">Corona</a>
 
                                 <ul class="header_mega-menu_list">
                                     <li>
-                                        <a href="#">Covid 19 - Antigentest</a>
+                                        <a href="./corona-services.php#covid-antigen">Covid 19 - Antigentest</a>
                                     </li>
                                     <li>
-                                        <a href="#">Covid 19 - PCR Test</a>
+                                        <a href="./corona-services.php#covid-pcr">Covid 19 - PCR Test</a>
                                     </li>
                                     <li>
-                                        <a href="#">Long Covid Begleitung</a>
+                                        <a href="./corona-services.php#covid-accompaniment">Long Covid Begleitung</a>
                                     </li>
                                 </ul>
                             </li>
