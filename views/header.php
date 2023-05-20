@@ -177,7 +177,7 @@
                             <li class="header_sub-menu_sub-sub-opener" data-sign="&#43;">
                                 <a href="#">TCM</a>
 
-                                <ul class="header_sub-menu_sub-menu">
+                                <ul class="header_sub-menu_sub-menu on-top">
                                     <li>
                                         <a href="#">Akupunktur</a>
                                     </li>

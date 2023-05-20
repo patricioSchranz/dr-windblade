@@ -309,6 +309,7 @@ body{
         left: 0;
         @include box-shadow-default(rgba(0, 0, 0, 0.2));
         background-color: var(--color-secondary);
+        padding: 0.5rem;
 
         @media screen and(max-width: 1350px) {
             position: relative;
@@ -349,12 +350,17 @@ body{
         &_sub-menu{
             // margin-left: 1rem;
             position: absolute;
-            top: 0;
+            top: 0rem;
             left: 17rem;
-            width: inherit;
+            // width: inherit;
             @include box-shadow-default(rgba(0, 0, 0, 0.2));
             display: none;
             background-color: var(--color-secondary);
+            padding: 0.5rem;
+
+            &.on-top{
+                top: -0.5rem;
+            }
 
             @media screen and (max-width: 1350px) {
                 box-shadow: unset;
