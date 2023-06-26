@@ -82,6 +82,7 @@ if(window.innerWidth <= 1350){
                     content.classList.toggle('active')
                     link.classList.add('active')
                     window.scrollTo(0,0)
+                    // alert('hi')
                     console.log(scrollY)
                 }
                
