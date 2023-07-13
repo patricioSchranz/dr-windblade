@@ -211,7 +211,7 @@
 
                 <!-- PHYSIOTHERAPIE -->
                     <li>
-                        <a href="#">Physiotherapie</a>
+                        <a href="./docs/physical-therapy.php">Physiotherapie</a>
                     </li>
 
                 <!-- TEAM -->

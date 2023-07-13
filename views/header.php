@@ -20,6 +20,10 @@
             <link rel="stylesheet" href="../style/services.css">
             <?php break; ?>
 
+        <?php case "physical-therapy" ?>
+            <link rel="stylesheet" href="../style/physical-therapy.css">
+            <?php break; ?>
+
     <?php endswitch; ?>
 
 </head>
@@ -226,7 +230,7 @@
 
                 <!-- PHYSIOTHERAPIE -->
                     <li>
-                        <a href="#">Physiotherapie</a>
+                        <a href="./physical-therapy.php">Physiotherapie</a>
                     </li>
 
                 <!-- TEAM -->

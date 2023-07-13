@@ -9,7 +9,8 @@
   "scripts": {
     "build:common": "sass ./src/scss/scss_basement/pages/common.scss ./style/common.css --style=compressed --watch",
     "build:home": "sass ./src/scss/scss_basement/pages/home.scss ./style/home.css --style=compressed --watch",
-    "build:services": "sass ./src/scss/scss_basement/pages/services.scss ./style/services.css --style=compressed --watch"
+    "build:services": "sass ./src/scss/scss_basement/pages/services.scss ./style/services.css --style=compressed --watch",
+    "build:physical-therapy" : "sass ./src/scss/scss_basement/pages/physical-therapy.scss ./style/physical-therapy.css --style=compressed --watch"
   },
   "author": "",
   "license": "ISC",
