@@ -92,6 +92,14 @@
     align-content: center;
 }
 
+@mixin flex-row-between{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;   
+    align-content: center;
+}
+
 @mixin flex-column-center{
     display: flex;
     flex-direction: column;
