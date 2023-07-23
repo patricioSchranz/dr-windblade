@@ -48,7 +48,7 @@ require __DIR__ . './../views/header.php'
     </section>
 
     <!-- SERVICES PT 1 -->
-    <section class="physical-therapy_row_services">
+    <section class="physical-therapy_row services">
         <h3 class="hidden">Services</h3>
 
         <div class="container-content">
@@ -85,8 +85,10 @@ require __DIR__ . './../views/header.php'
     </section>
 
     <!-- SERVICES PT 2 -->
-    <section class="physical-therapy_row_services">
+    <section class="physical-therapy_row services">
         <h3 class="hidden">Advanced Services</h3>
+
+        <img src="../graphics/pics/advanced-service.jpg" alt="eine Frau wird massiert">
 
         <div class="container-content">
             <p class="heading">Meine Zusatzausbildungen sind :</p>
@@ -137,7 +139,6 @@ require __DIR__ . './../views/header.php'
             </ul>
         </div>
 
-        <img src="../graphics/pics/advanced-service.jpg" alt="eine Frau wird massiert">
     </section>
 
     <a href="tel:+4365030350589">
