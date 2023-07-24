@@ -141,7 +141,7 @@ require __DIR__ . './../views/header.php'
 
     </section>
 
-    <a href="tel:+4365030350589">
+    <a href="tel:+4365030350589" class="tel-button">
         <span>Terminvereinbarungen unter 0650/30350589</span>
     </a>
 

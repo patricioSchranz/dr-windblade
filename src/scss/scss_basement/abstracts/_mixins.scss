@@ -32,6 +32,10 @@
     box-shadow: 1px 3px 6px $color;
 }
 
+@mixin box-shadow-default-hover($color){
+    box-shadow: 0px 0px 10px $color;
+}
+
 @mixin box-shadow-soft($color){
     box-shadow: 0px 3px 20px $color;
 }
@@ -212,3 +216,13 @@
 //     background-color: $color-background-fifth;
 //     color: $color-font-fifth;
 // }
+
+
+//
+// DIVERSE
+//
+
+@mixin gray-image{
+    filter: grayscale(1);
+    opacity: .8;
+}

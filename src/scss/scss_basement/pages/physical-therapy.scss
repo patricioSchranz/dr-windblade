@@ -1,6 +1,8 @@
 @import './common.scss';
 
 .physical-therapy{
+    padding-bottom: 4rem;
+
     // 
     // HEADING
     //
@@ -9,9 +11,10 @@
 
         &_img{
             width: 100%;
-            height: 70vh;
+            height: 75vh;
             object-fit: cover;
             object-position: center;
+            // @include gray-image;
         }
 
         &_headline{
@@ -36,6 +39,12 @@
         margin-bottom: 5rem;
         // border: 1px solid black;
 
+        @media screen and (max-width: 1115px) {
+            flex-direction: column;
+            row-gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
         // 
         // SHORT DESCRIPTION
         //
@@ -46,6 +55,22 @@
                 width: 40rem;
                 background-color: var(--color-primary);
                 padding: 1rem 2rem;
+
+                
+                @media screen and (max-width: 850px){
+                    width: 100%
+                }
+            }
+
+            img{
+                @media screen and (max-width: 1115px) {
+                    order: -1;
+                    // margin-bottom: 2rem;
+                }
+
+                @media screen and (max-width: 420px) {
+                    width: 60%;
+                }
             }
         }
 
@@ -57,13 +82,37 @@
                 width: 20rem;
                 height: 20rem;
                 object-fit: cover;
-                border-radius: 50%;;
+                border-radius: 50%;
+                // @include gray-image;
+
+                @media screen and (max-width: 1115px) {
+                    // order: 2;
+                    width: 25rem;
+                    height: 25rem;
+                    margin-top: 3rem;
+                }
+
+                @media screen and (max-width: 650px) {
+                    width: 20rem;
+                    height: 20rem;
+                    margin-top: 1.5rem;
+                }
+
+                @media screen and (max-width: 420px) {
+                    width: 15rem;
+                    height: 15rem;
+                }
             }
 
             .about{
                 width: 40rem;
                 // background-color: var(--color-primary);
                 // padding: 1rem 2rem; 
+
+                
+                @media screen and (max-width: 850px){
+                    width: 90%
+                }
             }
         }
 
@@ -77,6 +126,15 @@
                 background-color: var(--color-primary);
                 // padding: 1rem;
                 @include flex-variable(column, wrap, flex-start, flex-start);
+
+                
+                @media screen and (max-width: 1115px) {
+                   width: 80%;
+                }
+
+                @media screen and (max-width: 850px){
+                    width: 100%
+                }
             }
 
             .heading{
@@ -86,6 +144,15 @@
                 padding: 1rem;
                 background-color: var(--color-secondary);
                 border-radius: 0 1rem 1rem 0;
+
+                @media screen and (max-width: 650px) {
+                    width: 95%;
+                }
+
+                @media screen and (max-width: 350px) {
+                    width: 99%;
+                    padding: .5rem;
+                }
             }
 
             .list{
@@ -96,18 +163,40 @@
                 align-self: flex-end;
                 position: relative;
 
+                @media screen and (max-width: 650px) {
+                    width: 80%;
+                }
+
                 &::before{
                     position: absolute;
                     top: 40%;
                     left: -10rem;
                     content: '\2192';
                     font-size: 3rem;
+
+                    @media screen and (max-width: 650px) {
+                        display: none;
+                    }
                 }
             }
 
             img{
                 width: 30%;
                 border-radius: 5rem 1rem;
+                // @include gray-image;
+
+                @media screen and (max-width: 1115px) {
+                    width: 80%;
+                    height: 50vh;
+                    object-fit: cover;
+                    border-radius: 0 !important;
+                    margin-top: -1rem;
+                }
+
+                @media screen and (max-width: 850px){
+                    width: 100%
+                }
+
             }
 
             &:last-of-type{
@@ -120,8 +209,71 @@
                     border-radius: 1rem 5rem; 
                     height: 25rem;
                     object-fit: cover;
+                    // @include gray-image;
+
+                    @media screen and (max-width: 1115px) {
+                        order: 2;
+                    }
                 }
             }
+        }
+    }
+
+    //
+    // TEL BUTTON
+    //
+    .tel-button{
+        // border: 1px solid black;
+        background-color: var(--color-akzent);
+        padding: 2rem;
+        margin: 9rem auto 0;
+        display: block;
+        width: 30rem;
+        text-align: right;
+        @include box-shadow-default(rgba(0,0,0,0.2));
+        position: relative;
+        transition: all .1s ease-in-out;
+
+        @media screen and (max-width: 1115px) {
+            margin-top: 5rem;
+        }
+
+        @media screen and (max-width: 850px){
+            padding: 1rem;
+            padding-right: 2rem;
+        }
+
+        @media screen and (max-width: 530px){
+            width: 80%;
+            margin-top: 3rem;
+
+            span{
+                width: 60%;
+                display: block;
+                margin-left: auto;
+                margin-right: 2rem;
+                text-align: center;
+            }
+        }
+
+        @media screen and (max-width: 420px) {
+            width: 95%;
+        }
+
+        &:hover{
+           @include box-shadow-default-hover(rgba(0,0,0,0.3));
+        }
+
+        &::before{
+            content: '';
+            width: 2rem;
+            height: 2rem;
+            background-color: var(--color-secondary);
+            opacity: 0.5;
+            display: block;
+            position: absolute;
+            top: calc(50% - 1rem);
+            left: 3rem;
         }
     }
 }
