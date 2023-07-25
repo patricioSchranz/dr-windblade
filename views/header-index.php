@@ -216,7 +216,7 @@
 
                 <!-- TEAM -->
                      <li>
-                        <a href="#">Team</a>
+                        <a href="./docs/team.php">Team</a>
                     </li>
 
                 <!-- ORDINATION -->

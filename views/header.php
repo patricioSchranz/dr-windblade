@@ -24,6 +24,10 @@
             <link rel="stylesheet" href="../style/physical-therapy.css">
             <?php break; ?>
 
+        <?php case "team" ?>
+            <link rel="stylesheet" href="../style/physical-therapy.css">
+            <?php break; ?>
+
     <?php endswitch; ?>
 
 </head>
@@ -235,7 +239,7 @@
 
                 <!-- TEAM -->
                      <li>
-                        <a href="#">Team</a>
+                        <a href="./team.php">Team</a>
                     </li>
 
                 <!-- ORDINATION -->
