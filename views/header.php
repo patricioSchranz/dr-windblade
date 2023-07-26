@@ -25,7 +25,7 @@
             <?php break; ?>
 
         <?php case "team" ?>
-            <link rel="stylesheet" href="../style/physical-therapy.css">
+            <link rel="stylesheet" href="../style/team.css">
             <?php break; ?>
 
     <?php endswitch; ?>

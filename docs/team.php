@@ -17,7 +17,7 @@ require __DIR__ . "/../views/header.php" ;
         </div>
 
         <div class="right-side">
-            <h2>Unser Team</h2>
+            <h1>Unser Team</h1>
 
             <img src="../graphics/pics/team-3.jpg" alt="medical team">
         </div>
@@ -25,7 +25,7 @@ require __DIR__ . "/../views/header.php" ;
 
     <!-- TEAM MEMBERS -->
     <section class="team_members">
-        <h3 class="hidden">Team Members</h3>
+        <h2 class="hidden">Team Members</h2>
 
         <!-- DR WINDBLADE -->
         <div class="team_members_member-container">
@@ -45,7 +45,7 @@ require __DIR__ . "/../views/header.php" ;
             <img src="../graphics/pics/tamara-elves.jpg" alt="tamara elves">
 
             <div class="text">
-                <h4>Tamara Elves</h4>
+                <h3>Tamara Elves</h3>
 
                 <ul>
                     <li>Ordinationsassistentin</li>
@@ -60,7 +60,7 @@ require __DIR__ . "/../views/header.php" ;
             <img src="../graphics/pics/sofia-skyblue.jpg" alt="sofia skyblue">
 
             <div class="text">
-                <h4>Sofia Skyblue</h4>
+                <h3>Sofia Skyblue</h3>
 
                 <ul>
                     <li>Diplomkrankenschwester</li>
@@ -75,7 +75,7 @@ require __DIR__ . "/../views/header.php" ;
             <img src="../graphics/pics/anna-marissa.jpg" alt="anna marissa">
 
             <div class="text">
-                <h4>Anna Marissa</h4>
+                <h3>Anna Marissa</h3>
 
                 <ul>
                     <li>Physiotherapeutin</li>
