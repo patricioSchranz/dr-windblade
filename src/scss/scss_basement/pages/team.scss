@@ -6,22 +6,66 @@
         // border: 1px solid black;
         @include flex-row-center;
 
+        @media screen and (max-width: 1285px){
+            min-height: calc(100svh - 5rem);
+            height: auto;
+            margin-top: 2rem;
+        }
+
+        @media screen and (max-width: 450px) {
+            margin-top: 1rem;
+        }
+
+
         .left-side,
         .right-side{
             // border: 1px dashed green;
             height: 100%;
             width: 50%;
+
+            @media screen and (max-width: 1285px){
+                width: 80%;
+                height: initial;
+            }
+
+            @media screen and (max-width: 800px) {
+                width: 90%;
+            }
         }
 
         .left-side{
             @include flex-row-center;
 
+            @media screen and (max-width: 1285px){
+               margin-top: 3rem;
+            }
+
+            @media screen and (max-width: 650px) {
+                margin-top: 1rem;
+            }
+
+            @media screen and (max-width: 450px) {
+                margin-top: 0rem;
+            }
+
             img{
                 width: 20rem;
                 // margin: 1rem;
 
+                @media screen and (min-width: 1650px) {
+                    width: 25rem;
+                }
+
+                @media screen and (max-width: 1285px){
+                    width: 50%;
+                }
+
                 &:first-of-type{
                     transform: rotate(-5deg) translate(3rem);
+
+                    @media screen and (max-width: 800px) {
+                        transform: initial;
+                    }
                 }
             }
         }
@@ -29,6 +73,10 @@
         .right-side{
             // border: 1px dashed pink;
             @include flex-column-center;
+
+            @media screen and (max-width: 1285px){
+               order: -1;
+            }
 
             h1{
                 @include font-heading-1;
@@ -38,7 +86,17 @@
             img{
                 width: 30rem;
                 // margin-top: 8rem;
-                transform: translateY(5rem)
+                transform: translateY(5rem);
+
+                @media screen and (min-width: 1650px) {
+                    width: 40rem;
+                }
+
+                @media screen and (max-width: 1285px){
+                    transform: initial;
+                    margin: 3rem auto;
+                    width: 90%;
+                }
             }
         }
     }
@@ -49,9 +107,28 @@
         margin-top: 5rem;
         padding-bottom: 7rem;
 
+        @media screen and (max-width: 800px) {
+           padding: .5rem;
+        }
+        
+        @media screen and (max-width: 550px) {
+            margin-top: 3rem;
+        }
+
         img{
             width: 40%;
-            // border: 5px solid black;
+
+            @media screen and (min-width: 1650px) {
+                width: 25rem;
+            }
+    
+            @media screen and (max-width: 1285px) {
+                width: 80%;
+            }
+
+            @media screen and (max-width: 550px) {
+                width: 90%;
+            }
         }
 
         &_member-container{
@@ -60,15 +137,44 @@
             @include flex-variable(row, wrap, space-evenly, center);
             margin-bottom: 7rem;
 
+            @media screen and (max-width: 1285px){
+                margin: auto;
+                width: 80%;
+                flex-direction: column;
+                transform: initial !important;
+                margin-bottom: 3rem;
+             }
+
+             @media screen and (max-width: 800px) {
+                width: 90%;
+            }
+
+            @media screen and (max-width: 550px) {
+                width: 100%;
+            }
+
+            
             &:nth-of-type(2),
             &:nth-of-type(4){
                 .text{
                     order: -1;
+
+                    @media screen and (max-width: 1285px){
+                      order: initial;
+                     }
                 }
             }
 
             &:nth-of-type(1){
                 transform: translate(2rem, 0rem);
+
+                @media screen and (max-width: 1285px){
+                    margin-top: 3rem;
+                }
+
+                @media screen and (max-width: 550px) {
+                    margin-top: 0rem;
+                }
             }
 
             &:nth-of-type(2){
@@ -83,8 +189,26 @@
                 transform: translate(-5rem, 5rem);
             }
 
+       
             .text{
                 // border: 1px solid black;
+
+                @media screen and (max-width: 1285px) {
+                    display: flex;
+                    width: 80%;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    margin: 2rem auto;
+                }
+
+                @media screen and (max-width: 800px) {
+                    flex-direction: column;
+                    margin: 1rem auto;
+                }
+
+                h3{
+                    font-size: 1.5rem;
+                }
 
                 ul{
                     list-style: disc;

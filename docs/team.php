@@ -32,7 +32,7 @@ require __DIR__ . "/../views/header.php" ;
             <img src="../graphics/pics/dr-winblade.jpg" alt="dr-windblade">
 
             <div class="text">
-                <h4>Dr. Windblade</h4>
+                <h3>Dr. Windblade</h3>
 
                 <ul>
                    <li>Fachärztin für Innere Medizin</li> 
