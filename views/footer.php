@@ -65,6 +65,7 @@
         <section class="footer_contact">
             <h2 class="hidden">Kontakt</h2>
 
+            <!-- GOOGLE MAP -->
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10958.664299076168!2d14.27471763787281!3d46.63335876611274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4770738648f236dd%3A0xbb75cc4856b431b!2sKreuzbergl!5e0!3m2!1sde!2sat!4v1676971160780!5m2!1sde!2sat"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="google-maps"></iframe >
 
             <!-- ADRESS-->

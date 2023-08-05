@@ -221,7 +221,7 @@
 
                 <!-- ORDINATION -->
                      <li>
-                        <a href="#">Ordination</a>
+                        <a href="./docs/office.php">Ordination</a>
                     </li>
 
                 <!-- Blog -->

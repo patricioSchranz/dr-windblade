@@ -28,6 +28,10 @@
             <link rel="stylesheet" href="../style/team.css">
             <?php break; ?>
 
+        <?php case "office" ?>
+            <link rel="stylesheet" href="../style/office.css">
+            <?php break; ?>
+
     <?php endswitch; ?>
 
 </head>
@@ -244,7 +248,7 @@
 
                 <!-- ORDINATION -->
                      <li>
-                        <a href="#">Ordination</a>
+                        <a href="./office.php">Ordination</a>
                     </li>
 
                 <!-- Blog -->
