@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dr. Windblade</title>
     <link rel="stylesheet" href="./style/home.css">
-
+    <link rel="icon" type="image/png" href="./graphics/icons_n_co/favicon-32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="./graphics/icons_n_co/favicon-96.png" sizes="96x96">
+    <link rel="apple-touch-icon" sizes="180x180" href="./graphics/icons_n_co/favicon-180.png">
 
 </head>
 <body>
