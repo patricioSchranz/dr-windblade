@@ -89,7 +89,7 @@
                         <a href="tel:+4312345">0463/12345 4</a>
                     </div>
                     <div class="telephone-container">
-                        <p>Beauty Telefon :</p>
+                        <p>Meditation Telefon :</p>
                         <a href="tel:+4312345">0463/12345 34</a>
                     </div>
                     

@@ -12,7 +12,8 @@
     "build:services": "sass ./src/scss/scss_basement/pages/services.scss ./style/services.css --style=compressed --watch",
     "build:physical-therapy" : "sass ./src/scss/scss_basement/pages/physical-therapy.scss ./style/physical-therapy.css --style=compressed --watch",
     "build:team": "sass ./src/scss/scss_basement/pages/team.scss ./style/team.css --style=compressed --watch",
-    "build:office": "sass ./src/scss/scss_basement/pages/office.scss ./style/office.css --style=compressed --watch"
+    "build:office": "sass ./src/scss/scss_basement/pages/office.scss ./style/office.css --style=compressed --watch",
+    "build:e-medication": "sass ./src/scss/scss_basement/pages/e-medication.scss ./style/e-medication.css --style=compressed --watch"
   },
   "author": "",
   "license": "ISC",

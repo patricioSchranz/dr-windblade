@@ -35,6 +35,10 @@
             <link rel="stylesheet" href="../style/office.css">
             <?php break; ?>
 
+        <?php case "e-medication" ?>
+            <link rel="stylesheet" href="../style/e-medication.css">
+            <?php break; ?>
+
     <?php endswitch; ?>
 
 </head>
@@ -261,7 +265,7 @@
 
                 <!-- E - MEDIKATION -->
                     <li class="button-li">
-                        <button class="button_e-medikation">E - Medikation</button>
+                        <a href="./e-medication.php" class="button_e-medikation">E - Medikation</a>
                     </li>
 
                 <!-- ONLINE TERMINKALENDER -->

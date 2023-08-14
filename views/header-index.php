@@ -233,7 +233,7 @@
 
                 <!-- E - MEDIKATION -->
                     <li class="button-li">
-                        <button class="button_e-medikation">E - Medikation</button>
+                        <a href="./docs/e-medication.php" class="button_e-medikation">E - Medikation</a>
                     </li>
 
                 <!-- ONLINE TERMINKALENDER -->
