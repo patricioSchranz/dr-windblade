@@ -1,5 +1,4 @@
-let 
-    lastScrollPosition
+let lastScrollPosition
 
 window.addEventListener('scroll', (event)=>{
 

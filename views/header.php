@@ -39,6 +39,10 @@
             <link rel="stylesheet" href="../style/e-medication.css">
             <?php break; ?>
 
+        <?php case "alternate-ways" ?>
+            <link rel="stylesheet" href="../style/alternate-ways.css">
+            <?php break; ?>
+
     <?php endswitch; ?>
 
 </head>
@@ -188,7 +192,7 @@
 
                 <!-- TCM -->
                     <li class="header_link-list_sub-menu-opener open_sub-menu" data-sign="&#43;">
-                        <a href="#">Alternative Wege</a>
+                        <a href="./alternate-ways.php">Alternative Wege</a>
 
                         <!-- SUB MENU -->
                         <ul class="header_sub-menu">

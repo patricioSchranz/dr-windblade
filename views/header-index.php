@@ -156,7 +156,7 @@
 
                 <!-- TCM -->
                     <li class="header_link-list_sub-menu-opener open_sub-menu" data-sign="&#43;">
-                        <a href="#">Alternative Wege</a>
+                        <a href="./docs/alternate-ways">Alternative Wege</a>
 
                         <!-- SUB MENU -->
                         <ul class="header_sub-menu">
