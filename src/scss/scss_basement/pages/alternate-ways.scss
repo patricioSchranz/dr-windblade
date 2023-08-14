@@ -26,7 +26,13 @@
         }
     }
 
+    // 
+    // => TCM
+    // 
     &_tcm{
+        border-bottom: 5px double rgba(0,0,0,.1);
+        padding-bottom: 2rem;
+
         &_header{
             @include flex-row-between;
             width: 100%;
@@ -36,6 +42,8 @@
 
             img{
                 width: 60%;
+                height: 80svh;
+                object-fit: cover;
             }
 
             h3{
@@ -112,31 +120,104 @@
 
             p{
                 max-width: 35rem;
-                // margin: auto;
-
-                // strong{
-                //     font-weight: normal;
-                // }
             }
 
             a{
                 font-weight: bold;
-                // text-decoration: underline;
-                background-color: var(--color-akzent);
-                padding: .5rem 2rem;
-                border-radius: 1rem;
-                border: 3px solid transparent;
-                // box-shadow: 0px 3px 5px rgba($color: #000000, $alpha: 0.2);
-                color: var(--color-on-akzent);
+                text-decoration: underline;
+                position: relative;
+                margin-left: 3rem;
+
+                &::before{
+                    position: absolute;
+                    left: -2rem;
+                    content: '\279C';
+                }
 
                 &:hover{
-                    background-color: #fff;
-                    border: 3px solid var(--color-akzent);
-                    background-color: transparent;
-                    box-shadow: none;
-                    color: black;
+                    color: var(--color-akzent-2);
                 }
                 
+            }
+        }
+    }
+
+    //
+    // => CUPPING, TIBETIAN MASSAGE
+    //
+    &_cupping,
+    &_tibetian-massage{
+        min-height: 80svh;
+        margin-top: 3rem;
+        border-bottom: 5px double rgba(0,0,0,.1);
+        padding-bottom: 2rem;
+
+        @include flex-variable(row, nowrap, center, stretch);
+        
+        &_left-side{
+            width: 50%;
+            // @include testing-border-2;
+            @include flex-row-center;
+
+            img{
+                width: 90%;
+                height: 90%;
+                object-fit: cover;
+                border-radius: 5rem 2rem;
+            }
+        }
+
+        &_right-side{
+            width: 50%;
+            // @include testing-border-2;
+            padding: 2rem;
+
+            h3{
+                text-align: center;
+            }
+
+            p{
+                max-width: 40rem;
+                margin: 1rem auto;
+            }
+
+            .on-the-point{
+                padding: 1.5rem;
+                // border: 2px solid  var(--color-primary);
+                background-color: var(--color-primary);
+                // border-radius: 2rem;
+                max-width: 41rem;
+                margin: 1.5rem auto;
+            }
+
+            a{
+                font-weight: bold;
+                text-decoration: underline;
+                position: relative;
+                margin-left: 5rem;
+                margin-top: 2rem;
+                display: block;
+
+                &::before{
+                    position: absolute;
+                    left: -2rem;
+                    content: '\279C';
+                }
+
+                &:hover{
+                    color: var(--color-akzent-2);
+                }
+                
+            }
+        }
+    }
+
+    &_tibetian-massage{
+        &_left-side{
+            order: 2;
+
+            img{
+                border-radius: 2rem 5rem; 
             }
         }
     }

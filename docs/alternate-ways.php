@@ -143,6 +143,47 @@ require __DIR__ . './../views/header.php';
            <a href="./alternate-services.php#qi-gong">Zu meinem Qi Gong Angebot</a>
         </article>
     </section>
+
+    <!-- SCHRÖPFEN -->
+    <section class="alternate-ways_cupping">
+        <div class="alternate-ways_cupping_left-side">
+            <img src="../graphics/pics/cupping.jpg" alt="cupping">
+        </div>
+
+        <div class="alternate-ways_cupping_right-side">
+            <h3>Schröpfen</h3>
+
+            <p class="on-the-point">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione deleniti iusto minima corporis distinctio, veritatis doloremque! Quidem, in. Aspernatur illum atque inventore cumque nulla consequuntur assumenda mollitia architecto quo corporis.Quia velit eum exercitationem accusamus ea iste vero dignissimos molestiae aliquam dolorem ad, nemo aliquid, fuga modi et quos iure voluptates perspiciatis aspernatur impedit commodi. Quia pariatur velit officia corporis.
+            </p>
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem officiis, deleniti natus similique delectus cum quibusdam cumque, corporis recusandae doloribus eveniet dolorum, vero vitae eum mollitia. Tempora autem ad totam.
+            Veniam cupiditate exercitationem quis, eligendi ut tempore doloribus possimus, facere, expedita debitis impedit veritatis voluptate perferendis ullam! Dolorum, nihil perferendis, minus praesentium earum dolor, impedit non possimus expedita animi asperiores! >Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ab labore a enim, veniam, dicta doloremque tempora odit nesciunt repudiandae reiciendis possimus, molestiae placeat consectetur amet excepturi recusandae ipsam laboriosam?</p>
+
+            <a href="./alternate-services.php#cupping">Zu meinem Schröpf Angebot</a>
+        </div>
+    </section>
+
+    <!-- TIBETIAN MASSAGE -->
+    <section class="alternate-ways_tibetian-massage">
+        <div class="alternate-ways_tibetian-massage_left-side">
+            <img src="../graphics/pics/tibetian-massage.jpg" alt="tibetian massage">
+        </div>
+
+        <div class="alternate-ways_tibetian-massage_right-side">
+            <h3>Tibetanische Massage</h3>
+
+            <p class="on-the-point">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione deleniti iusto minima corporis distinctio, veritatis doloremque! Quidem, in. Aspernatur illum atque inventore cumque nulla consequuntur assumenda mollitia architecto quo corporis.Quia velit eum exercitationem accusamus ea iste vero dignissimos molestiae aliquam dolorem ad, nemo aliquid, fuga modi et quos iure voluptates perspiciatis aspernatur impedit commodi. Quia pariatur velit officia corporis.
+            </p>
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem officiis, deleniti natus similique delectus cum quibusdam cumque, corporis recusandae doloribus eveniet dolorum, vero vitae eum mollitia. Tempora autem ad totam.
+            Veniam cupiditate exercitationem quis, eligendi ut tempore doloribus possimus, facere, expedita debitis impedit veritatis voluptate perferendis ullam! Dolorum, nihil perferendis, minus praesentium earum dolor, impedit non possimus expedita animi asperiores! >Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ab labore a enim, veniam, dicta doloremque tempora odit nesciunt repudiandae reiciendis possimus, molestiae placeat consectetur amet excepturi recusandae ipsam laboriosam?</p>
+
+            <a href="./alternate-services.php#tibetian-massage">Zu meinem Tibetanische Massage Angebot</a>
+        </div>
+    </section>
+
 </section>
 
 
