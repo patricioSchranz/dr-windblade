@@ -37,7 +37,7 @@ require __DIR__ . './../views/header.php';
                 <li>benötigte Medikamente</li>
             </ul>
 
-            <a class="text-hint" href="@mailto:office@windblade.at">office@windblade.at</a>
+            <a class="text-hint" href="mailto:office@windblade.at">office@windblade.at</a>
         </div>
        
     </div>
