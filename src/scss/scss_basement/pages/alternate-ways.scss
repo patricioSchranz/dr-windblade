@@ -164,6 +164,7 @@
                 height: 90%;
                 object-fit: cover;
                 border-radius: 5rem 2rem;
+                max-height: 35rem;
             }
         }
 
@@ -218,6 +219,113 @@
 
             img{
                 border-radius: 2rem 5rem; 
+            }
+        }
+    }
+
+    //
+    // => QI GONG GROUP, MEDITATION GROUP
+    //
+    &_qi-gong-group,
+    &_meditation-group{
+        border-bottom: 5px double rgba(0,0,0,.1);
+        padding-bottom: 2rem;
+
+        &_header{
+            height: 85svh;
+            overflow: hidden;
+            // margin-top: 2rem;
+
+            img{
+                height: 70svh;
+                width: 100%;
+                object-fit: cover;
+            }
+
+            h3{
+                width: 60%;
+                text-align: center;
+                padding: 1rem;
+                margin: auto;
+                margin-top: -3rem;
+                background-color: #fff;
+                position: relative;
+                z-index: 5;
+                border-radius: 2rem 2rem 0 0;
+            }
+        }
+
+        &_description{
+            width: 80%;
+            margin: auto;
+            @include flex-row-between;
+
+            p{
+                max-width: 35rem;
+                padding: 2rem;
+                border: solid var(--color-primary);
+                border-width: 0 0 0 2px;
+                // border-radius: 2rem
+            }
+
+            dl{
+                width: 35rem;
+                @include flex-variable(row, wrap, space-between, center);
+                row-gap: .5rem;
+
+                dt{
+                    width: 30%;
+                }
+
+                dd{
+                    width: 60%;
+                }
+            }
+
+            span{
+                background-color: var(--color-primary);
+                padding-right: 1rem;
+                display: inline-block;
+
+                &::first-letter{
+                    font-size: 1.1rem;
+                    font-weight: bold;
+                    margin-right: .2rem;
+                }
+            }
+        }
+
+        &_request{
+            // @include testing-border-1;
+            width: 80%;
+            margin: auto;
+            @include flex-row-center;
+            margin-top: 2rem;
+
+            p{
+                // width: 100%;
+                font-weight: 600;
+                text-align: center;
+            }
+
+            a{
+                @include flex-row-center;
+                margin: 2rem;
+                text-decoration: underline;
+                font-weight: bold;
+
+                img{
+                    width: 2.5rem;
+                    margin-right: .5rem;
+                }
+            }
+        }
+    }
+
+    &_meditation-group{
+        &_header{
+            img{
+                object-position: top;
             }
         }
     }

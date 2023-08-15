@@ -184,6 +184,90 @@ require __DIR__ . './../views/header.php';
         </div>
     </section>
 
+    <!-- QI GONG GROUP -->
+    <section class="alternate-ways_qi-gong-group">
+        <header class="alternate-ways_qi-gong-group_header">
+            <img src="../graphics/pics/qi-gong-group.jpg" alt="qi gong group">
+            <h3>Qi Gong Gruppe</h3>
+        </header>
+
+        <div class="alternate-ways_qi-gong-group_description">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla enim accusamus at quae, vero adipisci illo cumque tempora, eligendi omnis minus optio delectus commodi neque deserunt ipsam alias earum magnam!Aut dolores asperiores harum sit at fugiat recusandae commodi veritatis numquam itaque unde nemo, magnam nam explicabo, consequuntur quaerat architecto. Quas, sapiente. Eaque amet hic labore mollitia deleniti voluptate architecto.</p>
+
+            <dl>
+                <dt><span>Wann</span></dt>
+                <dd>Montags und Mittwochs von 18:30 - 20:00</dd>
+
+                <dt><span>Wo</span></dt>
+                <dd>Schloßweg 5, 9020 Klagenfurt</dd>
+
+                <dt><span>Teilnehmeranzahl</span></dt>
+                <dd>12</dd>
+
+                <dt><span>Kosten</span></dt>
+                <dd>Freiwillige Spende</dd>
+            </dl>
+        </div>
+
+        <div class="alternate-ways_qi-gong-group_request">
+            <p>
+                Bei Interesse kontaktieren Sie mich wahlweise per Mail oder Telefon :
+            </p>
+
+            <a class="mail-link" href="mailto:office@dr-windblade.com?subject=Interesse%20an%20der%20Meditationsgruppe&body=Guten%20Tag%2C%20%0Aich%20w%C3%BCrde%20gerne%20an%20der%20Meditationsgruppe%20teilnehmen.">
+                <img src="../graphics/icons_n_co/mail.svg" alt="mail">
+                <span>office@dr-windblade.com</span>
+            </a>
+
+            <a href="tel:+4365055566643">
+                <img src="../graphics/icons_n_co/phone.svg" alt="phone">
+                <span>0650/55566643</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- MEDITATION GROUP -->
+    <section class="alternate-ways_meditation-group">
+        <header class="alternate-ways_meditation-group_header">
+            <img src="../graphics/pics/meditation-group.jpg" alt="qi gong group">
+            <h3>Meditations Gruppe</h3>
+        </header>
+
+        <div class="alternate-ways_meditation-group_description">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla enim accusamus at quae, vero adipisci illo cumque tempora, eligendi omnis minus optio delectus commodi neque deserunt ipsam alias earum magnam!Aut dolores asperiores harum sit at fugiat recusandae commodi veritatis numquam itaque unde nemo, magnam nam explicabo, consequuntur quaerat architecto. Quas, sapiente. Eaque amet hic labore mollitia deleniti voluptate architecto.</p>
+
+            <dl>
+                <dt><span>Wann</span></dt>
+                <dd>Dienstags und Donnerstags von 18:30 - 20:00</dd>
+
+                <dt><span>Wo</span></dt>
+                <dd>Waldweg 7, 9020 Klagenfurt</dd>
+
+                <dt><span>Teilnehmeranzahl</span></dt>
+                <dd>12</dd>
+
+                <dt><span>Kosten</span></dt>
+                <dd>Freiwillige Spende</dd>
+            </dl>
+        </div>
+
+        <div class="alternate-ways_meditation-group_request">
+            <p>
+                Bei Interesse kontaktieren Sie mich wahlweise per Mail oder Telefon :
+            </p>
+
+            <a class="mail-link" href="mailto:office@dr-windblade.com?subject=Interesse%20an%20der%20Meditationsgruppe&body=Guten%20Tag%2C%20%0Aich%20w%C3%BCrde%20gerne%20an%20der%20Meditationsgruppe%20teilnehmen.">
+                <img src="../graphics/icons_n_co/mail.svg" alt="mail">
+                <span>office@dr-windblade.com</span>
+            </a>
+
+            <a href="tel:+4365055566643">
+                <img src="../graphics/icons_n_co/phone.svg" alt="phone">
+                <span>0650/55566643</span>
+            </a>
+        </div>
+    </section>
+
 </section>
 
 
