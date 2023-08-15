@@ -18,14 +18,14 @@ require __DIR__ . './../views/header.php';
     </header>
 
     <!-- TCM --> 
-    <section class="alternate-ways_tcm">
+    <section class="alternate-ways_tcm" id="tcm">
         <header class="alternate-ways_tcm_header">
             <img src="../graphics/pics/tcm-tea.jpg" alt="cups of tea">
             <h3>TCM</h3>
         </header>
 
         <!-- ACUPUNCTURE -->
-        <article class="alternate-ways_tcm_topic">
+        <article class="alternate-ways_tcm_topic" id="acupuncture">
 
             <header>  
                 <h4>
@@ -48,7 +48,7 @@ require __DIR__ . './../views/header.php';
         </article>
 
         <!-- TUINA -->
-        <article class="alternate-ways_tcm_topic">
+        <article class="alternate-ways_tcm_topic" id="tuina">
 
             <header>
                 <h4>
@@ -72,7 +72,7 @@ require __DIR__ . './../views/header.php';
         </article>
 
         <!-- MOXIBUSTION -->
-        <article class="alternate-ways_tcm_topic">
+        <article class="alternate-ways_tcm_topic" id="moxibustion">
             
             <header>
                 <h4>
@@ -96,7 +96,7 @@ require __DIR__ . './../views/header.php';
         </article>
 
         <!-- NUTRITIONAL ADVICE -->
-        <article class="alternate-ways_tcm_topic">
+        <article class="alternate-ways_tcm_topic" id="nutritional-advice">
 
             <header>
                 <h4>
@@ -120,7 +120,7 @@ require __DIR__ . './../views/header.php';
         </article>
 
         <!-- QI GONG -->
-        <article class="alternate-ways_tcm_topic">
+        <article class="alternate-ways_tcm_topic" id="qi-gong">
 
             <header>
                 <h4>
@@ -145,7 +145,7 @@ require __DIR__ . './../views/header.php';
     </section>
 
     <!-- SCHRÖPFEN -->
-    <section class="alternate-ways_cupping">
+    <section class="alternate-ways_cupping" id="cupping">
         <div class="alternate-ways_cupping_left-side">
             <img src="../graphics/pics/cupping.jpg" alt="cupping">
         </div>
@@ -165,7 +165,7 @@ require __DIR__ . './../views/header.php';
     </section>
 
     <!-- TIBETIAN MASSAGE -->
-    <section class="alternate-ways_tibetian-massage">
+    <section class="alternate-ways_tibetian-massage" id="tibetian-massage">
         <div class="alternate-ways_tibetian-massage_left-side">
             <img src="../graphics/pics/tibetian-massage.jpg" alt="tibetian massage">
         </div>
@@ -185,7 +185,7 @@ require __DIR__ . './../views/header.php';
     </section>
 
     <!-- QI GONG GROUP -->
-    <section class="alternate-ways_qi-gong-group">
+    <section class="alternate-ways_qi-gong-group" id="qi-gong-group">
         <header class="alternate-ways_qi-gong-group_header">
             <img src="../graphics/pics/qi-gong-group.jpg" alt="qi gong group">
             <h3>Qi Gong Gruppe</h3>
@@ -227,7 +227,7 @@ require __DIR__ . './../views/header.php';
     </section>
 
     <!-- MEDITATION GROUP -->
-    <section class="alternate-ways_meditation-group">
+    <section class="alternate-ways_meditation-group" id="meditation-group">
         <header class="alternate-ways_meditation-group_header">
             <img src="../graphics/pics/meditation-group.jpg" alt="qi gong group">
             <h3>Meditations Gruppe</h3>

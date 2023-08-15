@@ -163,45 +163,45 @@
 
                             <!-- TCM -->
                             <li class="header_sub-menu_sub-sub-opener" data-sign="&#43;">
-                                <a href="#">TCM</a>
+                                <a href="./docs/alternate-ways.php#tcm">TCM</a>
 
                                 <ul class="header_sub-menu_sub-menu on-top">
                                     <li>
-                                        <a href="#">Akupunktur</a>
+                                        <a href="./docs/alternate-ways.php#acupuncture">Akupunktur</a>
                                     </li>
                                     <li>
-                                        <a href="#">Tuina</a>
+                                        <a href="./docs/alternate-ways.php#tuina">Tuina</a>
                                     </li>
                                     <li>
-                                        <a href="#">Moxibustion</a>
+                                        <a href="./docs/alternate-ways.php#moxibustion">Moxibustion</a>
                                     </li>
                                     <li>
-                                        <a href="#">Ernährungsberatung</a>
+                                        <a href="./docs/alternate-ways.php#nutriotional-advice">Ernährungsberatung</a>
                                     </li>
                                     <li>
-                                        <a href="#">Qigong</a>
+                                        <a href="./docs/alternate-ways.php#qi-gong">Qigong</a>
                                     </li>
                                 </ul>
                             </li>
 
                             <!-- SCHRÖPFEN -->
                             <li>
-                                <a href="#">Schröpfen</a>
+                                <a href="./docs/alternate-ways.php#cupping">Schröpfen</a>
                             </li>
 
                              <!-- TIBETISCHE MASSAGE -->
                              <li>
-                                <a href="#">Tibetische Massage</a>
+                                <a href="./docs/alternate-ways.php#tibetian-massage">Tibetische Massage</a>
                             </li>
 
                              <!-- Qi Gong Gruppe -->
                              <li>
-                                <a href="#">Qi Gong Gruppe</a>
+                                <a href="./docs/alternate-ways.php#qi-gong-group">Qi Gong Gruppe</a>
                             </li>
 
                               <!-- Meditation Gruppe -->
                               <li>
-                                <a href="#">Meditationsgruppe</a>
+                                <a href="./docs/alternate-ways.php#meditation-group">Meditationsgruppe</a>
                             </li>
                         </ul><!-- END SUB MENU -->
                     </li><!-- END ALTERNATIGE WEGE -->
