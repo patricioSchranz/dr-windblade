@@ -43,6 +43,10 @@
             <link rel="stylesheet" href="../style/alternate-ways.css">
             <?php break; ?>
 
+        <?php case "online-booking" ?>
+            <link rel="stylesheet" href="../style/online-booking.css">
+        <?php break; ?>
+
     <?php endswitch; ?>
 
 </head>
@@ -274,7 +278,7 @@
 
                 <!-- ONLINE TERMINKALENDER -->
                     <li class="button-li">
-                        <button class="button_online-terminkalender">Online Terminkalender</button>
+                        <a href="./online-booking.php" class="button_e-medikation">Online Terminkalender</a>
                     </li>
 
                 </ul>

@@ -238,7 +238,7 @@
 
                 <!-- ONLINE TERMINKALENDER -->
                     <li class="button-li">
-                        <button class="button_online-terminkalender">Online Terminkalender</button>
+                        <a href="./docs/online-booking.php" class="button_e-medikation">Online Terminkalender</a>
                     </li>
 
                 </ul>
