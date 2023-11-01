@@ -47,6 +47,10 @@
             <link rel="stylesheet" href="../style/online-booking.css">
         <?php break; ?>
 
+        <?php case "blog" ?>
+            <link rel="stylesheet" href="../style/blog.css">
+        <?php break; ?>
+
     <?php endswitch; ?>
 
 </head>
@@ -268,7 +272,7 @@
 
                 <!-- Blog -->
                     <li>
-                        <a href="#">Blog</a>
+                        <a href="./blog.php">Blog</a>
                     </li>
 
                 <!-- E - MEDIKATION -->

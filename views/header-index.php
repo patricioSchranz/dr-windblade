@@ -228,7 +228,7 @@
 
                 <!-- Blog -->
                     <li>
-                        <a href="#">Blog</a>
+                        <a href="./docs/blog.php">Blog</a>
                     </li>
 
                 <!-- E - MEDIKATION -->

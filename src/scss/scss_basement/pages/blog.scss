@@ -1,0 +1,28 @@
+@import './common.scss';
+
+.blog{
+
+    // BLOG INFO
+    &_info{
+        &_header{
+            height: calc(100svh - 5rem);
+            // border: 2px solid black;
+
+            img{
+                width: 100%;
+                height: 75%;
+                object-fit: cover;
+                object-position: top;
+            }
+
+            h2{
+                // border: 1px solid black;
+                height: 25%;
+                @include flex-row-center;
+                margin: 0;
+                padding: 0;
+
+            }
+        }
+    }
+}
