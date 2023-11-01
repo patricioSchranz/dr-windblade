@@ -1,28 +1,50 @@
 @import './common.scss';
 
 .blog{
+    @include flex-variable(column, wrap, flex-start, flex-start);
+
+    // INTRO SECTION
+    &_intro-section{
+        height: calc(100svh - 5rem);
+        width: 100%;
+
+        img{
+            width: 100%;
+            height: 75%;
+            object-fit: cover;
+            object-position: top;
+        }
+
+        h2{
+            // border: 1px solid black;
+            height: 25%;
+            @include flex-row-center;
+            margin: 0;
+            padding: 0;
+
+        }
+    }
 
     // BLOG INFO
     &_info{
-        &_header{
-            height: calc(100svh - 5rem);
-            // border: 2px solid black;
+        border: 3px solid green;
+    }
 
-            img{
-                width: 100%;
-                height: 75%;
-                object-fit: cover;
-                object-position: top;
-            }
+    // POSTS CARD CONTAINER
+    &_post-cards-container{
+        border: 3px solid tomato;
 
-            h2{
-                // border: 1px solid black;
-                height: 25%;
-                @include flex-row-center;
-                margin: 0;
-                padding: 0;
-
-            }
+        img{
+            display: none;
         }
+
+        &_pagination-container{
+            border: 2px solid pink;
+        }
+    }
+
+    // SIDEBAR
+    &_sidebar{
+        border: 3px solid blue;
     }
 }
