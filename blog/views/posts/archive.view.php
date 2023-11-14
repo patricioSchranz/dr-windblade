@@ -128,21 +128,21 @@ $page_selection = array_slice($pages, $offset, $limit);
             <?php endif; ?>
         </p>
 
-        <!-- PAGES -->
-        <p class="blog_info_pages">
-            Seite <?= $page_count ?> von <?= ceil( count($pages) / $limit ) ?>
-        </p>
-
         <!-- WHOLE POSTS -->
         <p class="blog_info_posts">
             Unser Blog hat insgesamt <span><?= $all_posts_count ?></span> Beiträge, davon werden dir gerade 
             <span><?= $selected_posts_count ?></span> aufgelistet.
         </p>
 
+        <!-- PAGES -->
+        <p class="blog_info_pages">
+            Seite <?= $page_count ?> von <?= ceil( count($pages) / $limit ) ?>
+        </p>
+
         <!-- POSTS ON CURRENT PAGE -->
-        <p>
+        <p class="blog_info_visible-posts-count">
             <?php if($page_count != $last_page) : ?>
-                <strong>Beiträge <?= $offset + 1 ?> - <?= ($offset +1)  + ($limit - 1) ?></strong>
+                Beiträge <?= $offset + 1 ?> - <?= ($offset +1)  + ($limit - 1) ?>
 
                 <?php else : ?>
                     <?php 
@@ -167,6 +167,7 @@ $page_selection = array_slice($pages, $offset, $limit);
             <!-- POST CARD -->
             <a href='<?php echo "{$current_path[0]}?single={$page->post_title}" ?>' class="blog_post-cards-container_card-link">
 
+                <!-- POST CARD -->
                 <article class="blog_post-cards-container_archive-card">
                     <!-- HEADER --> 
                     <header>

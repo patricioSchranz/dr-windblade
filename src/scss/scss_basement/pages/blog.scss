@@ -1,7 +1,7 @@
 @import './common.scss';
 
 .blog{
-    @include flex-variable(column, wrap, flex-start, flex-start);
+    @include flex-variable(row, wrap, space-between, stretch);
 
     // INTRO SECTION
     &_intro-section{
@@ -28,11 +28,40 @@
     // BLOG INFO
     &_info{
         border: 3px solid green;
+        width: 100%;
+        // padding-left: 5rem;
+        @include flex-variable(row, wrap, space-evenly, center);
+
+        p{
+            // display: inline-block;
+            // background-color: var(--color-primary-light-2);
+            padding: .3rem 1rem;
+        }
+
+        &_filter{
+           background-color: var(--color-primary-light-2); 
+        }
+
+        &_pages{
+            font-weight: bold;
+        }
+
+        &_visible-posts-count{
+            font-weight: bold;
+        }
     }
 
     // POSTS CARD CONTAINER
     &_post-cards-container{
         border: 3px solid tomato;
+        width: 60%;
+        margin: auto;
+
+        &_card-link{
+            border: 1px dashed black;
+            margin: 3rem 0;
+            display: block;
+        }
 
         img{
             display: none;
@@ -40,11 +69,13 @@
 
         &_pagination-container{
             border: 2px solid pink;
+            @include flex-variable(row, wrap, space-between, center);
         }
     }
 
     // SIDEBAR
     &_sidebar{
         border: 3px solid blue;
+        width: 20rem;
     }
 }
