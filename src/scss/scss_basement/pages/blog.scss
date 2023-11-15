@@ -7,6 +7,9 @@
     &_intro-section{
         height: calc(100svh - 5rem);
         width: 100%;
+        // border-bottom: 1px solid rgba(0,0,0, 0.2);
+        margin-bottom: 2rem;
+    
 
         img{
             width: 100%;
@@ -17,33 +20,55 @@
 
         h2{
             // border: 1px solid black;
-            height: 25%;
-            @include flex-row-center;
-            margin: 0;
-            padding: 0;
+            // height: 25%;
+            // @include flex-row-center;
+            // margin: 0;
+            // padding: 0;
+            // box-shadow: 1px 3px 6px rgba(0,0,0,.2);
+
+            height: 15vh;
+            background-color: var(--color-secondary);
+            box-shadow: 1px 3px 6px rgba(0,0,0,.2);
+            margin: -1rem auto 5rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            font-family: "Spectral SC",serif;
+            font-display: block;
+            font-weight: bold;
+            font-size: 2rem;
 
         }
     }
 
     // BLOG INFO
     &_info{
-        border: 3px solid green;
-        width: 100%;
+        // border: 3px solid green;
+        width: calc(60% + 20rem);
         // padding-left: 5rem;
-        @include flex-variable(row, wrap, space-evenly, center);
+        @include flex-variable(row, wrap, flex-start, center);
+        // border: 1px solid black;
+        margin: 0 auto 2rem;
 
-        p{
-            // display: inline-block;
-            // background-color: var(--color-primary-light-2);
-            padding: .3rem 1rem;
-        }
+        // p{
+        //     // display: inline-block;
+        //     // background-color: var(--color-primary-light-2);
+        // }
 
         &_filter{
            background-color: var(--color-primary-light-2); 
+           padding: .3rem 1rem;
+        }
+
+        &_posts{
+            width: 100%;
         }
 
         &_pages{
             font-weight: bold;
+            margin-right: 2rem,
         }
 
         &_visible-posts-count{
@@ -53,7 +78,7 @@
 
     // POSTS CARD CONTAINER
     &_post-cards-container{
-        border: 3px solid tomato;
+        // border: 3px solid tomato;
         width: 60%;
         margin: auto;
 
@@ -75,7 +100,49 @@
 
     // SIDEBAR
     &_sidebar{
-        border: 3px solid blue;
+        // border: 3px solid blue;
         width: 20rem;
+        // padding: 1rem;
+        border-radius: 2rem 0 0 2rem;
+        background: var(--color-primary-light-2);
+
+        a.all-posts{
+            background: #fff;
+            display: block;
+            background: var(--color-primary-light-2);
+            margin-top: 2rem;
+            margin-left: 1rem;
+            font-weight: bold;
+
+            span{
+                border-bottom: 1px solid black;
+                padding-bottom: .3rem;
+            }
+   
+        }
+
+        a:not(.all-posts){
+            padding: 0.3rem;
+            margin-bottom: 0.1rem;
+            display: block;
+            width: fit-content;
+            border-bottom: 1px solid black;
+        }
+
+        figure{
+            margin: 2rem 0;
+
+            figcaption{
+                background: rgba(255,255,255, 0.5);
+                width: 88%;
+                display: block;
+                padding: 0.3rem 1rem;
+                border-radius: 0 2rem 2rem 0;
+            }
+        }
+
+        ul{
+            padding-left: 1rem;
+        }
     }
 }

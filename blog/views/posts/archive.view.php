@@ -302,7 +302,7 @@ $page_selection = array_slice($pages, $offset, $limit);
     <aside class="blog_sidebar">
         <h3 class="hidden">Sidebar</h3>
 
-        <a href="blog.php" class="all-posts">All Posts</a>
+        <a href="blog.php" class="all-posts"><span>Alle Beiträge anzeigen</span></a>
 
         <!-- CATEGORIES -->
         <figure>
@@ -340,17 +340,7 @@ $page_selection = array_slice($pages, $offset, $limit);
             </ul>
         </figure>
 
-        <!-- DATES -->
-        <figure>
-            <figcaption>Dates</figcaption>
-            <ul>
-                <?php foreach($creation_dates as $creation_date){ ?>
-                    <li>
-                        <a href="?archive=creation_date&term=<?php echo urlencode($creation_date) ?>"><?= $creation_date ?></a>
-                    </li>
-                <?php } ?>
-            </ul>
-        </figure>
+   
 
         <!-- HASHTAGS -->
         <figure>
