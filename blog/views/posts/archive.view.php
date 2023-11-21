@@ -130,8 +130,16 @@ $page_selection = array_slice($pages, $offset, $limit);
 
         <!-- WHOLE POSTS -->
         <p class="blog_info_posts">
-            Unser Blog hat insgesamt <span><?= $all_posts_count ?></span> Beiträge, davon werden dir gerade 
-            <span><?= $selected_posts_count ?></span> aufgelistet.
+            <?php if ($selected_posts_count === 1) : ?>
+                Unser Blog hat insgesamt <span><?= $all_posts_count ?></span> Beiträge, davon wird dir gerade 
+                <span>einer</span> aufgelistet.
+
+                <?php else : ?>
+                    Unser Blog hat insgesamt <span><?= $all_posts_count ?></span> Beiträge, davon werden dir gerade 
+                    <span><?= $selected_posts_count ?></span> aufgelistet.
+
+            <?php endif; ?>
+           
         </p>
 
         <!-- PAGES -->
@@ -213,7 +221,7 @@ $page_selection = array_slice($pages, $offset, $limit);
             <?php if ($page_count > 1) : ?>
 
                 <?php if(count($_GET) < 2) : ?>
-                    <a href="?page=<?php echo $page_count - 1 ; ?>">Previous</a>
+                    <a href="?page=<?php echo $page_count - 1; ?>">Previous</a>
 
                 <?php else :?> 
                     <?php 
@@ -225,7 +233,7 @@ $page_selection = array_slice($pages, $offset, $limit);
                 <?php endif; ?>
                     
                 <?php else : ?>
-                <a href="#">Previous</a>
+                <a href="#" >Previous</a>
 
             <?php endif; ?>
             
