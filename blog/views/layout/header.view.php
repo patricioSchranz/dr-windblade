@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="default">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A Simple Blog</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"> -->
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yegor256/tacit@gh-pages/tacit-css-1.6.0.min.css"/> -->
     <!-- <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css"> -->
 
     <style>
+
+        /* FOSSILS FROM MD BLOG */
 
         .page-container > header:not(.single-header){
             display: flex;
@@ -152,7 +154,17 @@
         .single-header + main{
             padding: 2rem;
         }
+
+        /* body{
+            background: radial-gradient(circle, #00000020 10%, transparent 11%);
+            background-size: 1em 1em;
+            background-color: #ffffff;
+            background-attachment: fixed;
+        } */
     </style>
+
+    <link rel="stylesheet" href="../style/blog.css">
+
 </head>
 <body>
     <div class="page-container">

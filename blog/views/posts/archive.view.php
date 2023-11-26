@@ -233,7 +233,7 @@ $page_selection = array_slice($pages, $offset, $limit);
                 <?php endif; ?>
                     
                 <?php else : ?>
-                <a href="#" >Previous</a>
+                <a href="#" class="aimless-link">Previous</a>
 
             <?php endif; ?>
             
@@ -297,7 +297,7 @@ $page_selection = array_slice($pages, $offset, $limit);
                 <a href="?page=<?php echo $page_count + 1; ?>">Next</a>
 
                 <?php else : ?>
-                <a href="#">Next</a>
+                <a href="#" class="aimless-link">Next</a>
 
             <?php endif; ?>  
         </div>
