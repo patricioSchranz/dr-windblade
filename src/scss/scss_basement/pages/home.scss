@@ -91,8 +91,11 @@
     // LEISTUNGEN
     //
     &_leistungen{
-        background-color: var(--color-primary);
+        // background-color: var(--color-primary);
         position: relative;
+
+        background: rgb(208,239,177);
+        background: linear-gradient(188deg, rgba(208,239,177,1) 0%, rgba(255,255,255,1) 100%);
 
         &::before,
         &::after{
@@ -167,12 +170,19 @@
             width: 35rem;
             height: 35rem;
             margin: 2rem;
-            background-color: var(--color-primary-light-2);
+            // background-color: var(--color-primary-light-2);
             // background-color: #fff;
+            // background: rgba(255,255,255, 0.5);
+
+            background: rgb(232,247,216);
+            background: linear-gradient(188deg, rgba(232,247,216,1) 0%, rgba(255,255,255,1) 100%);
+
             border-radius: 1rem;
             overflow: hidden;
             @include flex-variable(column, nowrap, flex-start, center);
             position: relative;
+
+            border: 1px solid rgba(0,0,0, 0.2);
 
             @media screen and (min-width: 1550px){
                 flex-grow: 1;
@@ -210,7 +220,7 @@
                 }
 
                 img{
-                    filter:grayscale(2);
+                    // filter:grayscale(2);
                     width: 100%;
                     height: 12rem;
                     object-fit: cover;
@@ -225,10 +235,14 @@
                 h3{
                     background-color: var(--color-secondary);
                     margin: 0;
-                    padding: .5rem;
+                    padding: 1.5rem;
                     text-align: center;
                     @include font-heading-1();
                     @include box-shadow-default(rgba(0,0,0,0.2));
+                    font-size: 1.5rem;
+                    border: solid rgba(0, 0, 0, 0.3);
+                    border-width: 1px 0;
+                    background: rgba(255,255,255, 0.5);
 
                     // @media screen and (max-width: 1184px) {
                     //     position: absolute;
@@ -355,7 +369,7 @@
             }
 
             & img{
-                filter:grayscale(2);
+                // filter:grayscale(2);
                 width: 35rem;
                 height: 100%;
                 object-fit: cover;

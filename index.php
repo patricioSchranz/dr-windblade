@@ -25,8 +25,9 @@ require __DIR__ . './views/header-index.php';
 
 
             <div class="startpage_leistungen_card-container">
+
         <!-- CARD KASSENLEISTUNGEN -->
-            <div class="startpage_leistungen_card animate__animated" id="card-kassen">
+            <!-- <div class="startpage_leistungen_card animate__animated" id="card-kassen">
                 <div class="startpage_leistungen_card_header">
                     <img src="graphics/pics/stethoscope.jpg" alt="stethoscope">
                     <h3>Kassenleistungen</h3>
@@ -48,11 +49,11 @@ require __DIR__ . './views/header-index.php';
                 </ul>
 
                 <button class="startpage_leistungen_card_button" id="button_kassenleistungen">zu den Kassenleistungen</button>
-            </div>
+            </div> -->
 
 
         <!-- CARD WAHLARZTLEISTUNGEN -->
-            <div class="startpage_leistungen_card animate__animated" id="card-wahlarzt">
+            <!-- <div class="startpage_leistungen_card animate__animated" id="card-wahlarzt">
                 <div class="startpage_leistungen_card_header">
                     <img src="graphics/pics/analysis.jpg" alt="stethoscope">
                     <h3>Wahlarztleistungen</h3>
@@ -74,6 +75,62 @@ require __DIR__ . './views/header-index.php';
                 </ul>
 
                 <button class="startpage_leistungen_card_button" id="button_wahlarztleistungen">zu den Wahlarztleistungen</button>
+            </div> -->
+
+             <!-- KASSENLEISTUNGEN (big card) -->
+             <div class="startpage_leistungen_card big-card animate__animated" id="card-kassen">
+                <img src="graphics/pics/stethoscope.jpg" alt="stethoscope">
+
+                <div class="big-card_card-container">
+                    <div class="startpage_leistungen_card_header">
+                        <h3>Kassenleistungen</h3>
+                    </div>
+        
+                    <ul class="startpage_leistungen_card_list">
+                        <li>
+                            <span>Vorsorgeuntersuchung</span>
+                        </li>
+                        <li>
+                            <span>Ruhe EKG</span>
+                        </li>
+                        <li>
+                            <span>Lungenfunktion</span>
+                        </li>
+                        <li>
+                            <span>uvm.</span>
+                        </li>
+                    </ul>
+
+                    <button class="startpage_leistungen_card_button" id="button_kassenleistungen">zu den Kassenleistungen</button>
+                </div>
+            </div>
+
+            <!-- WAHLARZTLEISTUNGEN (big card) -->
+            <div class="startpage_leistungen_card big-card animate__animated" id="card-wahlarzt">
+                <img src="graphics/pics/analysis.jpg" alt="stethoscope">
+
+                <div class="big-card_card-container">
+                    <div class="startpage_leistungen_card_header">
+                        <h3>Wahlarztleistungen</h3>
+                    </div>
+        
+                    <ul class="startpage_leistungen_card_list">
+                    <li>
+                        <span>24h EKG</span>
+                    </li>
+                    <li>
+                        <span>24h Blutdruck</span>
+                    </li>
+                    <li>
+                        <span>Eventrecorder</span>
+                    </li>
+                    <li>
+                        <span>uvm.</span>
+                    </li>
+                </ul>
+        
+                    <button class="startpage_leistungen_card_button" id="button_wahlarztleistungen">zu den Wahlarztleistungen</button>
+                </div>
             </div>
 
 
