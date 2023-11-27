@@ -148,7 +148,8 @@
         &_card-container{
             @include flex-variable(row, wrap, space-between, center);
             // @include testing-border-1();
-            width: 90vw;
+            // width: 90vw;
+            width: 70vw;
             margin: 0 auto;
 
             @media screen and (max-width: 1184px) {
@@ -230,6 +231,8 @@
                     // @media screen and (max-width: 1184px) {
                     //     opacity: .05;
                     // }
+
+               
                 }
     
                 h3{
@@ -242,7 +245,7 @@
                     font-size: 1.5rem;
                     border: solid rgba(0, 0, 0, 0.3);
                     border-width: 1px 0;
-                    background: rgba(255,255,255, 0.5);
+                    background: rgba(255,255,255, 1);
 
                     // @media screen and (max-width: 1184px) {
                     //     position: absolute;
@@ -349,32 +352,48 @@
          &_card.big-card{
             // @include testing-border-2();
             width: 100%;
-            height: 30rem;
+            // height: 30rem;
+            height: 55vh;
             @include flex-variable(row, nowrap, space-between, center);
+            overflow: visible;
 
             @media screen and (max-width: 1184px) {
                 @include flex-variable(column, nowrap, flex-start, center);
                 height: auto;
             }
 
-            &:nth-of-type(even){
-                // & img{
-                //     order: 2;
-                // }
+            // &:nth-of-type(even){
+            //     // & img{
+            //     //     order: 2;
+            //     // }
 
+            //     & button{
+            //         position: relative;
+            //         margin: 1rem;
+            //     }
+            // }
+
+            &#card-more{
                 & button{
                     position: relative;
                     margin: 1rem;
+                    top: 0;
                 }
             }
 
             & img{
                 // filter:grayscale(2);
                 // width: 35rem;
-                width: 50%;
-                height: 100%;
+                // width: 50%;
+                // height: 100%;
                 object-fit: cover;
                 // flex-grow: 1;
+
+                width: 20rem;
+                height: 20rem;
+                object-fit: cover;
+                border-radius: 50%;
+                margin: auto 2rem;
 
                 @media screen and (max-width: 1184px) {
                     width: 100%;
@@ -400,9 +419,10 @@
 
             & h3{
                 position: absolute;
-                top: 0;
+                // top: 0;
                 right: 0;
                 width: 100%;
+                top: -1rem;
             }
 
             ul{
