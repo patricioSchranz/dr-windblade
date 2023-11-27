@@ -127,7 +127,7 @@
             
             padding: 2rem;
             margin-top: 5rem;
-            margin-bottom: 3rem;
+            // margin-bottom: 3rem;
 
             @media screen and(max-width: 550px) {
                 margin-bottom: 0;
@@ -358,9 +358,9 @@
             }
 
             &:nth-of-type(even){
-                & img{
-                    order: 2;
-                }
+                // & img{
+                //     order: 2;
+                // }
 
                 & button{
                     position: relative;
@@ -370,10 +370,11 @@
 
             & img{
                 // filter:grayscale(2);
-                width: 35rem;
+                // width: 35rem;
+                width: 50%;
                 height: 100%;
                 object-fit: cover;
-                flex-grow: 1;
+                // flex-grow: 1;
 
                 @media screen and (max-width: 1184px) {
                     width: 100%;
@@ -386,6 +387,7 @@
                 height: 100%;
                 @include flex-variable(column, nowrap, center, center);
                 position: relative;
+                flex-grow: 1;
 
                 @media screen and (max-width: 1387px) {
                     width: 47%;
@@ -471,28 +473,30 @@
 //     opacity: 0;
 // }
 
-#card-kassen{
-    transform: perspective(1000px) rotateY(25deg) translateX(5rem);
-    transition: all 2s;
+// #card-kassen{
+//     transform: perspective(1000px) rotateY(25deg) translateX(5rem);
+//     transition: all 2s;
 
-    @media screen and (orientation: portrait) {
-        transform: perspective(1000px) rotateY(0) translateX(0) scale(0.8);
-        opacity: 0.2;
-    }
-}
+//     @media screen and (orientation: portrait) {
+//         transform: perspective(1000px) rotateY(0) translateX(0) scale(0.8);
+//         opacity: 0.2;
+//     }
+// }
 
-#card-wahlarzt{
-    transform: perspective(1000px) rotateY(-25deg) translateX(-5rem);
-    transition: all 2s;
+// #card-wahlarzt{
+//     transform: perspective(1000px) rotateY(-25deg) translateX(-5rem);
+//     transition: all 2s;
 
-    @media screen and (orientation: portrait) {
-        transform: perspective(1000px) rotateY(0) translateX(0) scale(0.8);
-        opacity: 0.2;
-    }
-}
+//     @media screen and (orientation: portrait) {
+//         transform: perspective(1000px) rotateY(0) translateX(0) scale(0.8);
+//         opacity: 0.2;
+//     }
+// }
 
 #card-aesthetic,
-#card-more{
+#card-more,
+#card-kassen,
+#card-wahlarzt{
     transform: perspective(1000px) rotateX(25deg);
     transition: all 2s;
 
