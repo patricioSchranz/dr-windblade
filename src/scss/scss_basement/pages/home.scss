@@ -127,7 +127,11 @@
             
             padding: 2rem;
             margin-top: 5rem;
-            // margin-bottom: 3rem;
+            margin-bottom: 5rem;
+
+            @media screen and (max-width: 1000px) {
+                margin-bottom: 2rem;
+            }
 
             @media screen and(max-width: 550px) {
                 margin-bottom: 0;
@@ -135,6 +139,7 @@
 
             img{
                 width: 8rem;
+                margin-top: 2rem;
             }
 
             h2{
@@ -142,6 +147,7 @@
                 // text-shadow: 1px 1px 3px rgba($color: #000000, $alpha: 0.3);
                 font-size: 1.5rem;
                 opacity: 0;
+                display: none;
             }
         }
 
@@ -227,6 +233,7 @@
                     object-fit: cover;
                     display: block;
                     // opacity: .02;
+                  
 
                     // @media screen and (max-width: 1184px) {
                     //     opacity: .05;
@@ -353,13 +360,18 @@
             // @include testing-border-2();
             width: 100%;
             // height: 30rem;
-            height: 55vh;
+            height: 23.5rem;
             @include flex-variable(row, nowrap, space-between, center);
             overflow: visible;
+            margin-bottom: 4rem;
 
             @media screen and (max-width: 1184px) {
                 @include flex-variable(column, nowrap, flex-start, center);
                 height: auto;
+            }
+
+            @media screen and (max-width: 1000px) {
+                margin-bottom: 2rem;
             }
 
             // &:nth-of-type(even){
@@ -397,6 +409,7 @@
 
                 @media screen and (max-width: 1184px) {
                     width: 100%;
+                    border-radius: 0;
                 }
             }
 
@@ -427,7 +440,7 @@
 
             ul{
                 @media screen and (max-width: 1184px) {
-                    margin: 3rem auto 7rem;
+                    margin: 5rem auto 7rem;
                 }
             }
 
@@ -435,14 +448,14 @@
             //     position: relative;
             // }
 
-            &:nth-of-type(even){
-                ul{
+            // &:nth-of-type(even){
+            //     ul{
 
-                    @media screen and (max-width: 1184px) {
-                        margin: 6rem auto 3rem;
-                    }
-                }
-            }
+            //         @media screen and (max-width: 1184px) {
+            //             margin: 6rem auto 3rem;
+            //         }
+            //     }
+            // }
         }
 
          
