@@ -164,6 +164,10 @@
     <?php case 'index' ?>
         <script src="./src/js/home.js"></script>
         <?php break; ?>
+    
+    <?php case 'blog' ?>
+        <script src="../src/js/sidebar.js"></script>
+    <?php break; ?>
 
 <?php endswitch; ?>
 

@@ -65,6 +65,7 @@
         &_filter{
            background-color: var(--color-primary-light-2); 
            padding: .3rem 1rem;
+           position: relative;
         }
 
         &_posts{
@@ -78,6 +79,26 @@
 
         &_visible-posts-count{
             font-weight: bold;
+        }
+
+        .blog-filter{
+            position: absolute;
+            right: -5rem;
+            top: 50%;
+            transform: translateY(-50%);
+            border: 1px solid rgba(0,0,0, 0.1);
+            padding: .5rem;
+            width: 3rem;
+            height: 3rem;
+            border-radius: 50%;
+            @include flex-row-center;
+            background-color: var(--color-akzent);
+            cursor: pointer;
+
+            img{
+                width: 1.3rem;
+                opacity: 0.7;
+            }
         }
     }
 
@@ -177,24 +198,34 @@
         border-radius: 2rem 0 0 2rem;
         background: var(--color-primary-light-2);
 
+        .sidebar-close{
+            display: none;
+        }
+
 
         @media screen and (max-width: 1125px) {
             position: fixed;
-            z-index: 50;
+            z-index: 200;
             border-radius: 0;
             width: 100%;
             top: 0;
             right: 0;
             overflow: auto;
             height: 100%;
+            display: none;
 
             a{
                 text-align: center;
             }
 
-            display: none;
+            .sidebar-close{
+                display: block;
+                width: 3rem;
+                margin: 2rem auto;
+                cursor: pointer;
+            }
 
-            .visible-sidebar{
+            &.visible-sidebar{
                 display: block;
             }
         }

@@ -4,6 +4,7 @@
 $page = "blog";
 require __DIR__ . '/../../../views/header.php';
 
+
 $filtered_pages;
 $filter;
 
@@ -126,6 +127,10 @@ $page_selection = array_slice($pages, $offset, $limit);
                 <?php else : ?>
                     Alle Beiträge
             <?php endif; ?>
+
+            <span class="blog-filter">
+                <img src="./../graphics/icons_n_co/filter.svg" alt="filter icon" >
+            </span>  
         </p>
 
         <!-- WHOLE POSTS -->
@@ -310,6 +315,8 @@ $page_selection = array_slice($pages, $offset, $limit);
     <aside class="blog_sidebar">
         <h3 class="hidden">Sidebar</h3>
 
+        <img src="./../graphics/icons_n_co/close.svg" alt="close icon" class="sidebar-close">
+
         <a href="blog.php" class="all-posts"><span>Alle Beiträge anzeigen</span></a>
 
         <!-- CATEGORIES -->
@@ -369,5 +376,5 @@ $page_selection = array_slice($pages, $offset, $limit);
 
 
 
-
+<?php $page = 'blog'; ?>
 <?php require __DIR__ . '/../../../views/footer.php'; ?>
