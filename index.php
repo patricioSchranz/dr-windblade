@@ -101,7 +101,7 @@ require __DIR__ . './views/header-index.php';
                         </li>
                     </ul>
 
-                    <button class="startpage_leistungen_card_button" id="button_kassenleistungen">zu den Kassenleistungen</button>
+                    <a class="startpage_leistungen_card_button" id="button_kassenleistungen" href="./docs/services.php#check-up">zu den Kassenleistungen</a>
                 </div>
             </div>
 
@@ -129,7 +129,7 @@ require __DIR__ . './views/header-index.php';
                     </li>
                 </ul>
         
-                    <button class="startpage_leistungen_card_button" id="button_wahlarztleistungen">zu den Wahlarztleistungen</button>
+                    <a class="startpage_leistungen_card_button" id="button_wahlarztleistungen" href="./docs/private-services.php#rest-ekg">zu den Wahlarztleistungen</a>
                 </div>
             </div>
 
@@ -158,7 +158,7 @@ require __DIR__ . './views/header-index.php';
                         </li>
                     </ul>
         
-                    <button class="startpage_leistungen_card_button" id="button_aesthetic">zur Alternativen Medizin</button>
+                    <a class="startpage_leistungen_card_button" id="button_aesthetic" href="./docs/alternate-services.php#acupuncture">zur Alternativen Medizin</a>
                 </div>
             </div>
 
@@ -174,15 +174,15 @@ require __DIR__ . './views/header-index.php';
                     <ul class="big-card_list">
                         <li>
                             <!-- <span>Alles zum Thema Corona</span> -->
-                            <button class="startpage_leistungen_card_button" id="button_corona">Alles zum Thema Corona</button>
+                            <a class="startpage_leistungen_card_button" id="button_corona" href="./docs/corona-services.php#covid-antigen">Alles zum Thema Corona</a>
                         </li>
                         <li>
                             <!-- <span>24h Blutdruck</span> -->
-                            <button class="startpage_leistungen_card_button" id="button_herz-fit">Qi Gong Gruppe</button>
+                            <a class="startpage_leistungen_card_button" id="button_herz-fit" href="./docs/alternate-ways.php#meditation-group">Qi Gong Gruppe</a>
                         </li>
                         <li>
                             <!-- <span>Eventrecorder</span> -->
-                            <button class="startpage_leistungen_card_button" id="button_physiotherapie">Physiotherapie</button>
+                            <a class="startpage_leistungen_card_button" id="button_physiotherapie"  href="./docs/physical-therapy.php">Physiotherapie</a>
                         </li>
                     </ul>
                 </div>

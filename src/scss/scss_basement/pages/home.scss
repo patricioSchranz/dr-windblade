@@ -319,6 +319,7 @@
                 // z-index: 2;
                 transform-style: preserve-3d;
                 // transition: all .1s;
+                display: block;
 
                 // @media screen and (max-width: 1184px) {
                 //     position: relative;
@@ -386,7 +387,7 @@
             // }
 
             &#card-more{
-                & button{
+                & a{
                     position: relative;
                     margin: 1rem;
                     top: 0;
