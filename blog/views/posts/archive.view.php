@@ -52,7 +52,8 @@ if(isset($_GET['archive'])){
 
     $filter_upper_chars = strtoupper($searched_meta);
     $filter_upper_chars = str_replace('_', ' ', $filter_upper_chars);
-    $filter = "<span>Filter:</span> <span>{$filter_upper_chars}</span> / <span>{$searched_term}</span>";
+    // $filter = "<span>Filter:</span> <span>{$filter_upper_chars}</span> / <span>{$searched_term}</span>";
+    $filter = "<span>Angewendeter Filter : </span><span class='searched-term'>{$searched_term}</span>";
 
 }
 
@@ -321,7 +322,7 @@ $page_selection = array_slice($pages, $offset, $limit);
 
         <!-- CATEGORIES -->
         <figure>
-            <figcaption>Categories</figcaption>
+            <figcaption>Kategorien</figcaption>
             <ul>
                 <?php foreach($categories as $category){ ?>
                     <li>
@@ -333,7 +334,7 @@ $page_selection = array_slice($pages, $offset, $limit);
 
         <!-- SUB CATEGORIES -->
         <figure>
-            <figcaption>Sub Categories</figcaption>
+            <figcaption>Unterkategorien</figcaption>
             <ul>
                 <?php foreach($sub_categories as $sub_category){ ?>
                     <li>
@@ -345,7 +346,7 @@ $page_selection = array_slice($pages, $offset, $limit);
 
         <!-- AUTHORS -->
         <figure>
-            <figcaption>Authors</figcaption>
+            <figcaption>Autoren</figcaption>
             <ul>
                 <?php foreach($authors as $author){ ?>
                     <li>
