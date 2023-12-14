@@ -62,21 +62,26 @@ function get_blog_metas($snippets){
 
     foreach($snippets as $snippet){
 
-        $category = $snippet['category'][1];
-        $sub_category = $snippet['sub_category'][1];
-        $author = $snippet['author'][1];
-        $creation_date = $snippet['creation_date'][1];
+        $category = isset($snippet['category'][1]) ? $snippet['category'][1] : '' ;
+        $sub_category = isset($snippet['sub_category'][1]) ? $snippet['sub_category'][1] : '';
+        $author = isset($snippet['author'][1]) ? $snippet['author'][1] : '';
+        $creation_date = $snippet['creation_date'][1] ;
+
     
-        if(!in_array($category, $categories) ) { $categories[] = $category; }
-        if(!in_array($sub_category, $sub_categories) ) { $sub_categories[] = $sub_category; }
-        if(!in_array($author, $authors) ) { $authors[] = $author; }
+        if(!in_array($category, $categories) && !empty($category) ) { $categories[] = $category; }
+        if(!in_array($sub_category, $sub_categories) && !empty($sub_category) ) { $sub_categories[] = $sub_category; }
+        if(!in_array($author, $authors) && !empty($author)) { $authors[] = $author; }
         if(!in_array($creation_date, $creation_dates) ) { $creation_dates[] = $creation_date; }
     
-        $all_hashtags = $snippet['hashtags'][1];
+        if( isset($snippet['hashtags'][1]) && is_array($snippet['hashtags'][1]) ){
+            $all_hashtags = $snippet['hashtags'][1];
 
-        foreach($all_hashtags as $hashtag){
-            if(!in_array($hashtag, $hashtags)){ $hashtags[] = $hashtag ; }
+
+            foreach($all_hashtags as $hashtag){
+                if(!in_array($hashtag, $hashtags)){ $hashtags[] = $hashtag ; }
+            }
         }
+       
     }
 
     sort($categories);

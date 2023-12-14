@@ -56,8 +56,13 @@ class Page {
                 // => go deeper => the li element and his content is what we needed (not the ul)
                 $hashtag_content_pattern = '/<li>(.*?)<\/li>/s';
 
-                preg_match_all($hashtag_content_pattern, $extracted[1], $clean_hashtags);
-
+                if (isset($extracted[1])) {
+                    preg_match_all($hashtag_content_pattern, $extracted[1], $clean_hashtags);
+                }
+                else{
+                    $clean_hashtags = Array('#', '#');
+                }
+                
                 $this->snippet['hashtags'] = $clean_hashtags;
             } 
             else if($pattern_name === 'first_paragraph'){

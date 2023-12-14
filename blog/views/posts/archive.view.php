@@ -24,25 +24,28 @@ if(isset($_GET['archive'])){
         //    dump($page_hashtags);
         //    dump($searched_term);
 
-           foreach($page_hashtags as $hashtag){
-                $count = 0;
-
-                $hashtag = trim(str_replace('#', '', $hashtag));
-
-                // dump($hashtag);
-
-                $hashtag === $searched_term 
-                ? $count++
-                : $count = $count;
-
-                if( ($count === 1 ) && ( $hashtag === $searched_term )){ return $page ;}
-           }
+            if(is_array($page_hashtags)) {
+                foreach($page_hashtags as $hashtag){
+                    $count = 0;
+    
+                    $hashtag = trim(str_replace('#', '', $hashtag));
+    
+                    // dump($hashtag);
+    
+                    $hashtag === $searched_term 
+                    ? $count++
+                    : $count = $count;
+    
+                    if( ($count === 1 ) && ( $hashtag === $searched_term )){ return $page ;}
+               }
+            }
+           
 
            return;
         }
 
 
-        $category_term = $page->snippet[$searched_meta][1];
+        $category_term = isset($page->snippet[$searched_meta][1]) ? $page->snippet[$searched_meta][1] : '' ;
 
         if($category_term === $searched_term){  return $page; }
        
@@ -185,12 +188,25 @@ $page_selection = array_slice($pages, $offset, $limit);
                 <article class="blog_post-cards-container_archive-card">
                     <!-- HEADER --> 
                     <header>
-                        <h4 class="page-card_title"><?php echo $page->post_title ?></h4>
-                        <p class="page-card_meta">By : <?php echo $page->snippet['author'][1] ?></p>
-                        <p class="page-card_meta">Created : <?php echo $page->snippet['creation_date'][1] ?></p>
-                        <p class="page-card_meta">Category : <?php echo $page->snippet['category'][1] ?></p>
-                        <p class="page-card_meta">Sub category : <?php echo $page->snippet['sub_category'][1] ?></p>
 
+                        <h4 class="page-card_title"><?php echo $page->post_title ?></h4>
+
+                        <?php if (isset($page->snippet['author'][1])) : ?>
+                            <p class="page-card_meta">By : <?php echo $page->snippet['author'][1] ?></p>
+                        <?php endif; ?>
+
+                        <?php if (isset($page->snippet['creation_date'][1])) : ?>
+                            <p class="page-card_meta">Created : <?php echo $page->snippet['creation_date'][1] ?></p>
+                        <?php endif; ?>
+                        
+                        <?php if (isset($page->snippet['category'][1])) : ?>
+                            <p class="page-card_meta">Category : <?php echo $page->snippet['category'][1] ?></p>
+                        <?php endif; ?>
+
+                        <?php if (isset($page->snippet['sub_category'][1])) : ?>
+                            <p class="page-card_meta">Sub category : <?php echo $page->snippet['sub_category'][1] ?></p>
+                        <?php endif; ?>
+                        
                         <figure class="page-card_meta hashtags">
                             <figcaption>Hashtags :</figcaption>
                             <ul >
