@@ -16,7 +16,8 @@
     "build:e-medication": "sass ./src/scss/scss_basement/pages/e-medication.scss ./style/e-medication.css --style=compressed --watch",
     "build:alternate-ways": "sass ./src/scss/scss_basement/pages/alternate-ways.scss ./style/alternate-ways.css --style=compressed --watch",
     "build:online-booking": "sass ./src/scss/scss_basement/pages/online-booking.scss ./style/online-booking.css --style=compressed --watch",
-    "build:blog": "sass ./src/scss/scss_basement/pages/blog.scss ./style/blog.css --style=compressed --watch"
+    "build:blog": "sass ./src/scss/scss_basement/pages/blog.scss ./style/blog.css --style=compressed --watch",
+    "build:news": "sass ./src/scss/scss_basement/pages/news.scss ./style/news.css --style=compressed --watch"
   },
   "author": "",
   "license": "ISC",

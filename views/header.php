@@ -51,6 +51,10 @@
             <link rel="stylesheet" href="../style/blog.css">
         <?php break; ?>
 
+        <?php case "news" ?>
+            <link rel="stylesheet" href="../style/news.css">
+        <?php break; ?>
+
     <?php endswitch; ?>
 
 </head>
@@ -252,7 +256,7 @@
 
                 <!-- AKTUELLES -->
                     <li>
-                        <a href="#">Aktuelles</a>
+                        <a href="./news.php">Aktuelles</a>
                     </li>
 
                 <!-- PHYSIOTHERAPIE -->

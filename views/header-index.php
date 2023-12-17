@@ -208,7 +208,7 @@
 
                 <!-- AKTUELLES -->
                     <li>
-                        <a href="#">Aktuelles</a>
+                        <a href="./docs/news.php">Aktuelles</a>
                     </li>
 
                 <!-- PHYSIOTHERAPIE -->
