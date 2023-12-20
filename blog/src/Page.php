@@ -67,17 +67,23 @@ class Page {
             } 
             else if($pattern_name === 'first_paragraph'){
 
-                $word_array = explode(' ', $extracted[1]);
-                $split_length = 20;
-
-                if(sizeof($word_array) > $split_length){
-                    $sliced_word_array = array_slice($word_array, 0, $split_length);
-                    $the_excerpt = implode(' ', $sliced_word_array) . '...';
-
-                    $extracted[1] = $the_excerpt;
-
-                    $this->snippet['excerpt'] = $extracted;
+                if(isset($extracted[1])){
+                    $word_array = explode(' ', $extracted[1]);
+                    $split_length = 20;
+    
+                    if(sizeof($word_array) > $split_length){
+                        $sliced_word_array = array_slice($word_array, 0, $split_length);
+                        $the_excerpt = implode(' ', $sliced_word_array) . '...';
+    
+                        $extracted[1] = $the_excerpt;
+    
+                        $this->snippet['excerpt'] = $extracted;
+                    }
                 }
+                else{
+                    $this->snippet['excerpt'] = ''; 
+                }
+                
            
             }
             else if($pattern_name === 'title'){

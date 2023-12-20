@@ -1,7 +1,7 @@
 Don Juan
 {.author}
 
-20.12.2023
+14.09.2023
 {.creation-date}
 
 Full Stack
@@ -15,13 +15,13 @@ JavaScript
 - \# Basics
 {.hashtags}
 
-Wir wünschen Frohe Weihnachten
+AAA
 {.title}
 
 
-### Weihnachtspause
+### TEST
 
-![A test image](./../news/content/assets/christmas.jpg){.image}
+
 
 
 Hello World **Hello** Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
