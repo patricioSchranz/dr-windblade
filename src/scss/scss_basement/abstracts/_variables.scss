@@ -20,7 +20,39 @@
 
     --color-akzent-2: #2EC4B6;
     --color-akzent-3: #1E8BC3;
+
+    // --percent-op-animation-1: 0%;
+    // --percent-op-animation-2: 6%;
 }
+
+
+
+//
+// '@property'
+//
+
+
+@property --color-op-animation{
+    syntax: '<color>';
+    inherits: false;
+    initial-value: rgba(255,255,255,1);
+}
+
+@property --percent-op-animation-1{
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 0%;
+}
+
+@property --percent-op-animation-2{
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 6%;
+}
+
+
+
+
 
 //
 // 'COLORS'

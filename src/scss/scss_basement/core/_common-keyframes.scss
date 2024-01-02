@@ -9,3 +9,22 @@
         width: 0%;
     }
 }
+
+@keyframes show-soft {
+ 
+    80%{
+        // --percent-op-animation-1: 50%;
+        --percent-op-animation-2: 100%;
+    }
+
+    100%{
+        --percent-op-animation-1: 100%;
+        --percent-op-animation-2: 100%;
+    }
+}
+
+@keyframes rotate-in-y-circle{
+    to{
+        transform: perspective(100px) rotateY(360deg);
+    }
+}
