@@ -9,16 +9,63 @@
 
 
 // NUNITO
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
 
 // HANDWRITING
-@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
 
 // PERSONAL
-@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
 
 // HEADING
-@import url('https://fonts.googleapis.com/css2?family=Spectral+SC&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Spectral+SC&display=swap');
+
+
+// SPECTRAL 
+@font-face {
+    font-family: "Spectral SC";
+    src: url(./../fonts/spectral-sc-v12-latin-regular.woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Spectral SC";
+    src: url(./../fonts/spectral-sc-v12-latin-600.woff2);
+    font-weight: bold;
+    font-style: normal;
+}
+
+// ALLISON
+@font-face {
+    font-family: "Allison";
+    src: url(./../fonts/allison-v11-latin-regular.woff2);
+}
+
+// GRAPE NUTS
+@font-face {
+    font-family: "Grape Nuts";
+    src: url(./../fonts/grape-nuts-v5-latin-regular.woff2);
+}
+
+// NUNITO
+@font-face {
+    font-family: "Nunito Sans";
+    src: url(./../fonts/nunito-sans-v15-latin-regular.woff2);
+}
+
+@font-face {
+    font-family: "Nunito Sans";
+    src: url(./../fonts/nunito-sans-v15-latin-700.woff2);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Nunito Sans";
+    src: url(./../fonts/nunito-sans-v15-latin-500.woff2);
+    font-weight: 500;
+}
+
 
 //
 // 'USE'
