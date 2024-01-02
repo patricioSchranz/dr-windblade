@@ -144,6 +144,7 @@
                 padding: 1rem;
                 background-color: var(--color-secondary);
                 border-radius: 0 1rem 1rem 0;
+                box-shadow: 0 0 10px rgba(0,0,0,0.2);
 
                 @media screen and (max-width: 650px) {
                     width: 95%;
@@ -225,14 +226,19 @@
     .tel-button{
         // border: 1px solid black;
         background-color: var(--color-akzent);
-        padding: 2rem;
+        padding: 1rem 2rem;
         margin: 9rem auto 0;
         display: block;
         width: 30rem;
         text-align: right;
-        @include box-shadow-default(rgba(0,0,0,0.2));
+        // @include box-shadow-default(rgba(0,0,0,0.2));
+        box-shadow: 0 0 20px rgba($color: #000000, $alpha: 0.2);
         position: relative;
-        transition: all .1s ease-in-out;
+        transition: all .3s ease-in-out;
+
+        &:hover{
+            box-shadow: 0 0 10px rgba($color: #000000, $alpha: 0.3);
+         }
 
         @media screen and (max-width: 1115px) {
             margin-top: 5rem;
@@ -240,7 +246,7 @@
 
         @media screen and (max-width: 850px){
             padding: 1rem;
-            padding-right: 2rem;
+            // padding-right: 2rem;
         }
 
         @media screen and (max-width: 530px){
@@ -257,12 +263,10 @@
         }
 
         @media screen and (max-width: 420px) {
-            width: 95%;
+            width: 90%;
         }
 
-        &:hover{
-           @include box-shadow-default-hover(rgba(0,0,0,0.3));
-        }
+       
 
         &::before{
             content: '';
