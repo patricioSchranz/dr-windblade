@@ -41,6 +41,15 @@
         border-radius: 1rem;
         position: relative;
 
+        @media screen and (max-width: 1000px) {
+            width: 100%;
+            margin-bottom: 10rem;
+        }
+
+        @media screen and (max-width: 600px) {
+            margin-bottom: 3rem;
+         }
+
         &::after{
             content: '';
             width: 8rem;
@@ -50,6 +59,10 @@
             bottom: -8rem;
             left: calc(50% - 4rem);
             display: block;
+
+            @media screen and (max-width: 600px) {
+               display: none;
+            }
         }
 
         &_header{
@@ -64,6 +77,13 @@
                 padding: 1rem;
                 padding-right: 5rem;
                 // box-shadow: 0px 4px 6px rgba(0,0,0, 0.25);
+
+                @media screen and (max-width: 600px) {
+                    margin-right: 0;
+                    padding-right: 0;
+                    width: 100%;
+                    text-align: center;
+                }
             }
 
             h2{
@@ -72,6 +92,12 @@
                 font-family: "Allison",cursive;
                 font-weight: 400;
                 font-size: 2.3rem;
+
+                @media screen and (max-width: 600px) {
+                    padding-left: 0rem;
+                    text-align: center;
+                    line-height: 125%;
+                }
             }
         }
 
@@ -79,8 +105,24 @@
             width: 50rem;
             padding: 2rem;
 
+            @media screen and (max-width: 1000px) {
+                width: 100%;
+            }
+
+            @media screen and (max-width: 600px) {
+                padding: 1rem;
+
+                // h1,h,h3,h4,h5,h6{
+                //     text-align: center;
+                // }
+            }
+
+            @media screen and (max-width: 400px) {
+               padding: 0.5rem;
+            }
+
             img{
-                width: 100%;;
+                width: 100%
             }
         }
     }
