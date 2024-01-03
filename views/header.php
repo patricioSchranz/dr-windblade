@@ -57,6 +57,8 @@
 
     <?php endswitch; ?>
 
+    <link rel="stylesheet" href="../style/viewport-animations.css">
+
 </head>
 <body>
     <div class="big-container">

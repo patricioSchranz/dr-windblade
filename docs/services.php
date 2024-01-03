@@ -35,8 +35,10 @@ require __DIR__ . './../views/header.php';
         <h2 class="outer-heading" data-id="#check-up">Vorsorgeuntersuchung</h2>
 
         <div class="services_service_content">
-            <img src="../graphics/pics/yoga-1.jpg">
-
+            <figure class="the-circle-grows">
+                <img src="../graphics/pics/yoga-1.jpg" >
+            </figure>
+            
             <div class="services_service_text">
                 <h2 class="inner-heading">Vorsorgeuntersuchung</h2>
 
@@ -75,8 +77,11 @@ require __DIR__ . './../views/header.php';
         <h2 class="outer-heading" data-id="#rest-ekg">Ruhe EKG</h2>
 
         <div class="services_service_content">
-            <img src="../graphics/pics/yoga-2.jpg">
 
+            <figure class="the-circle-grows">
+                <img src="../graphics/pics/yoga-2.jpg">
+            </figure>
+            
             <div class="services_service_text">
                 <h2>Ruhe EKG</h2>
 
@@ -115,7 +120,11 @@ require __DIR__ . './../views/header.php';
         <h2 class="outer-heading" data-id="#lung-function">Lungenfunktion</h2>
 
         <div class="services_service_content">
-            <img src="../graphics/pics/yoga-3.jpg">
+
+            <figure class="the-circle-grows">
+                <img src="../graphics/pics/yoga-3.jpg">
+            </figure>
+            
 
             <div class="services_service_text">
                 <h2>Lungenfunktion</h2>
@@ -155,7 +164,11 @@ require __DIR__ . './../views/header.php';
         <h2 class="outer-heading" data-id="#infusion-therapy">Infusionstherapie</h2>
 
         <div class="services_service_content">
-            <img src="../graphics/pics/yoga-4.jpg">
+
+            <figure class="the-circle-grows">
+                <img src="../graphics/pics/yoga-4.jpg">
+            </figure>
+           
 
             <div class="services_service_text">
                 <h2>Infustionstherapie</h2>
