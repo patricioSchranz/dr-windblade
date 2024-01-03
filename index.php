@@ -173,15 +173,12 @@ require __DIR__ . './views/header-index.php';
         
                     <ul class="big-card_list">
                         <li>
-                            <!-- <span>Alles zum Thema Corona</span> -->
                             <a class="startpage_leistungen_card_button" id="button_corona" href="./docs/corona-services.php#covid-antigen">Alles zum Thema Corona</a>
                         </li>
                         <li>
-                            <!-- <span>24h Blutdruck</span> -->
-                            <a class="startpage_leistungen_card_button" id="button_herz-fit" href="./docs/alternate-ways.php#meditation-group">Qi Gong Gruppe</a>
+                            <a class="startpage_leistungen_card_button" id="button_herz-fit" href="./docs/alternate-ways.php#qi-gong-group">Qi Gong Gruppe</a>
                         </li>
                         <li>
-                            <!-- <span>Eventrecorder</span> -->
                             <a class="startpage_leistungen_card_button" id="button_physiotherapie"  href="./docs/physical-therapy.php">Physiotherapie</a>
                         </li>
                     </ul>

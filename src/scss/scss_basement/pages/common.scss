@@ -95,6 +95,7 @@ body{
             @include flex-row-center();
             // background-color: tomato;
             position: relative;
+            transition: all .3s;
            
             & > a:hover{
                 font-weight: bold;

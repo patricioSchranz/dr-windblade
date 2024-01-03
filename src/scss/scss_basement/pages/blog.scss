@@ -25,6 +25,10 @@
             height: 75vh;
             object-fit: cover;
             object-position: top;
+
+            @media screen and (max-width: 1000px) {
+                height: 74svh;
+            }
         }
 
         h2{
@@ -48,6 +52,10 @@
             font-display: block;
             font-weight: bold;
             font-size: 2rem;
+
+            @media screen and (max-width: 1000px) {
+                height: 17svh;
+            }
 
         }
     }
