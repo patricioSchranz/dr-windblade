@@ -134,13 +134,15 @@
     <script src="src/js/hamburger_navigation.js"></script>
     <script src="src/js/header.js"></script>
     <script src="src/js/in-viewport.js"></script>
+    <script src="src/js/viewport-animations.js"></script>
 
     <?php else :?>
         <!-- <script src="../src/js/resize.js"></script> -->
         <script src="../src/js/common-dom-elements.js"></script>
         <script src="../src/js/hamburger_navigation.js"></script>
         <script src="../src/js/header.js"></script>
-        <!-- <script src="../src/js/in-viewport.js"></script> -->
+        <script src="../src/js/in-viewport.js"></script>
+        <script src="../src/js/viewport-animations.js"></script>
 
 <?php endif; ?>
 

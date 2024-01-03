@@ -2,6 +2,11 @@
 // VIEWPORT ANIMATIONS
 // ************************
 
+
+// ::::::::::::::::::::::
+// CUSTOM PROPERTIES
+// ::::::::::::::::::::::
+
 @property --percent-tcg-1{
     syntax: '<percentage>';
     inherits: false;
@@ -13,6 +18,66 @@
     inherits: false;
     initial-value: 6%;
 }
+
+
+// :::::::::::::::::::::::::::
+// VIEWPORT ANIMATION ELEMENTS
+// :::::::::::::::::::::::::::
+
+.anel{
+
+    --animation-duration: 2s;
+
+    // &.opacity-in{
+    //     transition: all var(--animation-duration);
+    // }
+
+    &.the-circle-grows{
+        position: relative;
+
+        &::before{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: block;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, rgba(255,255,255,0) var(--percent-tcg-1), rgba(255,255,255,1) var(--percent-tcg-2) );
+            z-index: 2;
+            // animation: the-circle-grows 1s forwards ease-in-out;
+        }
+
+        &.in-right-place{
+        
+            &::before{
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                display: block;
+                width: 100%;
+                height: 100%;
+                background: radial-gradient(circle, rgba(255,255,255,0) var(--percent-tcg-1), rgba(255,255,255,1) var(--percent-tcg-2) );
+                // background: white;
+                z-index: 2;
+                animation: the-circle-grows var(--animation-duration) forwards ease-in-out;
+            }
+        }    
+    }
+
+    &.opacity-in{
+        opacity: 0.2;
+        transition: all var(--animation-duration);
+        
+        &.in-right-place{
+            opacity: 1;
+        }
+    }
+
+}
+
+
 
 
 // ::::::::::::::::::::::
@@ -37,25 +102,25 @@
 }
 
 
-.the-circle-grows{
-    position: relative;
+// .the-circle-grows{
+//     position: relative;
 
 
-    &::before{
+//     &::before{
 
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        display: block;
-        width: 100%;
-        height: 100%;
-        background: radial-gradient(circle, rgba(255,255,255,0) var(--percent-tcg-1), rgba(255,255,255,1) var(--percent-tcg-2) );
-        // background: white;
-        z-index: 2;
-        animation: the-circle-grows 1s forwards ease-in-out;
-    }
-}
+//         content: '';
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         display: block;
+//         width: 100%;
+//         height: 100%;
+//         background: radial-gradient(circle, rgba(255,255,255,0) var(--percent-tcg-1), rgba(255,255,255,1) var(--percent-tcg-2) );
+//         z-index: 2;
+//         animation: the-circle-grows 1s forwards ease-in-out;
+//     }
+// }
+
 
 
 // ::::::::::::::::::::::

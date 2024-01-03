@@ -63,11 +63,16 @@
 
         &:target{
             display: block;
+
+            figure{
+                display: block;
+            }
         }
 
         figure{
             padding: 0;
             margin: 0;
+            display: none;
         }
 
         .outer-heading{

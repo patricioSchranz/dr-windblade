@@ -35,7 +35,12 @@ require __DIR__ . './../views/header.php';
         <h2 class="outer-heading" data-id="#check-up">Vorsorgeuntersuchung</h2>
 
         <div class="services_service_content">
-            <figure class="the-circle-grows">
+
+            <figure 
+                class="
+                    anel
+                    ani-style_the-circle-grows
+                    ">
                 <img src="../graphics/pics/yoga-1.jpg" >
             </figure>
             
@@ -78,7 +83,7 @@ require __DIR__ . './../views/header.php';
 
         <div class="services_service_content">
 
-            <figure class="the-circle-grows">
+            <figure class="anel">
                 <img src="../graphics/pics/yoga-2.jpg">
             </figure>
             
@@ -121,7 +126,7 @@ require __DIR__ . './../views/header.php';
 
         <div class="services_service_content">
 
-            <figure class="the-circle-grows">
+            <figure class="anel">
                 <img src="../graphics/pics/yoga-3.jpg">
             </figure>
             
@@ -165,7 +170,7 @@ require __DIR__ . './../views/header.php';
 
         <div class="services_service_content">
 
-            <figure class="the-circle-grows">
+            <figure class="anel ">
                 <img src="../graphics/pics/yoga-4.jpg">
             </figure>
            
