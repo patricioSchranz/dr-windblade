@@ -38,8 +38,9 @@ require __DIR__ . './../views/header.php';
 
             <figure 
                 class="
-                    anel
-                    ani-style_the-circle-grows
+                    animation-element
+                    animation--style_the-circle-grows
+                    animation--duration_3000
                     ">
                 <img src="../graphics/pics/yoga-1.jpg" >
             </figure>
@@ -83,7 +84,7 @@ require __DIR__ . './../views/header.php';
 
         <div class="services_service_content">
 
-            <figure class="anel">
+            <figure class="animation-element">
                 <img src="../graphics/pics/yoga-2.jpg">
             </figure>
             
@@ -126,7 +127,7 @@ require __DIR__ . './../views/header.php';
 
         <div class="services_service_content">
 
-            <figure class="anel">
+            <figure class="animation-element">
                 <img src="../graphics/pics/yoga-3.jpg">
             </figure>
             
@@ -170,7 +171,7 @@ require __DIR__ . './../views/header.php';
 
         <div class="services_service_content">
 
-            <figure class="anel ">
+            <figure class="animation-element ">
                 <img src="../graphics/pics/yoga-4.jpg">
             </figure>
            

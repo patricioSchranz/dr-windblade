@@ -7,8 +7,9 @@
 // ::::::::::::::::::::::::
 
 const 
-    aniRegex = /\bani\w*\b/g,
-    styleRegex = /\b\w*style\w*\b/g
+    animationRegex = /\banimation--\w*\b/g,
+    styleRegex = /\b\w*style\w*\b/g,
+    durationRegex = /\b\w*duration\w*\b/g
 
 
     
@@ -18,32 +19,57 @@ const
 
 class AnimationElement{
 
+    // .................
+    // CONSTRUCTOR
+
     constructor(animationElement){
         this.element = animationElement
 
         this.setAnimationStyle(this.element)
-        this.setElementCssClasses(this.animationStyle)
+        this.setAnimationDuration(this.element)
+
+        this.setElementCssClass(this.animationStyle)
 
         this.percent = 0.5
     }
 
-    getAniClasses(element){
+    // .................
+    // CLASS CALLBACKS
+
+    getAnimationClasses(element){
         const cssClasses = Array.from(element.classList)
-        return cssClasses.filter( cssClass => aniRegex.test(cssClass) )  
+        return cssClasses.filter( cssClass => animationRegex.test(cssClass) )  
     }
+
+    // .......................
+    // => SET CLASS PROPERTYS
 
     setAnimationStyle(element) {
         const 
-            aniClasses = this.getAniClasses(element),
-            fullAniStyle = aniClasses.find( aniClass => styleRegex.test(aniClass)),
-            splitAniStyle = fullAniStyle ? fullAniStyle.split("_") : null
+            animationClasses = this.getAnimationClasses(element),
+            fullAnimationStyle = animationClasses.find( animationClass => styleRegex.test(animationClass)),
+            splitedAnimationStyle = fullAnimationStyle ? fullAnimationStyle.split("_") : null
 
-            if(fullAniStyle) { this.element.classList.remove(fullAniStyle) }
+            if(fullAnimationStyle) { this.element.classList.remove(fullAnimationStyle) }
             
-            this.animationStyle = splitAniStyle ? splitAniStyle[1] : 'opacity-in'
+            this.animationStyle = splitedAnimationStyle ? splitedAnimationStyle[1] : 'opacity-in'
     }
 
-    setElementCssClasses(animationStyle){
+    setAnimationDuration(element){
+        const 
+            animationClasses = this.getAnimationClasses(element),
+            fullAnimationDuration = animationClasses.find( animationClass => durationRegex.test(animationClass)),
+            splitedAnimationDuration = fullAnimationDuration ? fullAnimationDuration.split("_") : null
+
+            if(fullAnimationDuration) { this.element.classList.remove(fullAnimationDuration) }
+
+            this.animationDuration = splitedAnimationDuration ? (splitedAnimationDuration[1] / 1000) : 'default'
+    }
+
+    // .............................
+    // => MANIPULATE THE DOM ELEMENT
+
+    setElementCssClass(animationStyle){
         this.element.classList.add(animationStyle)
     }
 
@@ -60,10 +86,10 @@ class AnimationElement{
 // ::::::::::::::::::::::::
 
 const 
-    declaredAnels = document.querySelectorAll('.anel'),
+    declaredAnimationElements = document.querySelectorAll('.animation-element'),
     animationElements = []
 
-declaredAnels.forEach(element =>{
+declaredAnimationElements.forEach(element =>{
     animationElements.push(new AnimationElement(element) )
 })
 
