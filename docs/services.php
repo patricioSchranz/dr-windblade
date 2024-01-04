@@ -36,17 +36,24 @@ require __DIR__ . './../views/header.php';
 
         <div class="services_service_content">
 
+            <!--
+                 timing declaration should not include white spaces !
+                 the trigger point is in percent of the viewport height
+            --!>
             <figure 
                 class="
                     animation-element
                     animation--style_the-circle-grows
-                    animation--duration_3000
+                    animation--duration_1000
+                    animation--delay_0
+                    animation--timing_cubic-bezier(.47,.03,.68,.36)
+                    animation--trigger-point_70
                     ">
                 <img src="../graphics/pics/yoga-1.jpg" >
             </figure>
             
             <div class="services_service_text">
-                <h2 class="inner-heading">Vorsorgeuntersuchung</h2>
+                <h2 class="inner-heading animation-element">Vorsorgeuntersuchung</h2>
 
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repellendus deserunt minima iusto quibusdam ea ipsa quas aliquam dolores maxime, nobis molestias voluptates omnis adipisci animi ratione, vero ducimus recusandae.</p>
 
