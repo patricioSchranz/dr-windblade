@@ -30,10 +30,12 @@
     --animation-delay: 0s;
     --animation-timing: ease-in-out;
 
-    // &.opacity-in{
-    //     transition: all var(--animation-duration);
-    // }
+    &.opacity-in,
+    &.flipping-headline{
+        transition: all var(--animation-duration) var(--animation-delay) var(--animation-timing);
+    }
 
+   
     &.the-circle-grows{
         position: relative;
 
@@ -70,10 +72,19 @@
 
     &.opacity-in{
         opacity: 0.2;
-        transition: all var(--animation-duration) var(--animation-delay) var(--animation-timing);
         
         &.in-right-place{
             opacity: 1;
+        }
+    }
+
+    &.flipping-headline{
+        transform: perspective(1000px) rotateX(360deg);
+        color: transparent;
+        
+        &.in-right-place{
+            transform: perspective(1000px) rotateX(0deg);
+            color:  var(--color-on-primary);
         }
     }
 

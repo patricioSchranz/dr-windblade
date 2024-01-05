@@ -6,16 +6,23 @@
 // REGLUAR EXPRESSIONS
 // ::::::::::::::::::::::::
 
+// const 
+//     animationRegex = /\banimation--[\w-]*\b/g,
+//     styleRegex = /\b\w*style\w*\b/g,
+//     durationRegex = /\b\w*duration\w*\b/g,
+//     delayRegex = /\b\w*delay\w*\b/g,
+//     timingRegex = /\b\w*timing\w*\b/g,
+//     triggerPointRegex = /\b\w*trigger-point\w*\b/g
+
 const 
-    animationRegex = /\banimation--\w*\b/g,
-    styleRegex = /\b\w*style\w*\b/g,
-    durationRegex = /\b\w*duration\w*\b/g,
-    delayRegex = /\b\w*delay\w*\b/g,
-    timingRegex = /\b\w*timing\w*\b/g,
-    triggerPointRegex = /\b\w*trigger-point\w*\b/g
+    animationRegex = 'animation--',
+    styleRegex = 'style',
+    durationRegex = 'duration',
+    delayRegex = 'delay',
+    timingRegex = 'timing',
+    triggerPointRegex = 'trigger-point'
 
-
-    
+   
 // ::::::::::::::::::::::::
 // ANIMATION ELEMENT CLASS
 // ::::::::::::::::::::::::
@@ -33,41 +40,52 @@ class AnimationElement{
         this.setAnimationDelay(this.element)
         this.setAnimationTiming(this.element)
         this.setAnimationTriggerPoint(this.element)
+        this.setId(this.element)
 
         this.setElementCssClass(this.animationStyle)
         this.setElementCSSDurationProperty(this.animationDuration)
         this.setElementCSSDelayProperty(this.animationDelay)
         this.setElementCSSTimingProperty(this.animationTiming)
 
-        this.percent = 0.5
     }
 
     // .................
     // CLASS CALLBACKS
 
     getAnimationClasses(element){
-        const cssClasses = Array.from(element.classList)
-        return cssClasses.filter( cssClass => animationRegex.test(cssClass) )  
+        const cssClasses = Array.from(element.classList);
+        const filteredClasses = cssClasses.filter( cssClass => cssClass.startsWith("animation--") );
+
+        return  filteredClasses
+    }
+
+    getAnimationValue(animationClasses, regex){
+        return animationClasses.find( animationClass => animationClass.includes(regex))
     }
 
     // .......................
     // => SET CLASS PROPERTYS
 
-    setAnimationStyle(element) {
-        const 
-            animationClasses = this.getAnimationClasses(element),
-            fullAnimationStyle = animationClasses.find( animationClass => styleRegex.test(animationClass)),
-            splitedAnimationStyle = fullAnimationStyle ? fullAnimationStyle.split("_") : null
+    setId(element){
+        let x = Math.random()
+        
+        this.ID = x
+    }
 
-            if(fullAnimationStyle) { this.element.classList.remove(fullAnimationStyle) }
-            
-            this.animationStyle = splitedAnimationStyle ? splitedAnimationStyle[1] : 'opacity-in'
+    setAnimationStyle(element) {
+        const animationClasses = this.getAnimationClasses(element);
+        const fullAnimationStyle = this.getAnimationValue(animationClasses,styleRegex);
+        const splitedAnimationStyle = fullAnimationStyle ? fullAnimationStyle.split("_") : null;
+
+        if(fullAnimationStyle) { this.element.classList.remove(fullAnimationStyle) }
+
+        this.animationStyle = splitedAnimationStyle ? splitedAnimationStyle[1] : 'opacity-in'
     }
 
     setAnimationDuration(element){
         const 
             animationClasses = this.getAnimationClasses(element),
-            fullAnimationDuration = animationClasses.find( animationClass => durationRegex.test(animationClass)),
+            fullAnimationDuration = this.getAnimationValue(animationClasses,durationRegex),
             splitedAnimationDuration = fullAnimationDuration ? fullAnimationDuration.split("_") : null
 
             if(fullAnimationDuration) { this.element.classList.remove(fullAnimationDuration) }
@@ -78,7 +96,7 @@ class AnimationElement{
     setAnimationDelay(element){
         const 
             animationClasses = this.getAnimationClasses(element),
-            fullAnimationDelay = animationClasses.find( animationClass => delayRegex.test(animationClass)),
+            fullAnimationDelay = this.getAnimationValue(animationClasses,delayRegex),
             splitedAnimationDelay = fullAnimationDelay ? fullAnimationDelay.split("_") : null
 
             if(fullAnimationDelay) { this.element.classList.remove(fullAnimationDelay) }
@@ -89,7 +107,7 @@ class AnimationElement{
     setAnimationTiming(element){
         const 
             animationClasses = this.getAnimationClasses(element),
-            fullAnimationTiming = animationClasses.find( animationClass => timingRegex.test(animationClass)),
+            fullAnimationTiming = this.getAnimationValue(animationClasses,timingRegex),
             splitedAnimationTiming = fullAnimationTiming ? fullAnimationTiming.split("_") : null
 
 
@@ -101,7 +119,7 @@ class AnimationElement{
     setAnimationTriggerPoint(element){
         const 
             animationClasses = this.getAnimationClasses(element),
-            fullAnimationTriggerPoint = animationClasses.find( animationClass => triggerPointRegex.test(animationClass)),
+            fullAnimationTriggerPoint =  this.getAnimationValue(animationClasses,triggerPointRegex),
             splitedAnimationTriggerPoint = fullAnimationTriggerPoint ? fullAnimationTriggerPoint.split("_") : null
 
             if(fullAnimationTriggerPoint) { this.element.classList.remove(fullAnimationTriggerPoint) }
@@ -131,7 +149,6 @@ class AnimationElement{
 
     triggerAnimation(){
         if(isInPartOfViewport(this.element, this.animationTriggerPoint) && window.getComputedStyle(this.element).display !== "none"){
-            console.log(this.animationTriggerPoint)
             this.element.classList.add('in-right-place')
         }
     }
