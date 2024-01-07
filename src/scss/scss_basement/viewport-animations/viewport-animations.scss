@@ -31,7 +31,9 @@
     --animation-timing: ease-in-out;
 
     &.opacity-in,
-    &.flipping-headline{
+    &.flipping-headline,
+    &.clippy-from-left-to-right,
+    &.fade-up{
         transition: all var(--animation-duration) var(--animation-delay) var(--animation-timing);
     }
 
@@ -70,6 +72,43 @@
         }    
     }
 
+    &.the-circle-grows-silent{
+        position: relative;
+         opacity: 0;
+
+        &::before{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: block;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, rgba(255,255,255,0) var(--percent-tcg-1), rgba(255,255,255,1) var(--percent-tcg-2) );
+            z-index: 2;
+           
+            // animation: the-circle-grows 1s forwards ease-in-out;
+        }
+
+        &.in-right-place{
+            opacity: 1;
+        
+            &::before{
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                display: block;
+                width: 100%;
+                height: 100%;
+                background: radial-gradient(circle, rgba(255,255,255,0) var(--percent-tcg-1), rgba(255,255,255,1) var(--percent-tcg-2) );
+                // background: white;
+                z-index: 2;
+                animation: the-circle-grows var(--animation-duration) var(--animation-delay) forwards var(--animation-timing);
+            }
+        }    
+    }
+
     &.opacity-in{
         opacity: 0.2;
         
@@ -79,12 +118,32 @@
     }
 
     &.flipping-headline{
-        transform: perspective(1000px) rotateX(360deg);
+        transform: perspective(1000px) rotateX(180deg);
         color: transparent;
         
         &.in-right-place{
             transform: perspective(1000px) rotateX(0deg);
             color:  var(--color-on-primary);
+        }
+    }
+
+    &.clippy-from-left-to-right{
+        opacity: 0;
+        clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+
+        &.in-right-place{
+            opacity: 1;
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        }
+    }
+
+    &.fade-up{
+        opacity: 0;
+        transform: translateY(100%);
+
+        &.in-right-place{
+            opacity: 1;
+            transform: translateY(0);
         }
     }
 

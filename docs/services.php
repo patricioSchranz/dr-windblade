@@ -51,13 +51,15 @@ require __DIR__ . './../views/header.php';
             </figure>
             
             <div class="services_service_text">
-                <h2 class="animation-element animation--style_flipping-headline" id="h2-an">Vorsorgeuntersuchung</h2>
+                <h2 class="animation-element animation--style_the-circle-grows-silent animation--duration_1000" id="h2-an">Vorsorgeuntersuchung</h2>
 
-                <p class="animation-element animation--style_the-circle-grows animation--duration_1000 " id="para-an">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repellendus deserunt minima iusto quibusdam ea ipsa quas aliquam dolores maxime, nobis molestias voluptates omnis adipisci animi ratione, vero ducimus recusandae.</p>
+                <p class="animation-element animation--style_the-circle-grows-silent animation--duration_1000 " id="para-an">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repellendus deserunt minima iusto quibusdam ea ipsa quas aliquam dolores maxime, nobis molestias voluptates omnis adipisci animi ratione, vero ducimus recusandae.
+                </p>
 
-                <h3 class="animation-element animation--style_the-circle-grows animation--duration_1000 " id="h3-an">Lorem ipsum dolor sit amet.</h3>
+                <h3 class="animation-element animation--style_the-circle-grows-silent animation--duration_1000" id="h3-an">Lorem ipsum dolor sit amet.</h3>
 
-                <ul class="animation-element animation--style_the-circle-grows animation--duration_1000" id="ul-an">
+                <ul class="animation-element animation--style_the-circle-grows-silent animation--duration_1000" id="ul-an">
                     <li>
                         Lorem, ipsum dolor.
                     </li>
@@ -75,7 +77,7 @@ require __DIR__ . './../views/header.php';
                     </li>
                 </ul>
 
-                <p class="animation-element animation--style_the-circle-grows animation--duration_1000" id="para-2-an">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magni accusantium atque saepe. Dicta tenetur amet quo exercitationem itaque alias ab totam hic esse, recusandae quasi optio? Fugit, quisquam adipisci.
+                <p class="animation-element animation--style_the-circle-grows-silent animation--duration_1000" id="para-2-an">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magni accusantium atque saepe. Dicta tenetur amet quo exercitationem itaque alias ab totam hic esse, recusandae quasi optio? Fugit, quisquam adipisci.
                 Porro hic aut vel distinctio fugit, repellendus omnis adipisci in suscipit aliquam non dolorum eligendi aliquid, esse eaque doloribus ea et labore modi exercitationem quisquam! Voluptatum reprehenderit nam quidem fugiat!</p>
             </div>  
         </div>
