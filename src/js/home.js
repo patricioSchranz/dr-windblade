@@ -25,20 +25,20 @@ window.addEventListener('scroll', ()=>{
     }
 
     // 'SECTION LEISTUNGEN HEADING'
-    if(isInPartOfViewport(sectionLeistungen, 0.5)){
-        sectionLeistungenHeading.classList.add('animate__fadeInUp')
-    }
+    // if(isInPartOfViewport(sectionLeistungen, 0.5)){
+    //     sectionLeistungenHeading.classList.add('animate__fadeInUp')
+    // }
     // else{
     //     sectionLeistungenHeading.classList.remove('animate__fadeInUp')
     // }
 
     // 'CARDS'
-    if(isInPartOfViewport(cardInsurance, 0.4)){
+    if(isInPartOfViewport(cardInsurance, 0.5)){
         // cardInsurance.classList.add('animate__fadeInUp')
         cardInsurance.classList.add('perspective-off')
     }
 
-    if(isInPartOfViewport(cardPrivate, 0.4)){
+    if(isInPartOfViewport(cardPrivate, 0.5)){
         // setTimeout(()=>{
         //     // cardPrivate.classList.add('animate__fadeInUp')
         //     cardPrivate.classList.add('perspective-off')
@@ -46,12 +46,12 @@ window.addEventListener('scroll', ()=>{
         cardPrivate.classList.add('perspective-off')
     }
 
-    if(isInPartOfViewport(cardAesthetic, .7)){
+    if(isInPartOfViewport(cardAesthetic, 0.5)){
         // cardAesthetic.classList.add('animate__fadeInUp')
         cardAesthetic.classList.add('perspective-off')
     }
 
-    if(isInPartOfViewport(cardMore, .7)){
+    if(isInPartOfViewport(cardMore, 0.5)){
         // cardMore.classList.add('animate__fadeInUp')
         cardMore.classList.add('perspective-off')
     }

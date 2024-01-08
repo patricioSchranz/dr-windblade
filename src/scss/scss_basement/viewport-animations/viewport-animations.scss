@@ -120,6 +120,9 @@
     &.flipping-headline{
         transform: perspective(1000px) rotateX(180deg);
         color: transparent;
+        transition: 
+            transform var(--animation-duration) var(--animation-timing),
+            color var(--animation-duration) var(--animation-delay) var(--animation-timing);
         
         &.in-right-place{
             transform: perspective(1000px) rotateX(0deg);
@@ -139,7 +142,7 @@
 
     &.fade-up{
         opacity: 0;
-        transform: translateY(100%);
+        transform: translateY(5rem);
 
         &.in-right-place{
             opacity: 1;
@@ -278,5 +281,16 @@
         --percent-tcg-1: 100%;
         --percent-tcg-2: 100%;
 
+    }
+}
+
+// .....
+// FADES
+// .....
+
+@keyframes fade-up {
+    to{
+        opacity: 1;
+        transform: translateY(0);
     }
 }

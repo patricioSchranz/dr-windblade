@@ -118,7 +118,7 @@ class AnimationElement{
 
             if(fullAnimationTriggerPoint) { this.element.classList.remove(fullAnimationTriggerPoint) }
 
-            this.animationTriggerPoint = splitedAnimationTriggerPoint ? (splitedAnimationTriggerPoint[1] / 100) : 0.7
+            this.animationTriggerPoint = splitedAnimationTriggerPoint ? (splitedAnimationTriggerPoint[1] / 100) : 0.8
     }
 
 
@@ -144,6 +144,9 @@ class AnimationElement{
     triggerAnimation(){
         if(isInPartOfViewport(this.element, this.animationTriggerPoint) && window.getComputedStyle(this.element).display !== "none"){
             this.element.classList.add('in-right-place')
+        }
+        else{
+            this.element.classList.remove('in-right-place')
         }
     }
 }
