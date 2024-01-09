@@ -53,34 +53,45 @@ require __DIR__ . './../views/header.php';
         <h2 class="outer-heading" data-id="#rest-ekg">Ruhe EKG</h2>
 
         <div class="services_service_content">
-            <img src="../graphics/pics/yoga-5.jpg">
+
+            <figure class="
+                    animation-element
+                    animation--style_the-circle-grows
+                    animation--duration_1000
+                    animation--delay_0
+                    animation--timing_cubic-bezier(.47,.03,.68,.36)
+                    animation--trigger-point_70
+                    ">
+                <img src="../graphics/pics/yoga-5.jpg">
+            </figure>
+            
 
             <div class="services_service_text">
-                <h2 class="inner-heading">Ruhe EKG</h2>
+                <h2 class="animation-element animation--style_flipping-headline animation--delay_300">Ruhe EKG</h2>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repellendus deserunt minima iusto quibusdam ea ipsa quas aliquam dolores maxime, nobis molestias voluptates omnis adipisci animi ratione, vero ducimus recusandae.</p>
+                <p class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repellendus deserunt minima iusto quibusdam ea ipsa quas aliquam dolores maxime, nobis molestias voluptates omnis adipisci animi ratione, vero ducimus recusandae.</p>
 
-                <h3>Lorem ipsum dolor sit amet.</h3>
+                <h3 class="animation-element animation--style_clippy-from-left-to-right animation--duration_1000 animation--trigger-point_90">Lorem ipsum dolor sit amet.</h3>
 
                 <ul>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
                 </ul>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magni accusantium atque saepe. Dicta tenetur amet quo exercitationem itaque alias ab totam hic esse, recusandae quasi optio? Fugit, quisquam adipisci.
+                <p class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magni accusantium atque saepe. Dicta tenetur amet quo exercitationem itaque alias ab totam hic esse, recusandae quasi optio? Fugit, quisquam adipisci.
                 Porro hic aut vel distinctio fugit, repellendus omnis adipisci in suscipit aliquam non dolorum eligendi aliquid, esse eaque doloribus ea et labore modi exercitationem quisquam! Voluptatum reprehenderit nam quidem fugiat!</p>
             </div>  
         </div>
@@ -93,34 +104,44 @@ require __DIR__ . './../views/header.php';
         <h2 class="outer-heading" data-id="#24-ekg">24h EKG</h2>
 
         <div class="services_service_content">
-            <img src="../graphics/pics/yoga-6.jpg">
+
+            <figure class="
+                    animation-element
+                    animation--style_the-circle-grows
+                    animation--duration_1000
+                    animation--delay_0
+                    animation--timing_cubic-bezier(.47,.03,.68,.36)
+                    animation--trigger-point_70
+                    ">
+                <img src="../graphics/pics/yoga-6.jpg">
+            </figure>
 
             <div class="services_service_text">
-                <h2>24h EKG</h2>
+                <h2 class="animation-element animation--style_flipping-headline animation--delay_300">24h EKG</h2>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repellendus deserunt minima iusto quibusdam ea ipsa quas aliquam dolores maxime, nobis molestias voluptates omnis adipisci animi ratione, vero ducimus recusandae.</p>
+                <p class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repellendus deserunt minima iusto quibusdam ea ipsa quas aliquam dolores maxime, nobis molestias voluptates omnis adipisci animi ratione, vero ducimus recusandae.</p>
 
-                <h3>Lorem ipsum dolor sit amet.</h3>
+                <h3 class="animation-element animation--style_clippy-from-left-to-right animation--duration_1000 animation--trigger-point_90">Lorem ipsum dolor sit amet.</h3>
 
                 <ul>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
                 </ul>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magni accusantium atque saepe. Dicta tenetur amet quo exercitationem itaque alias ab totam hic esse, recusandae quasi optio? Fugit, quisquam adipisci.
+                <p class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magni accusantium atque saepe. Dicta tenetur amet quo exercitationem itaque alias ab totam hic esse, recusandae quasi optio? Fugit, quisquam adipisci.
                 Porro hic aut vel distinctio fugit, repellendus omnis adipisci in suscipit aliquam non dolorum eligendi aliquid, esse eaque doloribus ea et labore modi exercitationem quisquam! Voluptatum reprehenderit nam quidem fugiat!</p>
             </div>  
         </div>
@@ -133,34 +154,45 @@ require __DIR__ . './../views/header.php';
         <h2 class="outer-heading" data-id="#24-blood-pressure">24h Blutdruck</h2>
 
         <div class="services_service_content">
-            <img src="../graphics/pics/yoga-7.jpg">
 
+            <figure class="
+                    animation-element
+                    animation--style_the-circle-grows
+                    animation--duration_1000
+                    animation--delay_0
+                    animation--timing_cubic-bezier(.47,.03,.68,.36)
+                    animation--trigger-point_70
+                    ">
+                <img src="../graphics/pics/yoga-7.jpg">
+            </figure>
+
+            
             <div class="services_service_text">
-                <h2>24h Blutdruck</h2>
+                <h2 class="animation-element animation--style_flipping-headline animation--delay_300">24h Blutdruck</h2>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repellendus deserunt minima iusto quibusdam ea ipsa quas aliquam dolores maxime, nobis molestias voluptates omnis adipisci animi ratione, vero ducimus recusandae.</p>
+                <p class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repellendus deserunt minima iusto quibusdam ea ipsa quas aliquam dolores maxime, nobis molestias voluptates omnis adipisci animi ratione, vero ducimus recusandae.</p>
 
-                <h3>Lorem ipsum dolor sit amet.</h3>
+                <h3 class="animation-element animation--style_clippy-from-left-to-right animation--duration_1000 animation--trigger-point_90">Lorem ipsum dolor sit amet.</h3>
 
                 <ul>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
                 </ul>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magni accusantium atque saepe. Dicta tenetur amet quo exercitationem itaque alias ab totam hic esse, recusandae quasi optio? Fugit, quisquam adipisci.
+                <p class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magni accusantium atque saepe. Dicta tenetur amet quo exercitationem itaque alias ab totam hic esse, recusandae quasi optio? Fugit, quisquam adipisci.
                 Porro hic aut vel distinctio fugit, repellendus omnis adipisci in suscipit aliquam non dolorum eligendi aliquid, esse eaque doloribus ea et labore modi exercitationem quisquam! Voluptatum reprehenderit nam quidem fugiat!</p>
             </div>  
         </div>
@@ -173,34 +205,44 @@ require __DIR__ . './../views/header.php';
         <h2 class="outer-heading" data-id="#eventrecorder">Eventrecorder</h2>
 
         <div class="services_service_content">
-            <img src="../graphics/pics/yoga-8.jpg">
+
+            <figure class="
+                    animation-element
+                    animation--style_the-circle-grows
+                    animation--duration_1000
+                    animation--delay_0
+                    animation--timing_cubic-bezier(.47,.03,.68,.36)
+                    animation--trigger-point_70
+                    ">
+                <img src="../graphics/pics/yoga-8.jpg">
+            </figure>
 
             <div class="services_service_text">
-                <h2>Eventrecorder</h2>
+                <h2 class="animation-element animation--style_flipping-headline animation--delay_300">Eventrecorder</h2>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repellendus deserunt minima iusto quibusdam ea ipsa quas aliquam dolores maxime, nobis molestias voluptates omnis adipisci animi ratione, vero ducimus recusandae.</p>
+                <p class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repellendus deserunt minima iusto quibusdam ea ipsa quas aliquam dolores maxime, nobis molestias voluptates omnis adipisci animi ratione, vero ducimus recusandae.</p>
 
-                <h3>Lorem ipsum dolor sit amet.</h3>
+                <h3 class="animation-element animation--style_clippy-from-left-to-right animation--duration_1000 animation--trigger-point_90">Lorem ipsum dolor sit amet.</h3>
 
                 <ul>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
                 </ul>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magni accusantium atque saepe. Dicta tenetur amet quo exercitationem itaque alias ab totam hic esse, recusandae quasi optio? Fugit, quisquam adipisci.
+                <p class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magni accusantium atque saepe. Dicta tenetur amet quo exercitationem itaque alias ab totam hic esse, recusandae quasi optio? Fugit, quisquam adipisci.
                 Porro hic aut vel distinctio fugit, repellendus omnis adipisci in suscipit aliquam non dolorum eligendi aliquid, esse eaque doloribus ea et labore modi exercitationem quisquam! Voluptatum reprehenderit nam quidem fugiat!</p>
             </div>  
         </div>
@@ -212,34 +254,44 @@ require __DIR__ . './../views/header.php';
         <h2 class="outer-heading" data-id="#lung-function">Lungenfunktion</h2>
 
         <div class="services_service_content">
-            <img src="../graphics/pics/yoga-9.jpg">
+
+            <figure class="
+                    animation-element
+                    animation--style_the-circle-grows
+                    animation--duration_1000
+                    animation--delay_0
+                    animation--timing_cubic-bezier(.47,.03,.68,.36)
+                    animation--trigger-point_70
+                    ">
+                <img src="../graphics/pics/yoga-9.jpg">
+            </figure>
 
             <div class="services_service_text">
-                <h2>Lungenfunktion</h2>
+                <h2 class="animation-element animation--style_flipping-headline animation--delay_300">Lungenfunktion</h2>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repellendus deserunt minima iusto quibusdam ea ipsa quas aliquam dolores maxime, nobis molestias voluptates omnis adipisci animi ratione, vero ducimus recusandae.</p>
+                <p class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repellendus deserunt minima iusto quibusdam ea ipsa quas aliquam dolores maxime, nobis molestias voluptates omnis adipisci animi ratione, vero ducimus recusandae.</p>
 
-                <h3>Lorem ipsum dolor sit amet.</h3>
+                <h3 class="animation-element animation--style_clippy-from-left-to-right animation--duration_1000 animation--trigger-point_90">Lorem ipsum dolor sit amet.</h3>
 
                 <ul>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
                 </ul>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magni accusantium atque saepe. Dicta tenetur amet quo exercitationem itaque alias ab totam hic esse, recusandae quasi optio? Fugit, quisquam adipisci.
+                <p class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magni accusantium atque saepe. Dicta tenetur amet quo exercitationem itaque alias ab totam hic esse, recusandae quasi optio? Fugit, quisquam adipisci.
                 Porro hic aut vel distinctio fugit, repellendus omnis adipisci in suscipit aliquam non dolorum eligendi aliquid, esse eaque doloribus ea et labore modi exercitationem quisquam! Voluptatum reprehenderit nam quidem fugiat!</p>
             </div>  
         </div> 
@@ -250,34 +302,44 @@ require __DIR__ . './../views/header.php';
         <h2 class="outer-heading" data-id="#ergometrie">Ergometrie</h2>
 
         <div class="services_service_content">
-            <img src="../graphics/pics/yoga-10.jpg">
+
+            <figure class="
+                    animation-element
+                    animation--style_the-circle-grows
+                    animation--duration_1000
+                    animation--delay_0
+                    animation--timing_cubic-bezier(.47,.03,.68,.36)
+                    animation--trigger-point_70
+                    ">
+                <img src="../graphics/pics/yoga-10.jpg">
+            </figure>
 
             <div class="services_service_text">
-                <h2>Ergometrie</h2>
+                <h2 class="animation-element animation--style_flipping-headline animation--delay_300">Ergometrie</h2>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repellendus deserunt minima iusto quibusdam ea ipsa quas aliquam dolores maxime, nobis molestias voluptates omnis adipisci animi ratione, vero ducimus recusandae.</p>
+                <p class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repellendus deserunt minima iusto quibusdam ea ipsa quas aliquam dolores maxime, nobis molestias voluptates omnis adipisci animi ratione, vero ducimus recusandae.</p>
 
-                <h3>Lorem ipsum dolor sit amet.</h3>
+                <h3 class="animation-element animation--style_clippy-from-left-to-right animation--duration_1000 animation--trigger-point_90">Lorem ipsum dolor sit amet.</h3>
 
                 <ul>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
                 </ul>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magni accusantium atque saepe. Dicta tenetur amet quo exercitationem itaque alias ab totam hic esse, recusandae quasi optio? Fugit, quisquam adipisci.
+                <p class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magni accusantium atque saepe. Dicta tenetur amet quo exercitationem itaque alias ab totam hic esse, recusandae quasi optio? Fugit, quisquam adipisci.
                 Porro hic aut vel distinctio fugit, repellendus omnis adipisci in suscipit aliquam non dolorum eligendi aliquid, esse eaque doloribus ea et labore modi exercitationem quisquam! Voluptatum reprehenderit nam quidem fugiat!</p>
             </div>  
         </div> 
@@ -288,35 +350,46 @@ require __DIR__ . './../views/header.php';
         <h2 class="outer-heading" data-id="#thyroid-sonography">Schilddrüsensonographie</h2>
 
         <div class="services_service_content">
-            <img src="../graphics/pics/yoga-11.jpg">
+
+            <figure class="
+                    animation-element
+                    animation--style_the-circle-grows
+                    animation--duration_1000
+                    animation--delay_0
+                    animation--timing_cubic-bezier(.47,.03,.68,.36)
+                    animation--trigger-point_70
+                    ">
+                <img src="../graphics/pics/yoga-11.jpg">
+            </figure>
 
             <div class="services_service_text">
-                <h2>Schilddrüsensonographie</h2>
+                <h2 class="animation-element animation--style_flipping-headline animation--delay_300">Schilddrüsensonographie</h2>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repellendus deserunt minima iusto quibusdam ea ipsa quas aliquam dolores maxime, nobis molestias voluptates omnis adipisci animi ratione, vero ducimus recusandae.</p>
+               <p class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repellendus deserunt minima iusto quibusdam ea ipsa quas aliquam dolores maxime, nobis molestias voluptates omnis adipisci animi ratione, vero ducimus recusandae.</p>
 
-                <h3>Lorem ipsum dolor sit amet.</h3>
+                <h3 class="animation-element animation--style_clippy-from-left-to-right animation--duration_1000 animation--trigger-point_90">Lorem ipsum dolor sit amet.</h3>
 
                 <ul>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
                 </ul>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magni accusantium atque saepe. Dicta tenetur amet quo exercitationem itaque alias ab totam hic esse, recusandae quasi optio? Fugit, quisquam adipisci.
-                Porro hic aut vel distinctio fugit, repellendus omnis adipisci in suscipit aliquam non dolorum eligendi aliquid, esse eaque doloribus ea et labore modi exercitationem quisquam! Voluptatum reprehenderit nam quidem fugiat!</p>
+                <p class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magni accusantium atque saepe. Dicta tenetur amet quo exercitationem itaque alias ab totam hic esse, recusandae quasi optio? Fugit, quisquam adipisci.
+                Porro hic aut vel distinctio fugit, repellendus omnis adipisci in suscipit aliquam non dolorum eligendi aliquid, esse eaque doloribus ea et labore modi exercitationem quisquam! Voluptatum reprehenderit nam quidem fugiat!
+                </p>
             </div>  
         </div> 
     </section>
@@ -326,34 +399,44 @@ require __DIR__ . './../views/header.php';
         <h2 class="outer-heading" data-id="#op-suitability">OP Fähigkeit</h2>
 
         <div class="services_service_content">
-            <img src="../graphics/pics/yoga-12.jpg">
+
+            <figure class="
+                    animation-element
+                    animation--style_the-circle-grows
+                    animation--duration_1000
+                    animation--delay_0
+                    animation--timing_cubic-bezier(.47,.03,.68,.36)
+                    animation--trigger-point_70
+                    ">
+                <img src="../graphics/pics/yoga-12.jpg">
+            </figure>
 
             <div class="services_service_text">
-                <h2>OP Fähigkeit</h2>
+                <h2 class="animation-element animation--style_flipping-headline animation--delay_300">OP Fähigkeit</h2>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repellendus deserunt minima iusto quibusdam ea ipsa quas aliquam dolores maxime, nobis molestias voluptates omnis adipisci animi ratione, vero ducimus recusandae.</p>
+                 <p class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repellendus deserunt minima iusto quibusdam ea ipsa quas aliquam dolores maxime, nobis molestias voluptates omnis adipisci animi ratione, vero ducimus recusandae.</p>
 
-                <h3>Lorem ipsum dolor sit amet.</h3>
+                <h3 class="animation-element animation--style_clippy-from-left-to-right animation--duration_1000 animation--trigger-point_90">Lorem ipsum dolor sit amet.</h3>
 
                 <ul>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
                 </ul>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magni accusantium atque saepe. Dicta tenetur amet quo exercitationem itaque alias ab totam hic esse, recusandae quasi optio? Fugit, quisquam adipisci.
+                <p class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magni accusantium atque saepe. Dicta tenetur amet quo exercitationem itaque alias ab totam hic esse, recusandae quasi optio? Fugit, quisquam adipisci.
                 Porro hic aut vel distinctio fugit, repellendus omnis adipisci in suscipit aliquam non dolorum eligendi aliquid, esse eaque doloribus ea et labore modi exercitationem quisquam! Voluptatum reprehenderit nam quidem fugiat!</p>
             </div>  
         </div> 
@@ -364,34 +447,45 @@ require __DIR__ . './../views/header.php';
         <h2 class="outer-heading" data-id="#special-topics">Spezialthemen</h2>
 
         <div class="services_service_content">
-            <img src="../graphics/pics/yoga-13.jpg">
 
+            <figure class="
+                    animation-element
+                    animation--style_the-circle-grows
+                    animation--duration_1000
+                    animation--delay_0
+                    animation--timing_cubic-bezier(.47,.03,.68,.36)
+                    animation--trigger-point_70
+                    ">
+                <img src="../graphics/pics/yoga-13.jpg">
+            </figure>
+            
             <div class="services_service_text">
-                <h2>Spezialthemen</h2>
+                <h2 class="animation-element animation--style_flipping-headline animation--delay_300">Spezialthemen</h2>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repellendus deserunt minima iusto quibusdam ea ipsa quas aliquam dolores maxime, nobis molestias voluptates omnis adipisci animi ratione, vero ducimus recusandae.</p>
+                <p class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repellendus deserunt minima iusto quibusdam ea ipsa quas aliquam dolores maxime, nobis molestias voluptates omnis adipisci animi ratione, vero ducimus recusandae.
+                </p>
 
-                <h3>Lorem ipsum dolor sit amet.</h3>
+                <h3 class="animation-element animation--style_clippy-from-left-to-right animation--duration_1000 animation--trigger-point_90">Lorem ipsum dolor sit amet.</h3>
 
                 <ul>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
                 </ul>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magni accusantium atque saepe. Dicta tenetur amet quo exercitationem itaque alias ab totam hic esse, recusandae quasi optio? Fugit, quisquam adipisci.
+                <p class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magni accusantium atque saepe. Dicta tenetur amet quo exercitationem itaque alias ab totam hic esse, recusandae quasi optio? Fugit, quisquam adipisci.
                 Porro hic aut vel distinctio fugit, repellendus omnis adipisci in suscipit aliquam non dolorum eligendi aliquid, esse eaque doloribus ea et labore modi exercitationem quisquam! Voluptatum reprehenderit nam quidem fugiat!</p>
             </div>  
         </div> 
@@ -402,34 +496,45 @@ require __DIR__ . './../views/header.php';
         <h2 class="outer-heading" data-id="#physical-therapy">Physiotherapie</h2>
 
         <div class="services_service_content">
-            <img src="../graphics/pics/yoga-15.jpg">
+
+            <figure class="
+                    animation-element
+                    animation--style_the-circle-grows
+                    animation--duration_1000
+                    animation--delay_0
+                    animation--timing_cubic-bezier(.47,.03,.68,.36)
+                    animation--trigger-point_70
+                    ">
+                <img src="../graphics/pics/yoga-15.jpg">
+            </figure>
 
             <div class="services_service_text">
-                <h2>Physiotherapie</h2>
+                <h2 class="animation-element animation--style_flipping-headline animation--delay_300">Physiotherapie</h2>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repellendus deserunt minima iusto quibusdam ea ipsa quas aliquam dolores maxime, nobis molestias voluptates omnis adipisci animi ratione, vero ducimus recusandae.</p>
+                <p class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repellendus deserunt minima iusto quibusdam ea ipsa quas aliquam dolores maxime, nobis molestias voluptates omnis adipisci animi ratione, vero ducimus recusandae.
+                </p>
 
-                <h3>Lorem ipsum dolor sit amet.</h3>
+                <h3 class="animation-element animation--style_clippy-from-left-to-right animation--duration_1000 animation--trigger-point_90">Lorem ipsum dolor sit amet.</h3>
 
                 <ul>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
-                    <li>
+                    <li class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">
                         Lorem, ipsum dolor.
                     </li>
                 </ul>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magni accusantium atque saepe. Dicta tenetur amet quo exercitationem itaque alias ab totam hic esse, recusandae quasi optio? Fugit, quisquam adipisci.
+                <p class="animation-element animation--style_fade-up animation--duration_500 animation--trigger-point_90">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magni accusantium atque saepe. Dicta tenetur amet quo exercitationem itaque alias ab totam hic esse, recusandae quasi optio? Fugit, quisquam adipisci.
                 Porro hic aut vel distinctio fugit, repellendus omnis adipisci in suscipit aliquam non dolorum eligendi aliquid, esse eaque doloribus ea et labore modi exercitationem quisquam! Voluptatum reprehenderit nam quidem fugiat!</p>
             </div>  
         </div> 

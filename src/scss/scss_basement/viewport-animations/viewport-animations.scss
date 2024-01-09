@@ -121,12 +121,15 @@
         transform: perspective(1000px) rotateX(180deg);
         color: transparent;
         transition: 
-            transform var(--animation-duration) var(--animation-timing),
-            color var(--animation-duration) var(--animation-delay) var(--animation-timing);
+            transform var(--animation-duration) var(--animation-delay) var(--animation-timing),
+            color var(--animation-duration)  var(--animation-timing);
         
         &.in-right-place{
             transform: perspective(1000px) rotateX(0deg);
             color:  var(--color-on-primary);
+            transition: 
+                transform var(--animation-duration)   var(--animation-timing),
+                color var(--animation-duration) var(--animation-delay) var(--animation-timing);
         }
     }
 
