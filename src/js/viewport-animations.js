@@ -164,7 +164,7 @@ declaredAnimationElements.forEach(element =>{
     animationElements.push(new AnimationElement(element) )
 })
 
-console.log(animationElements)
+// console.log(animationElements)
 
 
 // ::::::::::::::::::::::::
@@ -179,6 +179,7 @@ document.addEventListener('scroll', ()=>{
 
 window.addEventListener('load', ()=>{
     animationElements.forEach(animationElement =>{
+        console.log(animationElement)
         animationElement.triggerAnimation()
     })
 })

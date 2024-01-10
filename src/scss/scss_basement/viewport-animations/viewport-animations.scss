@@ -33,7 +33,8 @@
     &.opacity-in,
     &.flipping-headline,
     &.clippy-from-left-to-right,
-    &.fade-up{
+    &.fade-up,
+    &.filter-xy{
         transition: all var(--animation-duration) var(--animation-delay) var(--animation-timing);
     }
 
@@ -150,6 +151,16 @@
         &.in-right-place{
             opacity: 1;
             transform: translateY(0);
+        }
+    }
+
+    &.filter-xy{
+        // filter: brightness(5);
+        opacity: 0;
+
+        &.in-right-place{
+            // filter: brightness(1);
+            opacity: .5;
         }
     }
 

@@ -10,18 +10,19 @@ require __DIR__ . './../views/header.php';
     
     <!-- HEADER -->
     <header class="alternate-ways_header">
-        <img src="../graphics/pics/alternate-med.jpg" alt="a chamomile tincture">
 
+        <img src="../graphics/pics/alternate-med.jpg" alt="a chamomile tincture" class="animation-element animation--style_filter-xy animation--duration_2000">
+   
         <div class="heading-wrapper">
-            <h2>Alternative Wege</h2>
+            <h2 class="animation-element animation--style_filter-xy animation--duration_2000 animation--trigger-point_50">Alternative Wege</h2>
         </div>
     </header>
 
     <!-- TCM --> 
     <section class="alternate-ways_tcm" id="tcm">
         <header class="alternate-ways_tcm_header">
-            <img src="../graphics/pics/tcm-tea.jpg" alt="cups of tea">
-            <h3>TCM</h3>
+            <img src="../graphics/pics/tcm-tea.jpg" alt="cups of tea" class="animation-element animation--style_filter-xy animation--duration_2000">
+            <h3  class="animation-element animation--style_filter-xy animation--duration_2000">TCM</h3>
         </header>
 
         <!-- ACUPUNCTURE -->
