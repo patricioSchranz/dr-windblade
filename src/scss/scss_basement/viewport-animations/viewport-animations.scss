@@ -38,7 +38,6 @@
         transition: all var(--animation-duration) var(--animation-delay) var(--animation-timing);
     }
 
-   
     &.the-circle-grows{
         position: relative;
 
@@ -154,19 +153,27 @@
         }
     }
 
-    &.filter-xy{
-        // filter: brightness(5);
-        opacity: 0;
+    // &.filter-xy{
+    //     // filter: brightness(5);
+    //     opacity: 0;
 
+    //     &.in-right-place{
+    //         // filter: brightness(1);
+    //         opacity: 1;
+    //         // transition: all var(--animation-duration) var(--animation-delay) var(--animation-timing);
+    //     }
+    // }
+
+    &.top-animation-opacity-in{
+        opacity: 0;
+        
         &.in-right-place{
-            // filter: brightness(1);
-            opacity: .5;
+            opacity: 1;
+            transition: all var(--animation-duration) var(--animation-delay) var(--animation-timing)
         }
     }
 
 }
-
-
 
 
 // ::::::::::::::::::::::

@@ -7,11 +7,11 @@ require __DIR__ . './../views/header.php';
 
 <!-- ALTERNATE WAYS --> 
 <section class="alternate-ways">
-    
+
     <!-- HEADER -->
     <header class="alternate-ways_header">
 
-        <img src="../graphics/pics/alternate-med.jpg" alt="a chamomile tincture" class="animation-element animation--style_filter-xy animation--duration_2000">
+        <img src="../graphics/pics/alternate-med.jpg" alt="a chamomile tincture" class="animation-element animation--style_top-animation-opacity-in animation--duration_1000 animation--timing_linear">
    
         <div class="heading-wrapper">
             <h2 class="animation-element animation--style_filter-xy animation--duration_2000 animation--trigger-point_50">Alternative Wege</h2>
