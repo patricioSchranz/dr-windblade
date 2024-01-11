@@ -147,6 +147,8 @@ class AnimationElement{
         }
         else{
             this.element.classList.remove('in-right-place')
+
+           if(!this.element.classList.contains('transition-on') ) { this.element.classList.add('transition-on') }
         }
     }
 }

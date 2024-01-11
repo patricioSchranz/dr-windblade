@@ -106,6 +106,10 @@
 
         &_content.active{
             display: block; 
+
+            figure{
+                display: block;
+            }
         }
 
         img{

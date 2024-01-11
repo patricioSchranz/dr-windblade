@@ -35,7 +35,15 @@
     &.clippy-from-left-to-right,
     &.fade-up,
     &.filter-xy{
-        transition: all var(--animation-duration) var(--animation-delay) var(--animation-timing);
+
+        &.transition-on{
+            transition: all var(--animation-duration) var(--animation-delay) var(--animation-timing);
+        }
+        
+    }
+
+    &.in-right-place{
+        transition: all var(--animation-duration) var(--animation-delay) var(--animation-timing)
     }
 
     &.the-circle-grows{
@@ -109,8 +117,9 @@
         }    
     }
 
+
     &.opacity-in{
-        opacity: 0.2;
+        opacity: 0;
         
         &.in-right-place{
             opacity: 1;
@@ -143,6 +152,37 @@
         }
     }
 
+    &.clippy-from-top-to-bottom{
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        // opacity: 1;
+
+        &.in-right-place{
+            // opacity: 1;
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        }
+    }
+
+    &.clippy-left-top-slide{
+        clip-path: polygon(29% 27%, 100% 0, 100% 100%, 0 100%);
+
+        &.in-right-place{
+            // opacity: 1;
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        }
+    }
+
+    &.clippy-circle{
+        clip-path: circle(5.2% at 50% 50%);
+        opacity: 0;
+        filter: blur(10px);
+
+        &.in-right-place{
+            opacity: 1;
+            clip-path: circle(70.7% at 50% 50%);
+            filter: blur(0);
+        }
+    }
+
     &.fade-up{
         opacity: 0;
         transform: translateY(5rem);
@@ -153,23 +193,28 @@
         }
     }
 
-    // &.filter-xy{
-    //     // filter: brightness(5);
-    //     opacity: 0;
 
-    //     &.in-right-place{
-    //         // filter: brightness(1);
-    //         opacity: 1;
-    //         // transition: all var(--animation-duration) var(--animation-delay) var(--animation-timing);
-    //     }
-    // }
+    &.contrast-up{
+        filter: contrast(0.1);
 
-    &.top-animation-opacity-in{
-        opacity: 0;
-        
         &.in-right-place{
-            opacity: 1;
-            transition: all var(--animation-duration) var(--animation-delay) var(--animation-timing)
+            filter: contrast(1);
+        }
+    }
+
+    &.contrast-down{
+        filter: contrast(5);
+
+        &.in-right-place{
+            filter: contrast(1);
+        }
+    }
+
+    &.zoom-smaller{
+        transform: scale(2);
+
+        &.in-right-place{
+            transform: scale(1);
         }
     }
 

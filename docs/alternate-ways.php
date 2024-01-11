@@ -11,65 +11,65 @@ require __DIR__ . './../views/header.php';
     <!-- HEADER -->
     <header class="alternate-ways_header">
 
-        <img src="../graphics/pics/alternate-med.jpg" alt="a chamomile tincture" class="animation-element animation--style_top-animation-opacity-in animation--duration_1000 animation--timing_linear">
+        <img src="../graphics/pics/alternate-med.jpg" alt="a chamomile tincture" class=" animation--style_clippy-circle animation--duration_1000">
    
         <div class="heading-wrapper">
-            <h2 class="animation-element animation--style_filter-xy animation--duration_2000 animation--trigger-point_50">Alternative Wege</h2>
+            <h2 class="animation-element animation--style_the-circle-grows-silent animation--duration_1000 animation--trigger-point_95 animation--delay_0">Alternative Wege</h2>
         </div>
     </header>
 
     <!-- TCM --> 
     <section class="alternate-ways_tcm" id="tcm">
         <header class="alternate-ways_tcm_header">
-            <img src="../graphics/pics/tcm-tea.jpg" alt="cups of tea" class="animation-element animation--style_filter-xy animation--duration_2000">
-            <h3  class="animation-element animation--style_filter-xy animation--duration_2000">TCM</h3>
+            <img src="../graphics/pics/tcm-tea.jpg" alt="cups of tea" class="animation-element animation--style_clippy-from-left-to-right animation--duration_1000">
+            <h3  class="animation-element animation--style_fade-up animation--duration_600">TCM</h3>
         </header>
 
         <!-- ACUPUNCTURE -->
         <article class="alternate-ways_tcm_topic" id="acupuncture">
 
             <header>  
-                <h4>
+                <h4 class="animation-element animation--style_flipping-headline animation--delay_300">
                     <span class="heading-markup">Akkupunktur</span>
                 </h4>
-                <img src="../graphics/pics/acupuncture.jpg" alt="acupuncture">
+                <img src="../graphics/pics/acupuncture.jpg" alt="acupuncture" class="animation-element animation--style_opacity-in animation--duration_1000">
             </header>
             
             <div class="container-description">
-                <div class="on-the-point">
+                <div class="on-the-point animation-element animation--style_the-circle-grows-silent">
                     <p><strong>Lorem ipsum dolor sit, amet consectetur</strong> adipisicing elit. Impedit, esse minus aliquid quaerat molestiae beatae dolores. Eius id consequuntur, nesciunt temporibus, praesentium cum itaque <strong>voluptas saepe</strong> maxime libero architecto voluptatibus.</p>
                 </div>
             
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus praesentium, numquam velit corrupti id, accusantium iusto, nulla <strong>repellat cumque voluptas eveniet</strong> sexcepturi assumenda! Totam, explicabo. Debitis nulla quam fugiat eaque?
+                <p class="animation-element animation--style_the-circle-grows-silent animation--delay_200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus praesentium, numquam velit corrupti id, accusantium iusto, nulla <strong>repellat cumque voluptas eveniet</strong> sexcepturi assumenda! Totam, explicabo. Debitis nulla quam fugiat eaque?
                 Corporis error voluptates ipsa nam impedit eius itaque quaerat quibusdam cumque velit sed repudiandae molestias quis sit hic ipsam, est amet quae assumenda officia?<strong>Perspiciatis rerum est dolore</strong> ratione magni?
                 Dolores commodi dolore, doloribus iusto fugiat aut nobis laboriosam similique odit esse sapiente, aliquid neque? Excepturi est voluptatem <strong>exercitationem</strong> ratione impedit in, rem fugit vitae quia quaerat illum laborum itaque.</p>
             </div>
      
-           <a href="./alternate-services.php#acupuncture">Zu meinem Akkupunktur Angebot</a>
+           <a href="./alternate-services.php#acupuncture" class="animation-element animation--style_fade-up">Zu meinem Akkupunktur Angebot</a>
         </article>
 
         <!-- TUINA -->
         <article class="alternate-ways_tcm_topic" id="tuina">
 
             <header>
-                <h4>
+                <h4 class="animation-element animation--style_flipping-headline animation--delay_300">
                     <span class="heading-markup">Tuina</span>
                 </h4>
-                <img src="../graphics/pics/massage.jpg" alt="massging hands in action">
+                <img src="../graphics/pics/massage.jpg" alt="massging hands in action" class="animation-element animation--style_opacity-in animation--duration_1000">
             </header>
             
             <div class="container-description">
 
-                <div class="on-the-point">
+                <div  class="on-the-point animation-element animation--style_the-circle-grows-silent">
                     <p><strong>Lorem ipsum dolor sit, amet consectetur</strong> adipisicing elit. Impedit, esse minus aliquid quaerat molestiae beatae dolores. Eius id consequuntur, nesciunt temporibus, praesentium cum itaque <strong>voluptas saepe</strong> maxime libero architecto voluptatibus.</p>
                 </div>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus praesentium, numquam velit corrupti id, accusantium iusto, nulla <strong>repellat cumque voluptas eveniet</strong> sexcepturi assumenda! Totam, explicabo. Debitis nulla quam fugiat eaque?
+                <p class="animation-element animation--style_the-circle-grows-silent animation--delay_200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus praesentium, numquam velit corrupti id, accusantium iusto, nulla <strong>repellat cumque voluptas eveniet</strong> sexcepturi assumenda! Totam, explicabo. Debitis nulla quam fugiat eaque?
                 Corporis error voluptates ipsa nam impedit eius itaque quaerat quibusdam cumque velit sed repudiandae molestias quis sit hic ipsam, est amet quae assumenda officia?<strong>Perspiciatis rerum est dolore</strong> ratione magni?
                 Dolores commodi dolore, doloribus iusto fugiat aut nobis laboriosam similique odit esse sapiente, aliquid neque? Excepturi est voluptatem <strong>exercitationem</strong> ratione impedit in, rem fugit vitae quia quaerat illum laborum itaque.</p>
             </div>
 
-           <a href="./alternate-services.php#tuina">Zu meinem Tuina Angebot</a>
+           <a href="./alternate-services.php#tuina" class="animation-element animation--style_fade-up">Zu meinem Tuina Angebot</a>
         </article>
 
         <!-- MOXIBUSTION -->
