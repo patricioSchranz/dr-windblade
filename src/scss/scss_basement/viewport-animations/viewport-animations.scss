@@ -32,9 +32,18 @@
 
     &.opacity-in,
     &.flipping-headline,
-    &.clippy-from-left-to-right,
+    &.filter-xy,
+
     &.fade-up,
-    &.filter-xy{
+    &.fade-from-right,
+    &.fade-from-left,
+
+    &.clippy-from-right-to-left,
+    &.clippy-left-top-slide,
+    &.clippy-right-top-slide,
+    &.clippy-from-left-to-right,
+    &.clippy-circle,
+    &.clippy-from-top-to-bottom{
 
         &.transition-on{
             transition: all var(--animation-duration) var(--animation-delay) var(--animation-timing);
@@ -152,6 +161,16 @@
         }
     }
 
+    &.clippy-from-right-to-left{
+        opacity: 0;
+        clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+
+        &.in-right-place{
+            opacity: 1;
+            clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
+        }
+    }
+
     &.clippy-from-top-to-bottom{
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
         // opacity: 1;
@@ -164,10 +183,37 @@
 
     &.clippy-left-top-slide{
         clip-path: polygon(29% 27%, 100% 0, 100% 100%, 0 100%);
+        opacity: 0.2;
+        color: transparent;
+        transition: 
+                clip-path var(--animation-duration) var(--animation-delay)  var(--animation-timing),
+                color var(--animation-duration) var(--animation-timing);
 
         &.in-right-place{
-            // opacity: 1;
+            opacity: 1;
+            color: black;
             clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            transition: 
+                clip-path var(--animation-duration)   var(--animation-timing),
+                color var(--animation-duration) var(--animation-delay) var(--animation-timing);
+        }
+    }
+
+    &.clippy-right-top-slide{
+        clip-path: polygon(82% 21%, 0 0, 0 100%, 100% 100%);
+        opacity: 0.2;
+        color: transparent;
+        transition: 
+            clip-path var(--animation-duration) var(--animation-delay)  var(--animation-timing),
+            color var(--animation-duration) var(--animation-timing);
+
+        &.in-right-place{
+            opacity: 1;
+            color: black;
+            clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
+            transition: 
+                clip-path var(--animation-duration)   var(--animation-timing),
+                color var(--animation-duration) var(--animation-delay) var(--animation-timing);
         }
     }
 
@@ -190,6 +236,26 @@
         &.in-right-place{
             opacity: 1;
             transform: translateY(0);
+        }
+    }
+
+    &.fade-from-right{
+        opacity: 0;
+        transform: translateX(5rem);
+
+        &.in-right-place{
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    &.fade-from-left{
+        opacity: 0;
+        transform: translateX(-5rem);
+
+        &.in-right-place{
+            opacity: 1;
+            transform: translateX(0);
         }
     }
 
