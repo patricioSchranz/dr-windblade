@@ -16,7 +16,7 @@ usort($pages, function($a, $b) {
 <section class="news">
     <header class="news_header">
         <img src="./../graphics/pics/time-2.jpg" alt="a clock and some growing plants">
-        <h2>News</h2>
+        <h2 class="animation-element animation--style_clippy-circle animation--duration_500 animation--trigger-point_95 animation--delay_0">News</h2>
     </header>
 
     <!-- ARTICLE CONTAINER -->
@@ -26,9 +26,9 @@ usort($pages, function($a, $b) {
             <!-- NEWS ARTICLE -->
             <article class="news_article">
                         <header class="news_article_header">
-                                <p class="time"><?= $page->snippet['creation_date'][1] ?></p>
+                                <p class="time animation-element animation--style_flipping-headline"><?= $page->snippet['creation_date'][1] ?></p>
                             
-                            <h2><?= $page->post_title ?></h2>
+                            <h2 class="animation-element animation--style_clippy-circle animation--duration_1000"><?= $page->post_title ?></h2>
                         </header>
 
                         <div class="news_article_content">

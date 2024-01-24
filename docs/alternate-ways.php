@@ -11,10 +11,10 @@ require __DIR__ . './../views/header.php';
     <!-- HEADER -->
     <header class="alternate-ways_header">
 
-        <img src="../graphics/pics/alternate-med.jpg" alt="a chamomile tincture" class=" animation--style_clippy-circle animation--duration_1000">
+        <img src="../graphics/pics/alternate-med.jpg" alt="a chamomile tincture">
    
         <div class="heading-wrapper">
-            <h2 class="animation-element animation--style_the-circle-grows-silent animation--duration_1000 animation--trigger-point_95 animation--delay_0">Alternative Wege</h2>
+            <h2 class="animation-element animation--style_clippy-circle animation--duration_500 animation--trigger-point_95 animation--delay_0">Alternative Wege</h2>
         </div>
     </header>
 

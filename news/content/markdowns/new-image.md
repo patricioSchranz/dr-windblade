@@ -20,8 +20,9 @@ News mit einem Bild
 
 
 ### Mit einem Bild
+{.animation-element .animation--style_fade-up}
 
-![A test image](./../news/content/assets/christmas.jpg)
+![A test image](./../news/content/assets/christmas.jpg){.animation-element .animation--style_opacity-in .animation--duration_3000}
 
 
 
