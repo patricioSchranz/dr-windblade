@@ -43,7 +43,12 @@
     &.clippy-right-top-slide,
     &.clippy-from-left-to-right,
     &.clippy-circle,
-    &.clippy-from-top-to-bottom{
+    &.clippy-from-top-to-bottom,
+    
+    &.color-up,
+    
+    &.zoom-up,
+    &.zoom-down{
 
         &.transition-on{
             transition: all var(--animation-duration) var(--animation-delay) var(--animation-timing);
@@ -141,6 +146,7 @@
         transition: 
             transform var(--animation-duration) var(--animation-delay) var(--animation-timing),
             color var(--animation-duration)  var(--animation-timing);
+
         
         &.in-right-place{
             transform: perspective(1000px) rotateX(0deg);
@@ -276,11 +282,27 @@
         }
     }
 
-    &.zoom-smaller{
+    &.zoom-down{
         transform: scale(2);
 
         &.in-right-place{
             transform: scale(1);
+        }
+    }
+
+    &.zoom-up{
+        transform: scale(0.6);
+
+        &.in-right-place{
+            transform: scale(1);
+        }
+    }
+
+    &.color-up{
+        filter: brightness(0.8);
+
+        &.in-right-place{
+            filter: brightness(1);
         }
     }
 
