@@ -20,16 +20,22 @@
 }
 
 
-// :::::::::::::::::::::::::::
-// VIEWPORT ANIMATION ELEMENTS
-// :::::::::::::::::::::::::::
+// ::::::::::::::::::::::::::::::::::::::::::::::
+// VIEWPORT ANIMATION CONFIGURATIONS N  ELEMENTS
+// ::::::::::::::::::::::::::::::::::::::::::::::
 
 .animation-element{
 
+    // ~~~~~~~~~~~~~~~~~~
+    // INITIAL SETTINGS 
+    // ~~~~~~~~~~~~~~~~~~
+
+    // INITIAL ANIMATION CONFIGURATIONS
     --animation-duration: .3s;
     --animation-delay: 0s;
     --animation-timing: ease-in-out;
 
+    // SET ANIMATION CONFIGURATIONS 4 THE BACKWARD ANIMATIONS
     &.opacity-in,
     &.flipping-headline,
     &.filter-xy,
@@ -56,9 +62,26 @@
         
     }
 
+    // SET ANIMATION CONFIGURATIONS 4 THE FORWARD (COME IN) ANIMATIONS
     &.in-right-place{
         transition: all var(--animation-duration) var(--animation-delay) var(--animation-timing)
     }
+
+
+    // ~~~~~~~~~~~~~~~~~~~~~~~~
+    // ANIMATIONS
+    // ~~~~~~~~~~~~~~~~~~~~~~~
+
+    // => KEYFRAME ELEMENTS
+    // => SPECIALS
+    // => OPACITY 
+    // => CLIPPY 
+    // => FADE 
+    // => FILTER 
+    // => ZOOM 
+
+    // 
+    // KEYFRAME ELEMENTS
 
     &.the-circle-grows{
         position: relative;
@@ -132,13 +155,8 @@
     }
 
 
-    &.opacity-in{
-        opacity: 0;
-        
-        &.in-right-place{
-            opacity: 1;
-        }
-    }
+    //
+    //  SPECIALS
 
     &.flipping-headline{
         transform: perspective(1000px) rotateX(180deg);
@@ -156,6 +174,22 @@
                 color var(--animation-duration) var(--animation-delay) var(--animation-timing);
         }
     }
+
+
+    // 
+    // OPACITY
+
+    &.opacity-in{
+        opacity: 0;
+        
+        &.in-right-place{
+            opacity: 1;
+        }
+    }
+
+    
+    //
+    // CLIPPY 
 
     &.clippy-from-left-to-right{
         opacity: 0;
@@ -235,6 +269,10 @@
         }
     }
 
+
+    // 
+    // FADE 
+
     &.fade-up{
         opacity: 0;
         transform: translateY(5rem);
@@ -266,6 +304,9 @@
     }
 
 
+    // 
+    // FILTER 
+
     &.contrast-up{
         filter: contrast(0.1);
 
@@ -282,6 +323,19 @@
         }
     }
 
+    &.color-up{
+        filter: brightness(0.8);
+
+        &.in-right-place{
+            filter: brightness(1);
+        }
+    }
+
+
+
+    //
+    // ZOOM 
+
     &.zoom-down{
         transform: scale(2);
 
@@ -297,15 +351,6 @@
             transform: scale(1);
         }
     }
-
-    &.color-up{
-        filter: brightness(0.8);
-
-        &.in-right-place{
-            filter: brightness(1);
-        }
-    }
-
 }
 
 
