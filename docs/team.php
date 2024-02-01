@@ -12,14 +12,14 @@ require __DIR__ . "/../views/header.php" ;
     <!-- HEADER -->
     <header class="team_header">
         <div class="left-side">
-            <img src="../graphics/pics/team-1.jpg" alt="medical team">
-            <img src="../graphics/pics/team-2.jpg" alt="medical team">
+            <img src="../graphics/pics/team-1.jpg" alt="medical team" class="animation-element animation--style_windblade-img-duo-left animation--duration_1000">
+            <img src="../graphics/pics/team-2.jpg" alt="medical team" class="animation-element animation--style_windblade-img-duo-right animation--duration_1000">
         </div>
 
         <div class="right-side">
             <h1>Unser Team</h1>
 
-            <img src="../graphics/pics/team-3.jpg" alt="medical team">
+            <img src="../graphics/pics/team-3.jpg" alt="medical team" class="animation-element animation--style_opacity-in animation--duration_1000">
         </div>
     </header>
 
