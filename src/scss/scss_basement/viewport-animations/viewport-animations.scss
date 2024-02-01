@@ -190,7 +190,7 @@
         opacity: 0;
 
         &.in-right-place{
-            transform: translateX(0%);
+            transform: translateX(0%) !important;
             opacity: 1;
         }
     }
