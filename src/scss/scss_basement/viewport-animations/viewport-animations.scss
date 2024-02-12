@@ -54,7 +54,10 @@
     &.color-up,
     
     &.zoom-up,
-    &.zoom-down{
+    &.zoom-down,
+
+    &.trans-rotate-y-right-light,
+    &.trans-rotate-y-left-light{
 
         &.transition-on{
             transition: all var(--animation-duration) var(--animation-delay) var(--animation-timing);
@@ -78,7 +81,8 @@
     // => CLIPPY 
     // => FADE 
     // => FILTER 
-    // => ZOOM 
+    // => ZOOM
+    // => TRANSFORM 
 
     // 
     // KEYFRAME ELEMENTS
@@ -369,6 +373,26 @@
 
         &.in-right-place{
             transform: scale(1);
+        }
+    }
+
+
+    //
+    // TRANSFORMS
+
+    &.trans-rotate-y-right-light{
+        transform: perspective(1000px) rotateY(45deg);
+
+        &.in-right-place{
+            transform: perspective(1000px) rotateY(0deg);
+        }
+    }
+
+    &.trans-rotate-y-left-light{
+        transform: perspective(1000px) rotateY(-45deg);
+
+        &.in-right-place{
+            transform: perspective(1000px) rotateY(0deg);
         }
     }
 }

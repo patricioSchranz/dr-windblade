@@ -29,56 +29,56 @@ require __DIR__ . "/../views/header.php" ;
 
         <!-- DR WINDBLADE -->
         <div class="team_members_member-container">
-            <img src="../graphics/pics/dr-winblade.jpg" alt="dr-windblade">
+            <img src="../graphics/pics/dr-winblade.jpg" alt="dr-windblade" class="animation-element animation--style_trans-rotate-y-right-light animation--duration_500">
 
             <div class="text">
                 <h3>Dr. Windblade</h3>
 
                 <ul>
-                   <li>Fachärztin für Innere Medizin</li> 
+                   <li class="animation-element animation--style_fade-up animation--delay_500 animation--duration_500">Fachärztin für Innere Medizin</li> 
                 </ul>
             </div>
         </div>
 
         <!-- TAMARA ELVES -->
         <div class="team_members_member-container">
-            <img src="../graphics/pics/tamara-elves.jpg" alt="tamara elves">
+            <img src="../graphics/pics/tamara-elves.jpg" alt="tamara elves" class="animation-element animation--style_trans-rotate-y-left-light animation--duration_500">
 
             <div class="text">
                 <h3>Tamara Elves</h3>
 
                 <ul>
-                    <li>Ordinationsassistentin</li>
-                    <li>Empfang</li>
-                    <li>Organisation</li> 
+                    <li class="animation-element animation--style_fade-up animation--delay_500 animation--duration_500">Ordinationsassistentin</li>
+                    <li class="animation-element animation--style_fade-up animation--delay_500 animation--duration_500">Empfang</li>
+                    <li class="animation-element animation--style_fade-up animation--delay_500 animation--duration_500">Organisation</li> 
                 </ul>
             </div>
         </div>
 
         <!-- SOFIA SKYBLUE -->
         <div class="team_members_member-container">
-            <img src="../graphics/pics/sofia-skyblue.jpg" alt="sofia skyblue">
+            <img src="../graphics/pics/sofia-skyblue.jpg" alt="sofia skyblue" class="animation-element animation--style_trans-rotate-y-right-light animation--duration_500">
 
             <div class="text">
                 <h3>Sofia Skyblue</h3>
 
                 <ul>
-                    <li>Diplomkrankenschwester</li>
-                    <li>Labor</li>
-                    <li>Med. Diagnostik</li> 
+                    <li class="animation-element animation--style_fade-up animation--delay_500 animation--duration_500">Diplomkrankenschwester</li>
+                    <li class="animation-element animation--style_fade-up animation--delay_500 animation--duration_500">Labor</li>
+                    <li class="animation-element animation--style_fade-up animation--delay_500 animation--duration_500">Med. Diagnostik</li> 
                 </ul>
             </div>
         </div>
 
         <!-- ANNA MARISSA -->
         <div class="team_members_member-container">
-            <img src="../graphics/pics/anna-marissa.jpg" alt="anna marissa">
+            <img src="../graphics/pics/anna-marissa.jpg" alt="anna marissa" class="animation-element animation--style_trans-rotate-y-left-light animation--duration_500">
 
             <div class="text">
                 <h3>Anna Marissa</h3>
 
                 <ul>
-                    <li>Physiotherapeutin</li>
+                    <li class="animation-element animation--style_fade-up animation--delay_500 animation--duration_500">Physiotherapeutin</li>
                 </ul>
             </div>
         </div>
