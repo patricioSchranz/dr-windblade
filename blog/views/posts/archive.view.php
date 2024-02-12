@@ -113,7 +113,7 @@ $page_selection = array_slice($pages, $offset, $limit);
     <!-- INTRO SECTION -->
     <header class="blog_intro-section">
         <img src="../graphics/pics/blog.jpg" alt="a desk with some fancy accesoirs and a notebook">
-        <h2>
+        <h2 class="animation-element animation--style_clippy-circle animation--duration_500 animation--trigger-point_95 animation--delay_0">
             Blog
         </h2>
     </header>
@@ -138,7 +138,7 @@ $page_selection = array_slice($pages, $offset, $limit);
         </p>
 
         <!-- WHOLE POSTS -->
-        <p class="blog_info_posts">
+        <p class="blog_info_posts animation-element animation--style_clippy-from-left-to-right">
             <?php if ($selected_posts_count === 1) : ?>
                 Unser Blog hat insgesamt <span><?= $all_posts_count ?></span> Beiträge, davon wird dir gerade 
                 <span>einer</span> aufgelistet.
@@ -152,12 +152,12 @@ $page_selection = array_slice($pages, $offset, $limit);
         </p>
 
         <!-- PAGES -->
-        <p class="blog_info_pages">
+        <p class="blog_info_pages animation-element animation--style_clippy-from-left-to-right">
             Seite <?= $page_count ?> von <?= ceil( count($pages) / $limit ) ?>
         </p>
 
         <!-- POSTS ON CURRENT PAGE -->
-        <p class="blog_info_visible-posts-count">
+        <p class="blog_info_visible-posts-count animation-element animation--style_clippy-from-left-to-right animation--delay_500">
             <?php if($page_count != $last_page) : ?>
                 Beiträge <?= $offset + 1 ?> - <?= ($offset +1)  + ($limit - 1) ?>
 
@@ -182,7 +182,7 @@ $page_selection = array_slice($pages, $offset, $limit);
 
         <?php foreach($page_selection as $page) : ?>
             <!-- POST CARD -->
-            <a href='<?php echo "{$current_path[0]}?single={$page->post_title}" ?>' class="blog_post-cards-container_card-link">
+            <a href='<?php echo "{$current_path[0]}?single={$page->post_title}" ?>' class="blog_post-cards-container_card-link animation-element animation--style_zoom-up animation--duration_700">
 
                 <!-- POST CARD -->
                 <article class="blog_post-cards-container_archive-card">
@@ -208,13 +208,16 @@ $page_selection = array_slice($pages, $offset, $limit);
                         <?php endif; ?>
                         
                         <figure class="page-card_meta hashtags">
-                            <figcaption>Hashtags :</figcaption>
-                            <ul >
-                                <?php foreach($page->snippet['hashtags'][0] as $hashtag) {
-                                    echo $hashtag;
-                                } 
-                            ?>
-                            </ul>
+                            <?php   if( is_array($page->snippet['hashtags'][0]) ) : ?>
+                                <figcaption>Hashtags :</figcaption>
+                                <ul >
+                                    <?php 
+                                            foreach($page->snippet['hashtags'][0] as $hashtag) {
+                                                echo $hashtag;
+                                            }
+                                    ?>
+                                </ul>
+                            <?php endif; ?>
                         </figure>
                     
                     </header>
