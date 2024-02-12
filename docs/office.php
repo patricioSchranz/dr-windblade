@@ -11,8 +11,8 @@ require __DIR__ . './../views/header.php';
 
     <!-- IMAGE ROW TOP -->
     <div class="office_image-row top">
-        <img src="./../graphics/pics/waiting-room.jpg" alt="waiting room">
-        <img src="./../graphics/pics/lab.jpg" alt="laboratory">
+        <img src="./../graphics/pics/waiting-room.jpg" alt="waiting room" class="animation-element animation--style_clippy-from-left-to-right animation--duration_500">
+        <img src="./../graphics/pics/lab.jpg" alt="laboratory" class="animation-element animation--style_clippy-from-right-to-left animation--duration_500">
     </div>
 
     <!-- CONTENT -->
@@ -22,7 +22,7 @@ require __DIR__ . './../views/header.php';
         <div class="office_content_contact-details">
 
             <!-- PHONE -->
-            <div class="detail">
+            <div class="detail animation-element animation--style_clippy-circle animation--duration_500">
                 <a href="tel:+436503335588">
                     <img src="../graphics/icons_n_co/phone.svg" alt="phone icon">
                 </a>
@@ -30,13 +30,13 @@ require __DIR__ . './../views/header.php';
             </div>
 
             <!-- FAX -->
-            <div class="detail">
+            <div class="detail animation-element animation--style_clippy-circle animation--duration_500">
                 <img src="../graphics/icons_n_co/fax.svg" alt="fax icon">
                <p>04254/3335588</p> 
             </div>
 
             <!-- MAIL -->
-            <div class="detail">
+            <div class="detail animation-element animation--style_clippy-circle animation--duration_500">
                 <a href="mailto:office@dr-windblade.uv?subject=Request%20for%20an%20appointment">
                     <img src="../graphics/icons_n_co/mail.svg" alt="mail icon">
                 </a> 
@@ -44,7 +44,7 @@ require __DIR__ . './../views/header.php';
             </div>
 
             <!-- ADRESS -->
-            <div class="detail">
+            <div class="detail animation-element animation--style_clippy-circle animation--duration_500">
                 <a href="https://goo.gl/maps/m4tEFiAVJgjFW82DA" rel="external" target="_blank">
                  <img src="../graphics/icons_n_co/adress.svg" alt="adress icon">
                 </a>
@@ -59,8 +59,8 @@ require __DIR__ . './../views/header.php';
     </div>
 
     <div class="office_image-row bottom">
-        <img src="../graphics/pics/flower.jpg" alt="thymian">
-        <img src="../graphics/pics/doctor.jpg" alt="doctors room">
+        <img src="../graphics/pics/flower.jpg" alt="thymian" class="animation-element animation--style_clippy-from-left-to-right animation--duration_500">
+        <img src="../graphics/pics/doctor.jpg" alt="doctors room" class="animation-element animation--style_clippy-from-right-to-left animation--duration_500">
     </div>
 
 </section>
