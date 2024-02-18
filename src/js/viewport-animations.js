@@ -15,6 +15,8 @@
 //     timingRegex = 'timing',
 //     triggerPointRegex = 'trigger-point'
 
+let scrollDetected = false
+
    
 // ::::::::::::::::::::::::
 // ANIMATION ELEMENT CLASS
@@ -118,7 +120,7 @@ class AnimationElement{
 
             if(fullAnimationTriggerPoint) { this.element.classList.remove(fullAnimationTriggerPoint) }
 
-            this.animationTriggerPoint = splitedAnimationTriggerPoint ? (splitedAnimationTriggerPoint[1] / 100) : 0.8
+            this.animationTriggerPoint = splitedAnimationTriggerPoint ? (splitedAnimationTriggerPoint[1] / 100) : 0.6
     }
 
 
@@ -148,7 +150,7 @@ class AnimationElement{
         else{
             this.element.classList.remove('in-right-place')
 
-           if(!this.element.classList.contains('transition-on') ) { this.element.classList.add('transition-on') }
+           if(!this.element.classList.contains('transition-on') && scrollDetected) { this.element.classList.add('transition-on') }
         }
     }
 }
@@ -174,14 +176,17 @@ declaredAnimationElements.forEach(element =>{
 // ::::::::::::::::::::::::
 
 document.addEventListener('scroll', ()=>{
+    scrollDetected = true
+
     animationElements.forEach(animationElement =>{
         animationElement.triggerAnimation()
     })
 })
 
 window.addEventListener('load', ()=>{
+    console.log(scrollDetected)
+    
     animationElements.forEach(animationElement =>{
-        console.log(animationElement)
         animationElement.triggerAnimation()
     })
 })

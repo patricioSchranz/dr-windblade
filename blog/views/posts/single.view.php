@@ -69,11 +69,13 @@ if(empty($next_single_post)) { $next_single_post = $_GET['single'] ; }
             <img src="../graphics/pics/buddha-1920.jpg" alt="buddha">
     <?php endif; ?>
 
-  <h1 class="post-title"><?php echo $searched_post->post_title ?></h1>
+  <h1 class="post-title animation-element animation--style_clippy-circle animation--duration_1000"><?php echo $searched_post->post_title ?></h1>
 </header>
 
 <main class="single-main">
-    <?php echo $searched_post->content ?>
+    <div class="animation-element animation--style_clippy-circle animation--duration_1000">
+        <?php echo $searched_post->content ?>
+    </div>
 </main>
 
 <?php require __DIR__ . '/../layout/footer.view.php'; ?>

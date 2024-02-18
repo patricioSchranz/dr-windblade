@@ -164,6 +164,7 @@
     </style>
 
     <link rel="stylesheet" href="../style/blog.css">
+    <link rel="stylesheet" href="../style/viewport-animations.css">
 
 </head>
 <body>

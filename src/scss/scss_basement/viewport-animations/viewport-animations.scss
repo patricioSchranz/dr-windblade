@@ -181,7 +181,6 @@
 
     &.windblade-img-duo-left{
         transform: translateX(50%) !important;
-        z-index: 2;
 
         &.in-right-place{
             transform: rotate(-5deg) translate(3rem) !important;
@@ -190,7 +189,6 @@
 
     &.windblade-img-duo-right{
         transform: translateX(-50%);
-        z-index: 1;
         opacity: 0;
 
         &.in-right-place{

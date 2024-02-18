@@ -88,10 +88,10 @@
         .text-hint{
             font-weight: 600;
 
-            @media screen and (max-width: 385px) {
-                text-align: center;
-                // @include testing-border-2;
-            }
+            // @media screen and (max-width: 385px) {
+            //     text-align: center;
+            //     // @include testing-border-2;
+            // }
         }
 
         .required-data{

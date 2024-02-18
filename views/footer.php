@@ -3,7 +3,7 @@
 
 <!-- OPEN TIMES-->
         <section class="footer_open-times">
-            <h2>Öffnungszeiten</h2>
+            <h2 class="animation-element animation--style_fade-up animation--trigger-point_95">Öffnungszeiten</h2>
 
           <!-- ORDINATION -->
           <div class="footer_open-times_ordination">
@@ -100,22 +100,22 @@
 
     <!-- IMPORTANT PAGES -->
         <section class="footer_important-pages">
-            <h2>Wichtige Seiten</h2>
+            <h2 class="animation-element animation--style_fade-up animation--trigger-point_95">Wichtige Seiten</h2>
 
             <ul>
-                <li>
+                <li  class="animation-element animation--style_clippy-circle animation--trigger-point_95 animation--delay_300">
                     <a href="#">Kassenleistungen</a>
                 </li>
-                <li>
+                <li  class="animation-element animation--style_clippy-circle animation--trigger-point_95 animation--delay_600">
                     <a href="#">Wahlarztleistungen</a>
                 </li>
-                <li>
+                <li  class="animation-element animation--style_clippy-circle animation--trigger-point_95 animation--delay_900">
                     <a href="#">Ästhetische Medizin</a>
                 </li>
-                <li>
+                <li  class="animation-element animation--style_clippy-circle animation--trigger-point_95 animation--delay_1200">
                     <a href="#">Beauty & Balance</a>
                 </li>
-                <li>
+                <li  class="animation-element animation--style_clippy-circle animation--trigger-point_95 animation--delay_1500">
                     <a href="#">Physiotherapie</a>
                 </li>
             </ul>

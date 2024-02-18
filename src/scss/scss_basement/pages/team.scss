@@ -63,6 +63,7 @@
                 &:first-of-type{
                     // transform: rotate(-5deg) translate(3rem);
                     transform: translateX(50%);
+                    z-index: 2;
 
                     @media screen and (max-width: 800px) {
                         transform: initial;
@@ -71,6 +72,7 @@
 
                 &:last-of-type{
                     transform: translateX(-50%);
+                    z-index: 1;
                 }
             }
         }
