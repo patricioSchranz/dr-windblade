@@ -1,25 +1,11 @@
-Don Juan
-{.author}
-
-14.09.2023
+01.01.2023
 {.creation-date}
 
-Full Stack
-{.category}
-
-JavaScript
-{.sub-category}
-
-- \# JavaScript
-- \# Objects 
-- \# Basics
-{.hashtags}
-
-I`m the title 4
+Entspannung für die Halswirbelsäule
 {.title}
 
 
-# TEST
+# Entspannung für die Halswirbelsäule
 
 ![A test image](./../blog/content/assets/cute.jpg){.image}
 

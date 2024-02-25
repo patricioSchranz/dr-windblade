@@ -1,27 +1,27 @@
-Don Juan
+Dr. Windblade
 {.author}
 
-14.09.2023
+25.02.2024
 {.creation-date}
 
-Full Stack
+Für die Seele
 {.category}
 
-JavaScript
+Genuss
 {.sub-category}
 
-- \# JavaScript
-- \# Objects 
-- \# Basics
+- \# Für die Seele
+- \# Genuss
+- \# Sinnlichkeit
 {.hashtags}
 
-I`m the title 8
+Die Sinnlichkeit des weiblichen Körpers
 {.title}
 
 
-# TEST
+# Die Sinnlichkeit des weiblichen Körpers
 
-![A test image](./../blog/content/assets/cute.jpg){.image}
+![Eine schöne Frau](./../blog/content/assets/woman.jpg){.image}
 
 
 Hello World **Hello** Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.

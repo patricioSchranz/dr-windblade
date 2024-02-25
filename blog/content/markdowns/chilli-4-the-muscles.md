@@ -1,27 +1,25 @@
-Don Juan
+Sofia Skyblue
 {.author}
 
 14.09.2023
 {.creation-date}
 
-Full Stack
+Pflanzenheilkunde
 {.category}
 
-JavaScript
-{.sub-category}
 
-- \# JavaScript
-- \# Objects 
-- \# Basics
+- \# Pflanzenheilkunde
+- \# Natur 
+- \# Muskelschmerzen
 {.hashtags}
 
-I`m the title 7
+Chilli gegen Muskelschmerzen
 {.title}
 
 
-# TEST
+# Chilli gegen Muskelschmerzen
 
-![A test image](./../blog/content/assets/cute.jpg){.image}
+![Eine Chilli Pflanze](./../blog/content/assets/chilli-plant.jpg){.image}
 
 
 Hello World **Hello** Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
