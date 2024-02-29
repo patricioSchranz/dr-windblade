@@ -95,6 +95,10 @@
                     position: absolute;
                     right: 0;
                     animation: remove-width 4s .3s forwards linear;
+
+                    @media screen and (max-width: 600px) {
+                        animation: remove-width 3s 1s forwards linear;
+                    }
                 }
             }
         }
@@ -119,7 +123,7 @@
             position: absolute;
             top: -2rem;
             opacity: 0.7;
-            transition: all .5s;
+            transition: all .2s;
         }
 
         // &::before{
@@ -556,12 +560,13 @@
 #card-kassen,
 #card-wahlarzt{
     transform: perspective(1000px) rotateX(25deg);
-    transition: all .3s ease-in-out;
+    transition: all .3s linear;
     opacity: 0.2;
 
     @media screen and (orientation: portrait) {
-        transform: perspective(1000px) rotateY(0) translateX(0) scale(0.8);
+        transform: scale(0.9);
         opacity: 0.2;
+        transition: all .3s linear;
     }
 }
 

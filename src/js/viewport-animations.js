@@ -120,7 +120,15 @@ class AnimationElement{
 
             if(fullAnimationTriggerPoint) { this.element.classList.remove(fullAnimationTriggerPoint) }
 
-            this.animationTriggerPoint = splitedAnimationTriggerPoint ? (splitedAnimationTriggerPoint[1] / 100) : 0.6
+            // if(window.innerWidth > 600) { 
+            //     this.animationTriggerPoint = splitedAnimationTriggerPoint ? (splitedAnimationTriggerPoint[1] / 100) : 0.6
+            // }
+            // else{
+            //     this.animationTriggerPoint = splitedAnimationTriggerPoint ? (splitedAnimationTriggerPoint[1] / 100) : 0.75
+            // }
+
+            this.animationTriggerPoint = splitedAnimationTriggerPoint ? (splitedAnimationTriggerPoint[1] / 100) : 0.75
+            
     }
 
 
