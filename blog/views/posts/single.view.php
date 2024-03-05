@@ -9,6 +9,10 @@ $count_of_pages = count($pages);
 $next_single_post = '';
 $previous_single_post = '';
 
+usort($pages, function($a, $b) {
+    return strtotime($b->snippet['creation_date'][1]) - strtotime($a->snippet['creation_date'][1]);
+});
+
 foreach($pages as $idx => $page){
     if($page->post_title === $searched_post_title){ 
         $searched_post = $page ; 
