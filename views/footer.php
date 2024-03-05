@@ -104,19 +104,39 @@
 
             <ul>
                 <li  class="animation-element animation--style_clippy-circle animation--trigger-point_95 animation--delay_300">
-                    <a href="#">Kassenleistungen</a>
+                    <?php if($page !== 'index') :?>
+                        <a href="./services.php#check-up">Kassenleistungen</a>
+                        <?php else : ?>
+                            <a href="./docs/services.php#check-up">Kassenleistungen</a>
+                    <?php endif; ?>
                 </li>
                 <li  class="animation-element animation--style_clippy-circle animation--trigger-point_95 animation--delay_600">
-                    <a href="#">Wahlarztleistungen</a>
+                    <?php if($page !== 'index') :?>
+                        <a href="./private-services.php#rest-ekg">Wahlarztleistungen</a>
+                        <?php else : ?>
+                            <a href="./docs/private-services.php#rest-ekg">Wahlarztleistungen</a>
+                    <?php endif; ?> 
                 </li>
                 <li  class="animation-element animation--style_clippy-circle animation--trigger-point_95 animation--delay_900">
-                    <a href="#">Ästhetische Medizin</a>
+                    <?php if($page !== 'index') :?>
+                        <a href="./alternate-services.php#acupuncture">Alternative Medizin</a>
+                        <?php else : ?>
+                            <a href="./docs/alternate-services.php#acupuncture">Alternative Medizin</a>
+                    <?php endif; ?> 
                 </li>
                 <li  class="animation-element animation--style_clippy-circle animation--trigger-point_95 animation--delay_1200">
-                    <a href="#">Beauty & Balance</a>
+                    <?php if($page !== 'index') :?>
+                        <a href="./alternate-ways.php">Alternative Wege</a>
+                        <?php else : ?>
+                            <a href="./docs/alternate-ways.php">Alternative Wege</a>
+                    <?php endif; ?> 
                 </li>
                 <li  class="animation-element animation--style_clippy-circle animation--trigger-point_95 animation--delay_1500">
-                    <a href="#">Physiotherapie</a>
+                    <?php if($page !== 'index') :?>
+                        <a href="./physical-therapy.php">Physiotherapie</a>
+                        <?php else : ?>
+                            <a href="./docs/physical-therapy.php">Physiotherapie</a>
+                    <?php endif; ?> 
                 </li>
             </ul>
         </section>
