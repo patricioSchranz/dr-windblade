@@ -2,7 +2,7 @@
 
 $page = 'index';
 
-require __DIR__ . './views/header-index.php';
+require __DIR__ . '/views/header-index.php';
 ?>
 
 <!-- INTRO SECTION -->
@@ -195,7 +195,7 @@ require __DIR__ . './views/header-index.php';
 
 <?php
 
-require __DIR__ . './views/footer.php';
+require __DIR__ . '/views/footer.php';
 
 ?>
 
