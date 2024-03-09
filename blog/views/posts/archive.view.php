@@ -297,7 +297,10 @@ $page_selection = array_slice($pages, $offset, $limit);
                         // } 
 
                         // => mark the link of the current page
-                        if($pagination_number == $_GET['page']){
+                        if( 
+                            ( isset($_GET['page']) && $pagination_number == $_GET['page'] ) || 
+                            ( !isset($_GET['page']) && $i === 1 ) 
+                            ){
                             echo "<a href='?$query_string' class='current-page'>$pagination_number</a>";
                         }
                         else{
