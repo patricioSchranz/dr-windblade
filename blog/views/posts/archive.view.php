@@ -292,8 +292,13 @@ $page_selection = array_slice($pages, $offset, $limit);
 
                     
                         // => mark the link of the last page
-                        if($pagination_number == $last_page){
-                            echo "<a href='?$query_string' class='last-pagination-elem'>$pagination_number</a>";
+                        // if($pagination_number == $last_page){
+                        //     echo "<a href='?$query_string' class='last-pagination-elem'>$pagination_number</a>";
+                        // } 
+
+                        // => mark the link of the current page
+                        if($pagination_number == $_GET['page']){
+                            echo "<a href='?$query_string' class='current-page'>$pagination_number</a>";
                         }
                         else{
                             echo "<a href='?$query_string'>$pagination_number</a>";
