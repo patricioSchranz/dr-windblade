@@ -65,11 +65,34 @@ if(window.innerWidth > 1350){
 // REITER NAVIGATION MAX WIDTH 1350px
 // --------------------------------------------
 
+
 if(window.innerWidth <= 1350){
     console.log('max width 1350px')
+
     const 
         alternateReiterLinks = document.querySelectorAll('.outer-heading'),
         servicesContents = document.querySelectorAll('.services_service_content')
+
+    let foundAnchor = false
+
+    // callback => show the right tab
+    const showTheRightTab = (searchedID)=>{
+        alternateReiterLinks.forEach(reiterLink =>{
+            if(reiterLink.dataset.id === searchedID){
+                foundAnchor = true
+    
+                alternateReiterLinks.forEach( link => link.classList.remove('active'))
+    
+                reiterLink.classList.add('active')
+                
+                servicesContents.forEach(content =>{
+                    content.classList.remove('active')
+                })
+    
+                reiterLink.nextElementSibling.classList.toggle('active')
+            }
+        })
+    }
 
     alternateReiterLinks.forEach(link =>{
         link.addEventListener('click', ()=>{
@@ -82,7 +105,6 @@ if(window.innerWidth <= 1350){
                     content.classList.toggle('active')
                     link.classList.add('active')
                     window.scrollTo(0,0)
-                    // alert('hi')
                     console.log(scrollY)
                 }
                
@@ -91,33 +113,21 @@ if(window.innerWidth <= 1350){
     })
 
     window.addEventListener('load', ()=>{
-        alternateReiterLinks[0].click()
+        const anchorLink = '#' + window.location.href.split("#")[1]
+
+        showTheRightTab(anchorLink)
+       
+        if (foundAnchor === false) { alternateReiterLinks[0].click() }
     })
 
-
-    megaMenuLinks.forEach(link =>{
-        link.addEventListener('click', ()=>{
+    megaMenuLinks.forEach(megaMLink =>{
+        megaMLink.addEventListener('click', ()=>{
             const 
                 megaMenuLinkHref = link.href,
                 hashtagIndex = megaMenuLinkHref.indexOf('#'),
                 searchedContentId = megaMenuLinkHref.slice(hashtagIndex)
 
-            console.log(link)
-
-            alternateReiterLinks.forEach(reiterLink =>{
-                if(reiterLink.dataset.id === searchedContentId){
-
-                    alternateReiterLinks.forEach( link => link.classList.remove('active'))
-
-                    reiterLink.classList.add('active')
-                    
-                    servicesContents.forEach(content =>{
-                        content.classList.remove('active')
-                    })
-
-                    reiterLink.nextElementSibling.classList.toggle('active')
-                }
-            })
+            showTheRightTab(searchedContentId)
         })
     })
 }
