@@ -38,6 +38,13 @@ If you want to animate an element when it comes into the viewport, you can contr
 
 The animation trigger point indicates at what height, measured in percent of the viewport, the animation for the element should be triggered.
 
+You can find all available animations in the 'viewport-animations.scss' file.
+
+## Custom SASS/CSS
+
+If you modify the Sass style declarations, use the pre-built Sass statements to convert the SCSS script to CSS. You can find them in the package.json file.
+
+E.g => npm run build:blog
 
 ## Credits
 
