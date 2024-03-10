@@ -112,7 +112,7 @@ $page_selection = array_slice($pages, $offset, $limit);
 
     <!-- INTRO SECTION -->
     <header class="blog_intro-section">
-        <img src="../graphics/pics/blog.jpg" alt="a desk with some fancy accesoirs and a notebook">
+        <img src="../graphics/pics/blog.webp" alt="a desk with some fancy accesoirs and a notebook">
         <h2 class="animation-element animation--style_clippy-circle animation--duration_500 animation--trigger-point_95 animation--delay_0">
             Blog
         </h2>

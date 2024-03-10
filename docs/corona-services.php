@@ -41,7 +41,7 @@ require __DIR__ . './../views/header.php';
                     animation--timing_cubic-bezier(.47,.03,.68,.36)
                     animation--trigger-point_70
                     ">
-                <img src="../graphics/pics/antigen.jpg">
+                <img src="../graphics/pics/antigen.webp">
             </figure>
 
             <div class="services_service_text">
@@ -92,7 +92,7 @@ require __DIR__ . './../views/header.php';
                     animation--timing_cubic-bezier(.47,.03,.68,.36)
                     animation--trigger-point_70
                     ">
-                <img src="../graphics/pics/pcr.jpg">
+                <img src="../graphics/pics/pcr.webp">
             </figure>
 
             <div class="services_service_text">
@@ -143,7 +143,7 @@ require __DIR__ . './../views/header.php';
                     animation--timing_cubic-bezier(.47,.03,.68,.36)
                     animation--trigger-point_70
                     ">
-                <img src="../graphics/pics/accompaniment.jpg">
+                <img src="../graphics/pics/accompaniment.webp">
             </figure>
 
             <div class="services_service_text">

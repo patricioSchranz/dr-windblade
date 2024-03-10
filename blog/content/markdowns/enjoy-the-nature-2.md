@@ -22,7 +22,7 @@ Geniße die Natur Teil 2
 
 # Geniße die Natur Teil 2
 
-![Eine Frau genießt die Natur](./../blog/content/assets/enjoy-nature-2.jpg){.image}
+![Eine Frau genießt die Natur](./../blog/content/assets/enjoy-nature-2.webp){.image}
 
 
 Hello World **Hello** Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.

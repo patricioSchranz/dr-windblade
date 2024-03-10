@@ -11,7 +11,7 @@ require __DIR__ . './../views/header.php';
     <!-- HEADER -->
     <header class="alternate-ways_header">
 
-        <img src="../graphics/pics/alternate-med.jpg" alt="a chamomile tincture">
+        <img src="../graphics/pics/alternate-med.webp" alt="a chamomile tincture">
    
         <div class="heading-wrapper">
             <h2 class="animation-element animation--style_clippy-circle animation--duration_500 animation--trigger-point_95 animation--delay_0">Alternative Wege</h2>
@@ -21,7 +21,7 @@ require __DIR__ . './../views/header.php';
     <!-- TCM --> 
     <section class="alternate-ways_tcm" id="tcm">
         <header class="alternate-ways_tcm_header">
-            <img src="../graphics/pics/tcm-tea.jpg" alt="cups of tea" class="animation-element animation--style_clippy-from-left-to-right animation--duration_1000">
+            <img src="../graphics/pics/tcm-tea.webp" alt="cups of tea" class="animation-element animation--style_clippy-from-left-to-right animation--duration_1000">
             <h3  class="animation-element animation--style_fade-up animation--duration_600">TCM</h3>
         </header>
 
@@ -32,7 +32,7 @@ require __DIR__ . './../views/header.php';
                 <h4 class="animation-element animation--style_flipping-headline animation--delay_300">
                     <span class="heading-markup">Akkupunktur</span>
                 </h4>
-                <img src="../graphics/pics/acupuncture.jpg" alt="acupuncture" class="animation-element animation--style_opacity-in animation--duration_1000">
+                <img src="../graphics/pics/acupuncture.webp" alt="acupuncture" class="animation-element animation--style_opacity-in animation--duration_1000">
             </header>
             
             <div class="container-description">
@@ -55,7 +55,7 @@ require __DIR__ . './../views/header.php';
                 <h4 class="animation-element animation--style_flipping-headline animation--delay_300">
                     <span class="heading-markup">Tuina</span>
                 </h4>
-                <img src="../graphics/pics/massage.jpg" alt="massging hands in action" class="animation-element animation--style_opacity-in animation--duration_1000">
+                <img src="../graphics/pics/massage.webp" alt="massging hands in action" class="animation-element animation--style_opacity-in animation--duration_1000">
             </header>
             
             <div class="container-description">
@@ -79,7 +79,7 @@ require __DIR__ . './../views/header.php';
                 <h4 class="animation-element animation--style_flipping-headline animation--delay_300">
                     <span class="heading-markup">Moxibustion</span>
                 </h4>
-                <img src="../graphics/pics/moxibustion.jpg" alt="moxibustion" class="animation-element animation--style_opacity-in animation--duration_1000">
+                <img src="../graphics/pics/moxibustion.webp" alt="moxibustion" class="animation-element animation--style_opacity-in animation--duration_1000">
             </header>
             
             <div class="container-description">
@@ -103,7 +103,7 @@ require __DIR__ . './../views/header.php';
                 <h4 class="animation-element animation--style_flipping-headline animation--delay_300">
                     <span class="heading-markup">Ernährungsberatung</span>
                 </h4>
-                <img src="../graphics/pics/nutritional.jpg" alt="nutritional" class="animation-element animation--style_opacity-in animation--duration_1000">
+                <img src="../graphics/pics/nutritional.webp" alt="nutritional" class="animation-element animation--style_opacity-in animation--duration_1000">
             </header>
             
             <div class="container-description">
@@ -127,7 +127,7 @@ require __DIR__ . './../views/header.php';
                 <h4 class="animation-element animation--style_flipping-headline animation--delay_300">
                     <span class="heading-markup">Qi Gong</span>
                 </h4>
-                <img src="../graphics/pics/qi-gong.jpg" alt="qi gong" class="animation-element animation--style_opacity-in animation--duration_1000">
+                <img src="../graphics/pics/qi-gong.webp" alt="qi gong" class="animation-element animation--style_opacity-in animation--duration_1000">
             </header>
             
             <div class="container-description">
@@ -148,7 +148,7 @@ require __DIR__ . './../views/header.php';
     <!-- SCHRÖPFEN -->
     <section class="alternate-ways_cupping" id="cupping">
         <div class="alternate-ways_cupping_left-side">
-            <img src="../graphics/pics/cupping.jpg" alt="cupping" class="animation-element animation--style_clippy-from-left-to-right animation--duration_1000">
+            <img src="../graphics/pics/cupping.webp" alt="cupping" class="animation-element animation--style_clippy-from-left-to-right animation--duration_1000">
         </div>
 
         <div class="alternate-ways_cupping_right-side">
@@ -168,7 +168,7 @@ require __DIR__ . './../views/header.php';
     <!-- TIBETIAN MASSAGE -->
     <section class="alternate-ways_tibetian-massage" id="tibetian-massage">
         <div class="alternate-ways_tibetian-massage_left-side">
-            <img src="../graphics/pics/tibetian-massage.jpg" alt="tibetian massage" class="animation-element animation--style_clippy-from-right-to-left animation--duration_1000">
+            <img src="../graphics/pics/tibetian-massage.webp" alt="tibetian massage" class="animation-element animation--style_clippy-from-right-to-left animation--duration_1000">
         </div>
 
         <div class="alternate-ways_tibetian-massage_right-side">
@@ -188,7 +188,7 @@ require __DIR__ . './../views/header.php';
     <!-- QI GONG GROUP -->
     <section class="alternate-ways_qi-gong-group" id="qi-gong-group">
         <header class="alternate-ways_qi-gong-group_header">
-            <img src="../graphics/pics/qi-gong-group.jpg" alt="qi gong group" class="animation-element animation--style_clippy-from-top-to-bottom animation--duration_1000">
+            <img src="../graphics/pics/qi-gong-group.webp" alt="qi gong group" class="animation-element animation--style_clippy-from-top-to-bottom animation--duration_1000">
             <h3 class="animation-element animation--style_clippy-circle">Qi Gong Gruppe</h3>
         </header>
 
@@ -230,7 +230,7 @@ require __DIR__ . './../views/header.php';
     <!-- MEDITATION GROUP -->
     <section class="alternate-ways_meditation-group" id="meditation-group">
         <header class="alternate-ways_meditation-group_header">
-            <img src="../graphics/pics/meditation-group.jpg" alt="qi gong group" class="animation-element animation--style_clippy-from-top-to-bottom animation--duration_1000">
+            <img src="../graphics/pics/meditation-group.webp" alt="qi gong group" class="animation-element animation--style_clippy-from-top-to-bottom animation--duration_1000">
             <h3 class="animation-element animation--style_clippy-circle">Meditations Gruppe</h3>
         </header>
 

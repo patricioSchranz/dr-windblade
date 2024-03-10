@@ -10,7 +10,7 @@ require __DIR__ . './../views/header.php'
 
     <!-- HEADING -->
     <header class="physical-therapy_heading">
-        <img class="physical-therapy_heading_img" src="../graphics/pics/yoga-16.jpg" alt="physical-therapy">
+        <img class="physical-therapy_heading_img" src="../graphics/pics/yoga-16.webp" alt="physical-therapy">
         <h2 class="physical-therapy_heading_headline animation-element animation--style_clippy-circle animation--duration_500 animation--trigger-point_95 animation--delay_0">Physiotherapie</h2>
     </header>
 
@@ -34,7 +34,7 @@ require __DIR__ . './../views/header.php'
     <!-- PHYSICAL TRAINER --> 
     <section class="physical-therapy_row trainer">
         <h3 class="hidden">The trainer</h3>
-        <img src="../graphics/pics/physical-therapist.jpg" alt="the physical therapist doctor cute" class="animation-element animation--style_clippy-circle animation--duration_1000">
+        <img src="../graphics/pics/physical-therapist.webp" alt="the physical therapist doctor cute" class="animation-element animation--style_clippy-circle animation--duration_1000">
 
         <div class="about animation-element animation--style_clippy-circle animation--duration_1000 animation--delay_200">
             <p class="about_paragraph">
@@ -81,14 +81,14 @@ require __DIR__ . './../views/header.php'
             </ul>
         </div>
 
-        <img src="../graphics/pics/trainings-tools.jpg" alt="Trainingsgegenstände" class="animation-element animation--style_opacity-in animation--duration_2000">
+        <img src="../graphics/pics/trainings-tools.webp" alt="Trainingsgegenstände" class="animation-element animation--style_opacity-in animation--duration_2000">
     </section>
 
     <!-- SERVICES PT 2 -->
     <section class="physical-therapy_row services">
         <h3 class="hidden">Advanced Services</h3>
 
-        <img src="../graphics/pics/advanced-service.jpg" alt="eine Frau wird massiert" class="animation-element animation--style_opacity-in animation--duration_2000">
+        <img src="../graphics/pics/advanced-service.webp" alt="eine Frau wird massiert" class="animation-element animation--style_opacity-in animation--duration_2000">
 
         <div class="container-content">
             <p class="heading animation-element animation--style_clippy-from-left-to-right animation--duration_500">Meine Zusatzausbildungen sind :</p>

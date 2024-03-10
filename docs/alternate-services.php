@@ -53,7 +53,7 @@ require __DIR__ . './../views/header.php';
                     animation--timing_cubic-bezier(.47,.03,.68,.36)
                     animation--trigger-point_70
                     ">
-                <img src="../graphics/pics/acupuncture.jpg">
+                <img src="../graphics/pics/acupuncture.webp">
             </figure>
 
             <div class="services_service_text">
@@ -103,7 +103,7 @@ require __DIR__ . './../views/header.php';
                     animation--timing_cubic-bezier(.47,.03,.68,.36)
                     animation--trigger-point_70
                     ">
-                <img src="../graphics/pics/massage.jpg">
+                <img src="../graphics/pics/massage.webp">
             </figure>
 
             <div class="services_service_text">
@@ -153,7 +153,7 @@ require __DIR__ . './../views/header.php';
                     animation--timing_cubic-bezier(.47,.03,.68,.36)
                     animation--trigger-point_70
                     ">
-                <img src="../graphics/pics/moxibustion.jpg">
+                <img src="../graphics/pics/moxibustion.webp">
             </figure>
 
             <div class="services_service_text">
@@ -203,7 +203,7 @@ require __DIR__ . './../views/header.php';
                     animation--timing_cubic-bezier(.47,.03,.68,.36)
                     animation--trigger-point_70
                     ">
-                <img src="../graphics/pics/nutritional.jpg">
+                <img src="../graphics/pics/nutritional.webp">
             </figure>
 
             <div class="services_service_text">
@@ -252,7 +252,7 @@ require __DIR__ . './../views/header.php';
                     animation--timing_cubic-bezier(.47,.03,.68,.36)
                     animation--trigger-point_70
                     ">
-                <img src="../graphics/pics/qi-gong.jpg">
+                <img src="../graphics/pics/qi-gong.webp">
             </figure>
 
             <div class="services_service_text">
@@ -300,7 +300,7 @@ require __DIR__ . './../views/header.php';
                     animation--timing_cubic-bezier(.47,.03,.68,.36)
                     animation--trigger-point_70
                     ">
-                <img src="../graphics/pics/cupping.jpg">
+                <img src="../graphics/pics/cupping.webp">
             </figure>
 
             <div class="services_service_text">
@@ -348,7 +348,7 @@ require __DIR__ . './../views/header.php';
                     animation--timing_cubic-bezier(.47,.03,.68,.36)
                     animation--trigger-point_70
                     ">
-                <img src="../graphics/pics/tibetian-massage.jpg">
+                <img src="../graphics/pics/tibetian-massage.webp">
             </figure>
 
             <div class="services_service_text">

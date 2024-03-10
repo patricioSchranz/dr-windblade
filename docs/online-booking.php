@@ -11,7 +11,7 @@ require __DIR__ . './../views/header.php';
 
     <!-- BIG IMAGE -->
     <div class="online-booking_left-side">
-        <img src="../graphics/pics/flowers.jpg" alt="flowers">
+        <img src="../graphics/pics/flowers.webp" alt="flowers">
     </div>
 
     <!-- CONTENT -->

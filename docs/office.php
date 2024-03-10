@@ -11,8 +11,8 @@ require __DIR__ . './../views/header.php';
 
     <!-- IMAGE ROW TOP -->
     <div class="office_image-row top">
-        <img src="./../graphics/pics/waiting-room.jpg" alt="waiting room" class="animation-element animation--style_clippy-from-left-to-right animation--duration_500">
-        <img src="./../graphics/pics/lab.jpg" alt="laboratory" class="animation-element animation--style_clippy-from-right-to-left animation--duration_500 animation--delay_500">
+        <img src="./../graphics/pics/waiting-room.webp" alt="waiting room" class="animation-element animation--style_clippy-from-left-to-right animation--duration_500">
+        <img src="./../graphics/pics/lab.webp" alt="laboratory" class="animation-element animation--style_clippy-from-right-to-left animation--duration_500 animation--delay_500">
     </div>
 
     <!-- CONTENT -->
@@ -59,8 +59,8 @@ require __DIR__ . './../views/header.php';
     </div>
 
     <div class="office_image-row bottom">
-        <img src="../graphics/pics/flower.jpg" alt="thymian" class="animation-element animation--style_clippy-from-left-to-right animation--duration_500 animation--delay_500 animation--trigger-point_100">
-        <img src="../graphics/pics/doctor.jpg" alt="doctors room" class="animation-element animation--style_clippy-from-right-to-left animation--duration_500 animation--trigger-point_100">
+        <img src="../graphics/pics/flower.webp" alt="thymian" class="animation-element animation--style_clippy-from-left-to-right animation--duration_500 animation--delay_500 animation--trigger-point_100">
+        <img src="../graphics/pics/doctor.webp" alt="doctors room" class="animation-element animation--style_clippy-from-right-to-left animation--duration_500 animation--trigger-point_100">
     </div>
 
 </section>

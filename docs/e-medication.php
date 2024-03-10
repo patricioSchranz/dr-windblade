@@ -11,7 +11,7 @@ require __DIR__ . './../views/header.php';
 
     <!-- BIG IMAGE -->
     <div class="e-medication_left-side">
-        <img src="../graphics/pics/pharmacy.jpg" alt="pharmacy" class="animation-element animation--style_clippy-from-left-to-right animation--duration_500">
+        <img src="../graphics/pics/pharmacy.webp" alt="pharmacy" class="animation-element animation--style_clippy-from-left-to-right animation--duration_500">
     </div>
 
     <!-- CONTENT -->

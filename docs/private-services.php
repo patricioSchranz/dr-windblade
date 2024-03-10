@@ -62,7 +62,7 @@ require __DIR__ . './../views/header.php';
                     animation--timing_cubic-bezier(.47,.03,.68,.36)
                     animation--trigger-point_70
                     ">
-                <img src="../graphics/pics/yoga-5.jpg">
+                <img src="../graphics/pics/yoga-5.webp">
             </figure>
             
 
@@ -113,7 +113,7 @@ require __DIR__ . './../views/header.php';
                     animation--timing_cubic-bezier(.47,.03,.68,.36)
                     animation--trigger-point_70
                     ">
-                <img src="../graphics/pics/yoga-6.jpg">
+                <img src="../graphics/pics/yoga-6.webp">
             </figure>
 
             <div class="services_service_text">
@@ -163,7 +163,7 @@ require __DIR__ . './../views/header.php';
                     animation--timing_cubic-bezier(.47,.03,.68,.36)
                     animation--trigger-point_70
                     ">
-                <img src="../graphics/pics/yoga-7.jpg">
+                <img src="../graphics/pics/yoga-7.webp">
             </figure>
 
             
@@ -214,7 +214,7 @@ require __DIR__ . './../views/header.php';
                     animation--timing_cubic-bezier(.47,.03,.68,.36)
                     animation--trigger-point_70
                     ">
-                <img src="../graphics/pics/yoga-8.jpg">
+                <img src="../graphics/pics/yoga-8.webp">
             </figure>
 
             <div class="services_service_text">
@@ -263,7 +263,7 @@ require __DIR__ . './../views/header.php';
                     animation--timing_cubic-bezier(.47,.03,.68,.36)
                     animation--trigger-point_70
                     ">
-                <img src="../graphics/pics/yoga-9.jpg">
+                <img src="../graphics/pics/yoga-9.webp">
             </figure>
 
             <div class="services_service_text">
@@ -311,7 +311,7 @@ require __DIR__ . './../views/header.php';
                     animation--timing_cubic-bezier(.47,.03,.68,.36)
                     animation--trigger-point_70
                     ">
-                <img src="../graphics/pics/yoga-10.jpg">
+                <img src="../graphics/pics/yoga-10.webp">
             </figure>
 
             <div class="services_service_text">
@@ -359,7 +359,7 @@ require __DIR__ . './../views/header.php';
                     animation--timing_cubic-bezier(.47,.03,.68,.36)
                     animation--trigger-point_70
                     ">
-                <img src="../graphics/pics/yoga-11.jpg">
+                <img src="../graphics/pics/yoga-11.webp">
             </figure>
 
             <div class="services_service_text">
@@ -408,7 +408,7 @@ require __DIR__ . './../views/header.php';
                     animation--timing_cubic-bezier(.47,.03,.68,.36)
                     animation--trigger-point_70
                     ">
-                <img src="../graphics/pics/yoga-12.jpg">
+                <img src="../graphics/pics/yoga-12.webp">
             </figure>
 
             <div class="services_service_text">
@@ -456,7 +456,7 @@ require __DIR__ . './../views/header.php';
                     animation--timing_cubic-bezier(.47,.03,.68,.36)
                     animation--trigger-point_70
                     ">
-                <img src="../graphics/pics/yoga-13.jpg">
+                <img src="../graphics/pics/yoga-13.webp">
             </figure>
             
             <div class="services_service_text">
@@ -505,7 +505,7 @@ require __DIR__ . './../views/header.php';
                     animation--timing_cubic-bezier(.47,.03,.68,.36)
                     animation--trigger-point_70
                     ">
-                <img src="../graphics/pics/yoga-15.jpg">
+                <img src="../graphics/pics/yoga-15.webp">
             </figure>
 
             <div class="services_service_text">

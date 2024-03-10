@@ -29,7 +29,7 @@ require __DIR__ . '/views/header-index.php';
         <!-- CARD KASSENLEISTUNGEN -->
             <!-- <div class="startpage_leistungen_card animate__animated" id="card-kassen">
                 <div class="startpage_leistungen_card_header">
-                    <img src="graphics/pics/stethoscope.jpg" alt="stethoscope">
+                    <img src="graphics/pics/stethoscope.webp" alt="stethoscope">
                     <h3>Kassenleistungen</h3>
                 </div>
 
@@ -55,7 +55,7 @@ require __DIR__ . '/views/header-index.php';
         <!-- CARD WAHLARZTLEISTUNGEN -->
             <!-- <div class="startpage_leistungen_card animate__animated" id="card-wahlarzt">
                 <div class="startpage_leistungen_card_header">
-                    <img src="graphics/pics/analysis.jpg" alt="stethoscope">
+                    <img src="graphics/pics/analysis.webp" alt="stethoscope">
                     <h3>Wahlarztleistungen</h3>
                 </div>
 
@@ -79,7 +79,7 @@ require __DIR__ . '/views/header-index.php';
 
              <!-- KASSENLEISTUNGEN (big card) -->
              <div class="startpage_leistungen_card big-card animate__animated" id="card-kassen">
-                <img src="graphics/pics/stethoscope.jpg" alt="stethoscope">
+                <img src="graphics/pics/stethoscope.webp" alt="stethoscope">
 
                 <div class="big-card_card-container">
                     <div class="startpage_leistungen_card_header">
@@ -107,7 +107,7 @@ require __DIR__ . '/views/header-index.php';
 
             <!-- WAHLARZTLEISTUNGEN (big card) -->
             <div class="startpage_leistungen_card big-card animate__animated" id="card-wahlarzt">
-                <img src="graphics/pics/analysis.jpg" alt="stethoscope">
+                <img src="graphics/pics/analysis.webp" alt="stethoscope">
 
                 <div class="big-card_card-container">
                     <div class="startpage_leistungen_card_header">
@@ -136,7 +136,7 @@ require __DIR__ . '/views/header-index.php';
 
         <!-- CARD ALTERNATIVE MEDIZIN(big card) -->
             <div class="startpage_leistungen_card big-card animate__animated" id="card-aesthetic">
-                <img src="./graphics/pics/tea.jpg" alt="woman" class="card-pic">
+                <img src="./graphics/pics/tea.webp" alt="woman" class="card-pic">
 
                 <div class="big-card_card-container">
                     <div class="startpage_leistungen_card_header">
@@ -164,7 +164,7 @@ require __DIR__ . '/views/header-index.php';
 
         <!-- CARD WEITERE LEISTUNGEN (big card) -->
             <div class="startpage_leistungen_card big-card animate__animated" id="card-more">
-                <img src="./graphics/pics/meditation.jpg" alt="woman">
+                <img src="./graphics/pics/meditation.webp" alt="woman">
 
                 <div class="big-card_card-container">
                     <div class="startpage_leistungen_card_header">
