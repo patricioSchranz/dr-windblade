@@ -20,7 +20,6 @@ The possible meta informations are :
 - author (necessary) => {.author}
 - creation date (necessary) => {.creation-date}
 - title (necessary) => {.title}
-
 - category => {.category}
 - subcategory => {.sub-category}
 - hashtags => {.hashtags}
