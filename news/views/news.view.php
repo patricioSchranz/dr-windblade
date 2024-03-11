@@ -15,7 +15,7 @@ usort($pages, function($a, $b) {
 <!-- NEWS SECTION -->
 <section class="news">
     <header class="news_header">
-        <img src="./../graphics/pics/time-2.jpg" alt="a clock and some growing plants">
+        <img src="./../graphics/pics/time-2.webp" alt="a clock and some growing plants">
         <h2 class="animation-element animation--style_clippy-circle animation--duration_500 animation--trigger-point_95 animation--delay_0">News</h2>
     </header>
 
