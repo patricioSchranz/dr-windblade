@@ -2,7 +2,7 @@
 
 $page = 'services';
 
-require __DIR__ . './../views/header.php';
+require './../views/header.php';
 ?>
 
 <!-- HEADING -->
@@ -47,7 +47,13 @@ require __DIR__ . './../views/header.php';
                     animation--timing_cubic-bezier(.47,.03,.68,.36)
                     animation--trigger-point_70
                     " id="figure-an">
-                <img src="../graphics/pics/yoga-1.webp" >
+
+                    <picture>
+                        <source srcset="./../graphics/pics/yoga-1-750.webp" media="(max-width: 750px)">
+                        <source srcset="./../graphics/pics/yoga-1-1500.webp" media="(max-width: 1500px)">
+                        <source srcset="./../graphics/pics/yoga-1.webp" media="(min-width: 1500px)">
+                        <img src="./../graphics/pics/yoga-1.webp" alt="yoga pose" loading="lazy">
+                    </picture>
             </figure>
             
             <div class="services_service_text">
@@ -99,7 +105,13 @@ require __DIR__ . './../views/header.php';
                     animation--timing_cubic-bezier(.47,.03,.68,.36)
                     animation--trigger-point_70
                     ">
-                <img src="../graphics/pics/yoga-2.webp">
+
+                    <picture>
+                        <source srcset="./../graphics/pics/yoga-2-750.webp" media="(max-width: 750px)">
+                        <source srcset="./../graphics/pics/yoga-2-1500.webp" media="(max-width: 1500px)">
+                        <source srcset="./../graphics/pics/yoga-2.webp" media="(min-width: 1500px)">
+                        <img src="./../graphics/pics/yoga-2.webp" alt="yoga pose" loading="lazy">
+                    </picture>      
             </figure>
             
             <div class="services_service_text">
@@ -149,7 +161,13 @@ require __DIR__ . './../views/header.php';
                     animation--timing_cubic-bezier(.47,.03,.68,.36)
                     animation--trigger-point_70
                     ">
-                <img src="../graphics/pics/yoga-3.webp">
+
+                    <picture>
+                        <source srcset="./../graphics/pics/yoga-3-750.webp" media="(max-width: 750px)">
+                        <source srcset="./../graphics/pics/yoga-3-1500.webp" media="(max-width: 1500px)">
+                        <source srcset="./../graphics/pics/yoga-3.webp" media="(min-width: 1500px)">
+                        <img src="./../graphics/pics/yoga-3.webp" alt="yoga pose" loading="lazy">
+                    </picture>
             </figure>
             
 
@@ -200,7 +218,13 @@ require __DIR__ . './../views/header.php';
                     animation--timing_cubic-bezier(.47,.03,.68,.36)
                     animation--trigger-point_70
                     ">
-                <img src="../graphics/pics/yoga-4.webp">
+
+                    <picture>
+                        <source srcset="./../graphics/pics/yoga-4-750.webp" media="(max-width: 750px)">
+                        <source srcset="./../graphics/pics/yoga-4-1500.webp" media="(max-width: 1500px)">
+                        <source srcset="./../graphics/pics/yoga-4.webp" media="(min-width: 1500px)">
+                        <img src="./../graphics/pics/yoga-4.webp" alt="yoga pose" loading="lazy">
+                    </picture>
             </figure>
            
             <div class="services_service_text">
@@ -237,4 +261,4 @@ require __DIR__ . './../views/header.php';
 
 
 
-<?php require __DIR__ . './../views/footer.php' ?>
+<?php require './../views/footer.php' ?>
