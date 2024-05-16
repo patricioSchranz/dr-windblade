@@ -54,6 +54,7 @@ require './../views/header.php';
                         <source srcset="./../graphics/pics/yoga-1.webp" media="(min-width: 1500px)">
                         <img src="./../graphics/pics/yoga-1.webp" alt="yoga pose" loading="lazy">
                     </picture>
+                    
             </figure>
             
             <div class="services_service_text">
