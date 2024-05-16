@@ -64,8 +64,8 @@ require __DIR__ . '/../views/header.php';
                     ">
 
                     <picture>
-                        <source srcset="./../graphics/pics/yoga-5-750.webp" media="(max-width: 750px)">
-                        <source srcset="./../graphics/pics/yoga-5-1500.webp" media="(max-width: 1500px)">
+                        <source srcset="./../graphics/pics/yoga-5-wmc-750.webp" media="(max-width: 750px)">
+                        <source srcset="./../graphics/pics/yoga-5-wmc-1500.webp" media="(max-width: 1500px)">
                         <source srcset="./../graphics/pics/yoga-5.webp" media="(min-width: 1500px)">
                         <img src="./../graphics/pics/yoga-5.webp" alt="yoga pose" loading="lazy">
                     </picture>
@@ -121,8 +121,8 @@ require __DIR__ . '/../views/header.php';
                     ">
 
                     <picture>
-                        <source srcset="./../graphics/pics/yoga-6-750.webp" media="(max-width: 750px)">
-                        <source srcset="./../graphics/pics/yoga-6-1500.webp" media="(max-width: 1500px)">
+                        <source srcset="./../graphics/pics/yoga-6-wmc-750.webp" media="(max-width: 750px)">
+                        <source srcset="./../graphics/pics/yoga-6-wmc-1500.webp" media="(max-width: 1500px)">
                         <source srcset="./../graphics/pics/yoga-6.webp" media="(min-width: 1500px)">
                         <img src="./../graphics/pics/yoga-6.webp" alt="yoga pose" loading="lazy">
                     </picture>
@@ -178,8 +178,8 @@ require __DIR__ . '/../views/header.php';
                     ">
 
                     <picture>
-                        <source srcset="./../graphics/pics/yoga-7-750.webp" media="(max-width: 750px)">
-                        <source srcset="./../graphics/pics/yoga-7-1500.webp" media="(max-width: 1500px)">
+                        <source srcset="./../graphics/pics/yoga-7-wmc-750.webp" media="(max-width: 750px)">
+                        <source srcset="./../graphics/pics/yoga-7-wmc-1500.webp" media="(max-width: 1500px)">
                         <source srcset="./../graphics/pics/yoga-7.webp" media="(min-width: 1500px)">
                         <img src="./../graphics/pics/yoga-7.webp" alt="yoga pose" loading="lazy">
                     </picture>
@@ -236,8 +236,8 @@ require __DIR__ . '/../views/header.php';
                     ">
 
                     <picture>
-                        <source srcset="./../graphics/pics/yoga-8-750.webp" media="(max-width: 750px)">
-                        <source srcset="./../graphics/pics/yoga-8-1500.webp" media="(max-width: 1500px)">
+                        <source srcset="./../graphics/pics/yoga-8-wmc-750.webp" media="(max-width: 750px)">
+                        <source srcset="./../graphics/pics/yoga-8-wmc-1500.webp" media="(max-width: 1500px)">
                         <source srcset="./../graphics/pics/yoga-8.webp" media="(min-width: 1500px)">
                         <img src="./../graphics/pics/yoga-8.webp" alt="yoga pose" loading="lazy">
                     </picture>
@@ -292,8 +292,8 @@ require __DIR__ . '/../views/header.php';
                     ">
 
                     <picture>
-                        <source srcset="./../graphics/pics/yoga-9-750.webp" media="(max-width: 750px)">
-                        <source srcset="./../graphics/pics/yoga-9-1500.webp" media="(max-width: 1500px)">
+                        <source srcset="./../graphics/pics/yoga-9-wmc-750.webp" media="(max-width: 750px)">
+                        <source srcset="./../graphics/pics/yoga-9-wmc-1500.webp" media="(max-width: 1500px)">
                         <source srcset="./../graphics/pics/yoga-9.webp" media="(min-width: 1500px)">
                         <img src="./../graphics/pics/yoga-9.webp" alt="yoga pose" loading="lazy">
                     </picture>
@@ -346,8 +346,8 @@ require __DIR__ . '/../views/header.php';
                     ">
 
                     <picture>
-                        <source srcset="./../graphics/pics/yoga-10-750.webp" media="(max-width: 750px)">
-                        <source srcset="./../graphics/pics/yoga-10-1500.webp" media="(max-width: 1500px)">
+                        <source srcset="./../graphics/pics/yoga-10-wmc-750.webp" media="(max-width: 750px)">
+                        <source srcset="./../graphics/pics/yoga-10-wmc-1500.webp" media="(max-width: 1500px)">
                         <source srcset="./../graphics/pics/yoga-10.webp" media="(min-width: 1500px)">
                         <img src="./../graphics/pics/yoga-10.webp" alt="yoga pose" loading="lazy">
                     </picture>
@@ -400,8 +400,8 @@ require __DIR__ . '/../views/header.php';
                     ">
 
                     <picture>
-                        <source srcset="./../graphics/pics/yoga-11-750.webp" media="(max-width: 750px)">
-                        <source srcset="./../graphics/pics/yoga-11-1500.webp" media="(max-width: 1500px)">
+                        <source srcset="./../graphics/pics/yoga-11-wmc-750.webp" media="(max-width: 750px)">
+                        <source srcset="./../graphics/pics/yoga-11-wmc-1500.webp" media="(max-width: 1500px)">
                         <source srcset="./../graphics/pics/yoga-11.webp" media="(min-width: 1500px)">
                         <img src="./../graphics/pics/yoga-11.webp" alt="yoga pose" loading="lazy">
                     </picture>
@@ -455,8 +455,8 @@ require __DIR__ . '/../views/header.php';
                     ">
 
                     <picture>
-                        <source srcset="./../graphics/pics/yoga-12-750.webp" media="(max-width: 750px)">
-                        <source srcset="./../graphics/pics/yoga-12-1500.webp" media="(max-width: 1500px)">
+                        <source srcset="./../graphics/pics/yoga-12-wmc-750.webp" media="(max-width: 750px)">
+                        <source srcset="./../graphics/pics/yoga-12-wmc-1500.webp" media="(max-width: 1500px)">
                         <source srcset="./../graphics/pics/yoga-12.webp" media="(min-width: 1500px)">
                         <img src="./../graphics/pics/yoga-12.webp" alt="yoga pose" loading="lazy">
                     </picture>
@@ -509,8 +509,8 @@ require __DIR__ . '/../views/header.php';
                     ">
 
                     <picture>
-                        <source srcset="./../graphics/pics/yoga-13-750.webp" media="(max-width: 750px)">
-                        <source srcset="./../graphics/pics/yoga-13-1500.webp" media="(max-width: 1500px)">
+                        <source srcset="./../graphics/pics/yoga-13-wmc-750.webp" media="(max-width: 750px)">
+                        <source srcset="./../graphics/pics/yoga-13-wmc-1500.webp" media="(max-width: 1500px)">
                         <source srcset="./../graphics/pics/yoga-13.webp" media="(min-width: 1500px)">
                         <img src="./../graphics/pics/yoga-13.webp" alt="yoga pose" loading="lazy">
                     </picture>
@@ -564,8 +564,8 @@ require __DIR__ . '/../views/header.php';
                     ">
 
                     <picture>
-                        <source srcset="./../graphics/pics/yoga-15-750.webp" media="(max-width: 750px)">
-                        <source srcset="./../graphics/pics/yoga-15-1500.webp" media="(max-width: 1500px)">
+                        <source srcset="./../graphics/pics/yoga-15-wmc-750.webp" media="(max-width: 750px)">
+                        <source srcset="./../graphics/pics/yoga-15-wmc-1500.webp" media="(max-width: 1500px)">
                         <source srcset="./../graphics/pics/yoga-15.webp" media="(min-width: 1500px)">
                         <img src="./../graphics/pics/yoga-15.webp" alt="yoga pose" loading="lazy">
                     </picture>
