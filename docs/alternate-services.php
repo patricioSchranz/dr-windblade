@@ -2,7 +2,7 @@
 
 $page = 'alternate-services';
 
-require __DIR__ . './../views/header.php';
+require __DIR__ . '/../views/header.php';
 ?>
 
 <!-- HEADING -->
@@ -384,4 +384,4 @@ require __DIR__ . './../views/header.php';
     </section>
 
 
-<?php require __DIR__ . './../views/footer.php' ?>
+<?php require __DIR__ . '/../views/footer.php' ?>

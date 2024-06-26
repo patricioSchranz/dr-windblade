@@ -2,7 +2,7 @@
 
 $page = "alternate-ways";
 
-require __DIR__ . './../views/header.php';
+require __DIR__ . '/../views/header.php';
 ?>
 
 <!-- ALTERNATE WAYS --> 

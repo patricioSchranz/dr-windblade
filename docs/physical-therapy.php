@@ -2,7 +2,7 @@
 
 $page = 'physical-therapy';
 
-require __DIR__ . './../views/header.php'
+require __DIR__ . '/../views/header.php'
 ?>
 
 <!-- PHYSICAL THERAPIE -->
@@ -147,4 +147,4 @@ require __DIR__ . './../views/header.php'
 
 </section><!-- END PHYSICAL THERAPY -->
 
-<?php require __DIR__ . './../views/footer.php' ?>
+<?php require __DIR__ . '/../views/footer.php' ?>

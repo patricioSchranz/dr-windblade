@@ -4,7 +4,7 @@
 
 $page = "news";
 
-require __DIR__ . './../../views/header.php';
+require __DIR__ . '/../../views/header.php';
 
 usort($pages, function($a, $b) {
     return strtotime($b->snippet['creation_date'][1]) - strtotime($a->snippet['creation_date'][1]);
@@ -44,4 +44,4 @@ usort($pages, function($a, $b) {
 </section>
 
 
-<?php require __DIR__ . './../../views/footer.php';
+<?php require __DIR__ . '/../../views/footer.php';
