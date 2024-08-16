@@ -5,19 +5,13 @@
     height: auto;
     @include flex-variable(column, nowrap, space-between, center);
 
-    // @media screen and (max-width: 1180px) {
-    //     min-height: calc(100svh - 5rem);
-    //     height: auto;
-    // }
-
     &_image-row{
         @include flex-row-center;
         width: 100%;
 
-        img{
+        picture{
             width: 50%;
             height: 30svh;
-            object-fit: cover;
 
             @media screen and (max-width: 1180px) {
                 height: 20svh;
@@ -31,6 +25,12 @@
                 &:nth-of-type(2){
                     display: none;
                 }
+            }
+
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
             }
         }
     }

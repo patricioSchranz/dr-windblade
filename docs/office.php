@@ -11,8 +11,19 @@ require __DIR__ . '/../views/header.php';
 
     <!-- IMAGE ROW TOP -->
     <div class="office_image-row top">
-        <img src="./../graphics/pics/waiting-room.webp" alt="waiting room" class="animation-element animation--style_clippy-from-left-to-right animation--duration_500">
-        <img src="./../graphics/pics/lab.webp" alt="laboratory" class="animation-element animation--style_clippy-from-right-to-left animation--duration_500 animation--delay_500">
+        <picture class="animation-element animation--style_clippy-from-left-to-right animation--duration_500">
+                <source srcset="./../graphics/pics/waiting-room-wmc-750.webp" media="(max-width: 750px)">
+                <source srcset="./../graphics/pics/waiting-room-wmc-1500.webp" media="(max-width: 1500px)">
+                <source srcset="./../graphics/pics/waiting-room.webp" media="(min-width: 1500px)">
+                <img src="./../graphics/pics/waiting-room.webp" alt="waiting room" loading="lazy">
+        </picture>
+
+        <picture class="animation-element animation--style_clippy-from-right-to-left animation--duration_500 animation--delay_500">
+            <source srcset="./../graphics/pics/lab-wmc-750.webp" media="(max-width: 750px)">
+            <source srcset="./../graphics/pics/lab-wmc-1500.webp" media="(max-width: 1500px)">
+            <source srcset="./../graphics/pics/lab.webp" media="(min-width: 1500px)">
+            <img src="./../graphics/pics/lab.webp" alt="laboratory" loading="lazy">
+        </picture>
     </div>
 
     <!-- CONTENT -->
@@ -59,8 +70,19 @@ require __DIR__ . '/../views/header.php';
     </div>
 
     <div class="office_image-row bottom">
-        <img src="../graphics/pics/flower.webp" alt="thymian" class="animation-element animation--style_clippy-from-left-to-right animation--duration_500 animation--delay_500 animation--trigger-point_100">
-        <img src="../graphics/pics/doctor.webp" alt="doctors room" class="animation-element animation--style_clippy-from-right-to-left animation--duration_500 animation--trigger-point_100">
+        <picture class="animation-element animation--style_clippy-from-left-to-right animation--duration_500 animation--delay_500 animation--trigger-point_100">
+            <source srcset="./../graphics/pics/flower-wmc-750.webp" media="(max-width: 750px)">
+            <source srcset="./../graphics/pics/flower-wmc-1500.webp" media="(max-width: 1500px)">
+            <source srcset="./../graphics/pics/flower.webp" media="(min-width: 1500px)">
+            <img src="./../graphics/pics/flower.webp" alt="thymian" loading="lazy">
+        </picture>
+
+        <picture class="animation-element animation--style_clippy-from-right-to-left animation--duration_500 animation--trigger-point_100">
+            <source srcset="./../graphics/pics/doctor-wmc-750.webp" media="(max-width: 750px)">
+            <source srcset="./../graphics/pics/doctor-wmc-1500.webp" media="(max-width: 1500px)">
+            <source srcset="./../graphics/pics/doctor.webp" media="(min-width: 1500px)">
+            <img src="./../graphics/pics/doctor.webp" alt="doctors room" loading="lazy">
+        </picture>
     </div>
 
 </section>
