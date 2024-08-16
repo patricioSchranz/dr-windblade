@@ -46,9 +46,10 @@
 
             @media screen and (max-width: 450px) {
                 margin-top: 0rem;
+                margin-right: 2rem;
             }
 
-            img{
+            picture{
                 width: 20rem;
                 // margin: 1rem;
 
@@ -74,6 +75,10 @@
                     transform: translateX(-50%);
                     z-index: 1;
                 }
+
+                img{
+                    width: 100%;
+                }
             }
         }
 
@@ -90,7 +95,7 @@
                
             }
 
-            img{
+            picture{
                 width: 30rem;
                 // margin-top: 8rem;
                 transform: translateY(5rem);
@@ -104,6 +109,10 @@
                     transform: initial;
                     margin: 3rem auto;
                     width: 90%;
+                }
+
+                img{
+                    width: 100%;
                 }
             }
         }
@@ -123,7 +132,7 @@
             margin-top: 3rem;
         }
 
-        img{
+        picture{
             width: 40%;
 
             @media screen and (min-width: 1650px) {
@@ -136,6 +145,10 @@
 
             @media screen and (max-width: 550px) {
                 width: 90%;
+            }
+
+            img{
+                width: 100%;
             }
         }
 
