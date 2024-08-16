@@ -46,7 +46,7 @@ require __DIR__ . '/../views/header.php'
             <img src="./../graphics/pics/physical-therapist.webp" alt="the physical therapist" loading="lazy">
         </picture>
 
-        <div class="about animation-element animation--style_clippy-circle animation--duration_1000 animation--delay_200">
+        <div class="about animation-element animation--style_fade-up animation--delay_200">
             <p class="about_paragraph">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, aspernatur omnis atque commodi, impedit neque praesentium beatae ullam velit, vero nam ratione dolor et illum libero rerum asperiores blanditiis dolores? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit eos adipisci, placeat veritatis eum blanditiis sint voluptatum nam quos id ducimus rem eaque voluptate perferendis corrupti facere reiciendis est consequatur.
             </p>
