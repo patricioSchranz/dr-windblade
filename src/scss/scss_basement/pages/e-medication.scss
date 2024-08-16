@@ -25,15 +25,21 @@
         }
     }
 
-    img{
+    picture{
         width: 100%;
         height: 100%;
-        object-fit: cover;
+        display: block;
 
         @media screen and (max-width: 1000px) {
             width: 100%;
             height: 75svh;
-         }
+        }
+
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
     }
 
     &_right-side{

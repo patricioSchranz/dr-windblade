@@ -11,7 +11,12 @@ require __DIR__ . './../views/header.php';
 
     <!-- BIG IMAGE -->
     <div class="online-booking_left-side">
-        <img src="../graphics/pics/flowers.webp" alt="flowers">
+        <picture class="animation-element animation--style_clippy-from-left-to-right animation--duration_500">
+            <source srcset="./../graphics/pics/flowers-wmc-750.webp" media="(max-width: 750px)">
+            <source srcset="./../graphics/pics/flowers-wmc-1500.webp" media="(max-width: 1500px)">
+            <source srcset="./../graphics/pics/flowers.webp" media="(min-width: 1500px)">
+            <img src="./../graphics/pics/flowers.webp" alt="flowers" loading="lazy">
+        </picture>
     </div>
 
     <!-- CONTENT -->
@@ -23,8 +28,6 @@ require __DIR__ . './../views/header.php';
 
     </div>
 </section>
-
-
 
 
 <?php require __DIR__ . './../views/footer.php' ?> 
