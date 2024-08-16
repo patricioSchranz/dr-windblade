@@ -41,7 +41,13 @@ require __DIR__ . '/../views/header.php';
                     animation--timing_cubic-bezier(.47,.03,.68,.36)
                     animation--trigger-point_70
                     ">
-                <img src="../graphics/pics/antigen.webp">
+              
+                <picture>
+                    <source srcset="./../graphics/pics/antigen-wmc-750.webp" media="(max-width: 750px)">
+                    <source srcset="./../graphics/pics/antigen-wmc-1500.webp" media="(max-width: 1500px)">
+                    <source srcset="./../graphics/pics/antigen.webp" media="(min-width: 1500px)">
+                    <img src="./../graphics/pics/antigen.webp" alt="antigen" loading="lazy">
+                </picture>
             </figure>
 
             <div class="services_service_text">
@@ -92,7 +98,14 @@ require __DIR__ . '/../views/header.php';
                     animation--timing_cubic-bezier(.47,.03,.68,.36)
                     animation--trigger-point_70
                     ">
-                <img src="../graphics/pics/pcr.webp">
+                
+                <picture>
+                    <source srcset="./../graphics/pics/pcr-wmc-750.webp" media="(max-width: 750px)">
+                    <source srcset="./../graphics/pics/pcr-wmc-1500.webp" media="(max-width: 1500px)">
+                    <source srcset="./../graphics/pics/pcr.webp" media="(min-width: 1500px)">
+                    <img src="./../graphics/pics/pcr.webp" alt="pcr" loading="lazy">
+                </picture>
+                
             </figure>
 
             <div class="services_service_text">
@@ -143,7 +156,13 @@ require __DIR__ . '/../views/header.php';
                     animation--timing_cubic-bezier(.47,.03,.68,.36)
                     animation--trigger-point_70
                     ">
-                <img src="../graphics/pics/accompaniment.webp">
+                
+                <picture>
+                    <source srcset="./../graphics/pics/accompaniment-wmc-750.webp" media="(max-width: 750px)">
+                    <source srcset="./../graphics/pics/accompaniment-wmc-1500.webp" media="(max-width: 1500px)">
+                    <source srcset="./../graphics/pics/accompaniment.webp" media="(min-width: 1500px)">
+                    <img src="./../graphics/pics/accompaniment.webp" alt="accompaniment" loading="lazy">
+                </picture>
             </figure>
 
             <div class="services_service_text">
