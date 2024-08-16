@@ -26,7 +26,6 @@ require __DIR__ . '/../views/header.php';
     <!-- TCM --> 
     <section class="alternate-ways_tcm" id="tcm">
         <header class="alternate-ways_tcm_header">
-            <!-- <img src="../graphics/pics/tcm-tea.webp" alt="cups of tea" class="animation-element animation--style_clippy-from-left-to-right animation--duration_1000"> -->
 
             <picture class="animation-element animation--style_clippy-from-left-to-right animation--duration_1000">
                 <source srcset="./../graphics/pics/tcm-tea-wmc-750.webp" media="(max-width: 750px)">
@@ -55,11 +54,11 @@ require __DIR__ . '/../views/header.php';
             </header>
             
             <div class="container-description">
-                <div class="on-the-point animation-element animation--style_clippy-circle">
+                <div class="on-the-point animation-element animation--style_fade-from-left">
                     <p><strong>Lorem ipsum dolor sit, amet consectetur</strong> adipisicing elit. Impedit, esse minus aliquid quaerat molestiae beatae dolores. Eius id consequuntur, nesciunt temporibus, praesentium cum itaque <strong>voluptas saepe</strong> maxime libero architecto voluptatibus.</p>
                 </div>
             
-                <p class="animation-element animation--style_clippy-circle animation--delay_200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus praesentium, numquam velit corrupti id, accusantium iusto, nulla <strong>repellat cumque voluptas eveniet</strong> sexcepturi assumenda! Totam, explicabo. Debitis nulla quam fugiat eaque?
+                <p class="animation-element animation--style_fade-up animation--delay_200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus praesentium, numquam velit corrupti id, accusantium iusto, nulla <strong>repellat cumque voluptas eveniet</strong> sexcepturi assumenda! Totam, explicabo. Debitis nulla quam fugiat eaque?
                 Corporis error voluptates ipsa nam impedit eius itaque quaerat quibusdam cumque velit sed repudiandae molestias quis sit hic ipsam, est amet quae assumenda officia?<strong>Perspiciatis rerum est dolore</strong> ratione magni?
                 Dolores commodi dolore, doloribus iusto fugiat aut nobis laboriosam similique odit esse sapiente, aliquid neque? Excepturi est voluptatem <strong>exercitationem</strong> ratione impedit in, rem fugit vitae quia quaerat illum laborum itaque.</p>
             </div>
@@ -85,11 +84,11 @@ require __DIR__ . '/../views/header.php';
             
             <div class="container-description">
 
-                <div  class="on-the-point animation-element animation--style_clippy-circle">
+                <div  class="on-the-point animation-element animation--style_fade-up">
                     <p><strong>Lorem ipsum dolor sit, amet consectetur</strong> adipisicing elit. Impedit, esse minus aliquid quaerat molestiae beatae dolores. Eius id consequuntur, nesciunt temporibus, praesentium cum itaque <strong>voluptas saepe</strong> maxime libero architecto voluptatibus.</p>
                 </div>
 
-                <p class="animation-element animation--style_clippy-circle animation--delay_200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus praesentium, numquam velit corrupti id, accusantium iusto, nulla <strong>repellat cumque voluptas eveniet</strong> sexcepturi assumenda! Totam, explicabo. Debitis nulla quam fugiat eaque?
+                <p class="animation-element animation--style_fade-from-right animation--delay_200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus praesentium, numquam velit corrupti id, accusantium iusto, nulla <strong>repellat cumque voluptas eveniet</strong> sexcepturi assumenda! Totam, explicabo. Debitis nulla quam fugiat eaque?
                 Corporis error voluptates ipsa nam impedit eius itaque quaerat quibusdam cumque velit sed repudiandae molestias quis sit hic ipsam, est amet quae assumenda officia?<strong>Perspiciatis rerum est dolore</strong> ratione magni?
                 Dolores commodi dolore, doloribus iusto fugiat aut nobis laboriosam similique odit esse sapiente, aliquid neque? Excepturi est voluptatem <strong>exercitationem</strong> ratione impedit in, rem fugit vitae quia quaerat illum laborum itaque.</p>
             </div>
@@ -115,11 +114,11 @@ require __DIR__ . '/../views/header.php';
             
             <div class="container-description">
 
-                <div class="on-the-point animation-element animation--style_clippy-circle">
+                <div class="on-the-point animation-element animation--style_fade-from-left">
                     <p><strong>Lorem ipsum dolor sit, amet consectetur</strong> adipisicing elit. Impedit, esse minus aliquid quaerat molestiae beatae dolores. Eius id consequuntur, nesciunt temporibus, praesentium cum itaque <strong>voluptas saepe</strong> maxime libero architecto voluptatibus.</p>
                 </div>
 
-                <p class="animation-element animation--style_clippy-circle animation--delay_200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus praesentium, numquam velit corrupti id, accusantium iusto, nulla <strong>repellat cumque voluptas eveniet</strong> sexcepturi assumenda! Totam, explicabo. Debitis nulla quam fugiat eaque?
+                <p class="animation-element animation--style_fade-up animation--delay_200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus praesentium, numquam velit corrupti id, accusantium iusto, nulla <strong>repellat cumque voluptas eveniet</strong> sexcepturi assumenda! Totam, explicabo. Debitis nulla quam fugiat eaque?
                 Corporis error voluptates ipsa nam impedit eius itaque quaerat quibusdam cumque velit sed repudiandae molestias quis sit hic ipsam, est amet quae assumenda officia?<strong>Perspiciatis rerum est dolore</strong> ratione magni?
                 Dolores commodi dolore, doloribus iusto fugiat aut nobis laboriosam similique odit esse sapiente, aliquid neque? Excepturi est voluptatem <strong>exercitationem</strong> ratione impedit in, rem fugit vitae quia quaerat illum laborum itaque.</p>
             </div>
@@ -145,11 +144,11 @@ require __DIR__ . '/../views/header.php';
             
             <div class="container-description">
 
-                <div class="on-the-point animation-element animation--style_clippy-circle">
+                <div class="on-the-point animation-element animation--style_fade-up">
                     <p><strong>Lorem ipsum dolor sit, amet consectetur</strong> adipisicing elit. Impedit, esse minus aliquid quaerat molestiae beatae dolores. Eius id consequuntur, nesciunt temporibus, praesentium cum itaque <strong>voluptas saepe</strong> maxime libero architecto voluptatibus.</p>
                 </div>
 
-                <p class="animation-element animation--style_clippy-circle animation--delay_200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus praesentium, numquam velit corrupti id, accusantium iusto, nulla <strong>repellat cumque voluptas eveniet</strong> sexcepturi assumenda! Totam, explicabo. Debitis nulla quam fugiat eaque?
+                <p class="animation-element animation--style_fade-from-right animation--delay_200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus praesentium, numquam velit corrupti id, accusantium iusto, nulla <strong>repellat cumque voluptas eveniet</strong> sexcepturi assumenda! Totam, explicabo. Debitis nulla quam fugiat eaque?
                 Corporis error voluptates ipsa nam impedit eius itaque quaerat quibusdam cumque velit sed repudiandae molestias quis sit hic ipsam, est amet quae assumenda officia?<strong>Perspiciatis rerum est dolore</strong> ratione magni?
                 Dolores commodi dolore, doloribus iusto fugiat aut nobis laboriosam similique odit esse sapiente, aliquid neque? Excepturi est voluptatem <strong>exercitationem</strong> ratione impedit in, rem fugit vitae quia quaerat illum laborum itaque.</p>
             </div>
@@ -175,11 +174,11 @@ require __DIR__ . '/../views/header.php';
             
             <div class="container-description">
 
-                <div class="on-the-point animation-element animation--style_clippy-circle">
+                <div class="on-the-point animation-element animation--style_fade-from-left">
                     <p><strong>Lorem ipsum dolor sit, amet consectetur</strong> adipisicing elit. Impedit, esse minus aliquid quaerat molestiae beatae dolores. Eius id consequuntur, nesciunt temporibus, praesentium cum itaque <strong>voluptas saepe</strong> maxime libero architecto voluptatibus.</p>
                 </div>
 
-                <p class="animation-element animation--style_clippy-circle animation--delay_200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus praesentium, numquam velit corrupti id, accusantium iusto, nulla <strong>repellat cumque voluptas eveniet</strong> sexcepturi assumenda! Totam, explicabo. Debitis nulla quam fugiat eaque?
+                <p class="animation-element animation--style_fade-up animation--delay_200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus praesentium, numquam velit corrupti id, accusantium iusto, nulla <strong>repellat cumque voluptas eveniet</strong> sexcepturi assumenda! Totam, explicabo. Debitis nulla quam fugiat eaque?
                 Corporis error voluptates ipsa nam impedit eius itaque quaerat quibusdam cumque velit sed repudiandae molestias quis sit hic ipsam, est amet quae assumenda officia?<strong>Perspiciatis rerum est dolore</strong> ratione magni?
                 Dolores commodi dolore, doloribus iusto fugiat aut nobis laboriosam similique odit esse sapiente, aliquid neque? Excepturi est voluptatem <strong>exercitationem</strong> ratione impedit in, rem fugit vitae quia quaerat illum laborum itaque.</p>
             </div>
