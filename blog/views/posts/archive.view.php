@@ -112,7 +112,13 @@ $page_selection = array_slice($pages, $offset, $limit);
 
     <!-- INTRO SECTION -->
     <header class="blog_intro-section">
-        <img src="../graphics/pics/blog.webp" alt="a desk with some fancy accesoirs and a notebook">
+        <!-- <img src="../graphics/pics/blog.webp" alt="a desk with some fancy accesoirs and a notebook"> -->
+        <picture>
+            <source srcset="./../graphics/pics/blog-wmc-750.webp" media="(max-width: 750px)">
+            <source srcset="./../graphics/pics/blog-wmc-1500.webp" media="(max-width: 1500px)">
+            <source srcset="./../graphics/pics/blog.webp" media="(min-width: 1500px)">
+            <img src="./../graphics/pics/blog.webp" alt="a desk with some fancy accesoirs and a notebook" loading="lazy">
+        </picture>
         <h2 class="animation-element animation--style_clippy-circle animation--duration_500 animation--trigger-point_95 animation--delay_0">
             Blog
         </h2>

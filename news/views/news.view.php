@@ -15,7 +15,12 @@ usort($pages, function($a, $b) {
 <!-- NEWS SECTION -->
 <section class="news">
     <header class="news_header">
-        <img src="./../graphics/pics/time-2.webp" alt="a clock and some growing plants">
+        <picture>
+            <source srcset="./../graphics/pics/time-2-wmc-750.webp" media="(max-width: 750px)">
+            <source srcset="./../graphics/pics/time-2-wmc-1500.webp" media="(max-width: 1500px)">
+            <source srcset="./../graphics/pics/time-2.webp" media="(min-width: 1500px)">
+            <img src="./../graphics/pics/time-2.webp" alt="a clock and some growing plants" loading="lazy">
+        </picture>
         <h2 class="animation-element animation--style_clippy-circle animation--duration_500 animation--trigger-point_95 animation--delay_0">News</h2>
     </header>
 
