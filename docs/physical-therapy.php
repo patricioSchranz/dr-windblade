@@ -10,7 +10,12 @@ require __DIR__ . '/../views/header.php'
 
     <!-- HEADING -->
     <header class="physical-therapy_heading">
-        <img class="physical-therapy_heading_img" src="../graphics/pics/yoga-16.webp" alt="physical-therapy">
+        <picture class="physical-therapy_heading_img">
+            <source srcset="./../graphics/pics/yoga-16-wmc-750.webp" media="(max-width: 750px)">
+            <source srcset="./../graphics/pics/yoga-16-wmc-1500.webp" media="(max-width: 1500px)">
+            <source srcset="./../graphics/pics/yoga-16.webp" media="(min-width: 1500px)">
+            <img src="./../graphics/pics/yoga-16.webp" alt="physical-therapy" loading="lazy">
+        </picture>
         <h2 class="physical-therapy_heading_headline animation-element animation--style_clippy-circle animation--duration_500 animation--trigger-point_95 animation--delay_0">Physiotherapie</h2>
     </header>
 
@@ -34,7 +39,12 @@ require __DIR__ . '/../views/header.php'
     <!-- PHYSICAL TRAINER --> 
     <section class="physical-therapy_row trainer">
         <h3 class="hidden">The trainer</h3>
-        <img src="../graphics/pics/physical-therapist.webp" alt="the physical therapist doctor cute" class="animation-element animation--style_clippy-circle animation--duration_1000">
+        <picture class="animation-element animation--style_clippy-circle animation--duration_1000">
+            <source srcset="./../graphics/pics/physical-therapist-wmc-750.webp" media="(max-width: 750px)">
+            <source srcset="./../graphics/pics/physical-therapist-wmc-1500.webp" media="(max-width: 1500px)">
+            <source srcset="./../graphics/pics/physical-therapist.webp" media="(min-width: 1500px)">
+            <img src="./../graphics/pics/physical-therapist.webp" alt="the physical therapist" loading="lazy">
+        </picture>
 
         <div class="about animation-element animation--style_clippy-circle animation--duration_1000 animation--delay_200">
             <p class="about_paragraph">
@@ -81,14 +91,24 @@ require __DIR__ . '/../views/header.php'
             </ul>
         </div>
 
-        <img src="../graphics/pics/trainings-tools.webp" alt="Trainingsgegenstände" class="animation-element animation--style_opacity-in animation--duration_2000">
+        <picture class="animation-element animation--style_opacity-in animation--duration_2000">
+            <source srcset="./../graphics/pics/trainings-tools-wmc-750.webp" media="(max-width: 750px)">
+            <source srcset="./../graphics/pics/trainings-tools-wmc-1500.webp" media="(max-width: 1500px)">
+            <source srcset="./../graphics/pics/trainings-tools.webp" media="(min-width: 1500px)">
+            <img src="./../graphics/pics/trainings-tools.webp" alt="training equipment" loading="lazy">
+        </picture>
     </section>
 
     <!-- SERVICES PT 2 -->
     <section class="physical-therapy_row services">
         <h3 class="hidden">Advanced Services</h3>
 
-        <img src="../graphics/pics/advanced-service.webp" alt="eine Frau wird massiert" class="animation-element animation--style_opacity-in animation--duration_2000">
+        <picture class="animation-element animation--style_opacity-in animation--duration_2000">
+            <source srcset="./../graphics/pics/advanced-service-wmc-750.webp" media="(max-width: 750px)">
+            <source srcset="./../graphics/pics/advanced-service-wmc-1500.webp" media="(max-width: 1500px)">
+            <source srcset="./../graphics/pics/advanced-service.webp" media="(min-width: 1500px)">
+            <img src="./../graphics/pics/advanced-service.webp" alt="a woman gets a massage" loading="lazy">
+        </picture>
 
         <div class="container-content">
             <p class="heading animation-element animation--style_clippy-from-left-to-right animation--duration_500">Meine Zusatzausbildungen sind :</p>
