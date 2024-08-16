@@ -53,7 +53,13 @@ require __DIR__ . '/../views/header.php';
                     animation--timing_cubic-bezier(.47,.03,.68,.36)
                     animation--trigger-point_70
                     ">
-                <img src="../graphics/pics/acupuncture.webp">
+            
+                <picture>
+                        <source srcset="./../graphics/pics/acupuncture-wmc-750.webp" media="(max-width: 750px)">
+                        <source srcset="./../graphics/pics/acupuncture-wmc-1500.webp" media="(max-width: 1500px)">
+                        <source srcset="./../graphics/pics/acupuncture.webp" media="(min-width: 1500px)">
+                        <img src="./../graphics/pics/acupuncture.webp" alt="acupuncture" loading="lazy">
+                </picture>
             </figure>
 
             <div class="services_service_text">
@@ -103,7 +109,13 @@ require __DIR__ . '/../views/header.php';
                     animation--timing_cubic-bezier(.47,.03,.68,.36)
                     animation--trigger-point_70
                     ">
-                <img src="../graphics/pics/massage.webp">
+
+                <picture>
+                    <source srcset="./../graphics/pics/massage-wmc-750.webp" media="(max-width: 750px)">
+                    <source srcset="./../graphics/pics/massage-wmc-1500.webp" media="(max-width: 1500px)">
+                    <source srcset="./../graphics/pics/massage.webp" media="(min-width: 1500px)">
+                    <img src="./../graphics/pics/massage.webp" alt="massage" loading="lazy">
+                </picture>
             </figure>
 
             <div class="services_service_text">
@@ -153,7 +165,13 @@ require __DIR__ . '/../views/header.php';
                     animation--timing_cubic-bezier(.47,.03,.68,.36)
                     animation--trigger-point_70
                     ">
-                <img src="../graphics/pics/moxibustion.webp">
+          
+                <picture>
+                    <source srcset="./../graphics/pics/moxibustion-wmc-750.webp" media="(max-width: 750px)">
+                    <source srcset="./../graphics/pics/moxibustion-wmc-1500.webp" media="(max-width: 1500px)">
+                    <source srcset="./../graphics/pics/moxibustion.webp" media="(min-width: 1500px)">
+                    <img src="./../graphics/pics/moxibustion.webp" alt="moxibustion" loading="lazy">
+                </picture>
             </figure>
 
             <div class="services_service_text">
@@ -203,7 +221,14 @@ require __DIR__ . '/../views/header.php';
                     animation--timing_cubic-bezier(.47,.03,.68,.36)
                     animation--trigger-point_70
                     ">
-                <img src="../graphics/pics/nutritional.webp">
+                
+                <picture>
+                    <source srcset="./../graphics/pics/nutritional-wmc-750.webp" media="(max-width: 750px)">
+                    <source srcset="./../graphics/pics/nutritional-wmc-1500.webp" media="(max-width: 1500px)">
+                    <source srcset="./../graphics/pics/nutritional.webp" media="(min-width: 1500px)">
+                    <img src="./../graphics/pics/nutritional.webp" alt="nutritional" loading="lazy">
+                </picture>
+   
             </figure>
 
             <div class="services_service_text">
@@ -252,7 +277,13 @@ require __DIR__ . '/../views/header.php';
                     animation--timing_cubic-bezier(.47,.03,.68,.36)
                     animation--trigger-point_70
                     ">
-                <img src="../graphics/pics/qi-gong.webp">
+
+                <picture>
+                    <source srcset="./../graphics/pics/qi-gong-wmc-750.webp" media="(max-width: 750px)">
+                    <source srcset="./../graphics/pics/qi-gong-wmc-1500.webp" media="(max-width: 1500px)">
+                    <source srcset="./../graphics/pics/qi-gong.webp" media="(min-width: 1500px)">
+                    <img src="./../graphics/pics/qi-gong.webp" alt="qi-gong" loading="lazy">
+                </picture>
             </figure>
 
             <div class="services_service_text">
@@ -300,7 +331,13 @@ require __DIR__ . '/../views/header.php';
                     animation--timing_cubic-bezier(.47,.03,.68,.36)
                     animation--trigger-point_70
                     ">
-                <img src="../graphics/pics/cupping.webp">
+    
+                <picture>
+                    <source srcset="./../graphics/pics/cupping-wmc-750.webp" media="(max-width: 750px)">
+                    <source srcset="./../graphics/pics/cupping-wmc-1500.webp" media="(max-width: 1500px)">
+                    <source srcset="./../graphics/pics/cupping.webp" media="(min-width: 1500px)">
+                    <img src="./../graphics/pics/cupping.webp" alt="cupping" loading="lazy">
+                </picture>
             </figure>
 
             <div class="services_service_text">
@@ -348,7 +385,13 @@ require __DIR__ . '/../views/header.php';
                     animation--timing_cubic-bezier(.47,.03,.68,.36)
                     animation--trigger-point_70
                     ">
-                <img src="../graphics/pics/tibetian-massage.webp">
+             
+                <picture>
+                        <source srcset="./../graphics/pics/tibetian-massage-wmc-750.webp" media="(max-width: 750px)">
+                        <source srcset="./../graphics/pics/tibetian-massage-wmc-1500.webp" media="(max-width: 1500px)">
+                        <source srcset="./../graphics/pics/tibetian-massage.webp" media="(min-width: 1500px)">
+                        <img src="./../graphics/pics/tibetian-massage.webp" loading="lazy">
+                </picture>
             </figure>
 
             <div class="services_service_text">
