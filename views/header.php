@@ -9,8 +9,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="../graphics/icons_n_co/favicon-180.png">
     <title>Dr. Windblade</title>
 
-    <!-- <link rel="stylesheet" href="style/common.css"> -->
-    <!-- <link rel="stylesheet" href="./node_modules/animate.css/animate.css"> -->
+    <script src="../src/js/picturefill.js"></script>
 
     <?php switch($page) :
         case "services" ?>
