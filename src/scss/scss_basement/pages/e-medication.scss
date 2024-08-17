@@ -1,7 +1,6 @@
 @import 'common';
 
 .e-medication{
-    // min-height: calc(100svh - 5rem);
     @include flex-row-center;
     align-items: stretch;
     
@@ -14,9 +13,7 @@
     &_right-side{
         width: 45%;
         flex-grow: 1;
-        // height: calc(100svh - 5rem);
         min-height: calc(100svh - 5rem);
-        // @include testing-border-2;
 
         @media screen and (max-width: 1000px) {
             width: 100%;
@@ -45,7 +42,6 @@
     &_right-side{
         padding: 2rem;
         @include flex-column-center;
-        // justify-content: space-evenly;
         flex-wrap: nowrap;
 
         @media screen and (max-width: 1000px) {
@@ -55,7 +51,6 @@
         h2{
             @include font-heading-1;
             text-align: center;
-        //    margin-top: 2rem;
 
            margin-top: 3rem;
            margin-bottom: 1rem;
@@ -70,7 +65,6 @@
             background-color: var(--color-primary);
             padding: 1rem;
             margin: 1rem auto 1rem;
-            // margin-top: 1rem;
             max-width: 40rem;
 
             @media screen and (max-width: 1000px) {
@@ -79,14 +73,11 @@
         }
 
         .container-user-data{
-            // margin: auto;
-            // @include testing-border-2;
             max-width: 40rem;
 
             @media screen and (max-width: 610px) {
                 max-width: initial;
                 width: 80%;
-                // @include testing-border-2;
             }
 
             @media screen and (max-width: 550px) {
@@ -96,11 +87,6 @@
 
         .text-hint{
             font-weight: 600;
-
-            // @media screen and (max-width: 385px) {
-            //     text-align: center;
-            //     // @include testing-border-2;
-            // }
         }
 
         .required-data{

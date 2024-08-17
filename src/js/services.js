@@ -19,11 +19,7 @@ if(window.innerWidth > 1350){
             hashtagIndex = theUrl.indexOf('#'),
             searchedId = theUrl.slice(hashtagIndex)
 
-        // console.log(hashtagIndex)
-        // console.log(searchedId)
-
         reiterLinks.forEach(link =>{
-            // console.log(link.href)
 
             if(link.href === theUrl){
                 addAClick(link)
@@ -35,9 +31,6 @@ if(window.innerWidth > 1350){
     // => add "clicked" class on clicked links
     reiterLinks.forEach(link =>{
         link.addEventListener('click', ()=>{
-
-            // console.log('link')
-
             addAClick(link)
         })
     })
@@ -67,8 +60,6 @@ if(window.innerWidth > 1350){
 
 
 if(window.innerWidth <= 1350){
-    console.log('max width 1350px')
-
     const 
         alternateReiterLinks = document.querySelectorAll('.outer-heading'),
         servicesContents = document.querySelectorAll('.services_service_content')
@@ -105,7 +96,6 @@ if(window.innerWidth <= 1350){
                     content.classList.toggle('active')
                     link.classList.add('active')
                     window.scrollTo(0,0)
-                    console.log(scrollY)
                 }
                
             })

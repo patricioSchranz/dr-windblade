@@ -1,7 +1,6 @@
 @import 'common';
 
 .online-booking{
-    // min-height: calc(100svh - 5rem);
     @include flex-row-center;
 
     
@@ -44,7 +43,6 @@
     &_right-side{
         padding: 2rem;
         @include flex-column-center;
-        // justify-content: space-evenly;
         flex-wrap: nowrap;
 
         @media screen and (max-width: 1000px) {

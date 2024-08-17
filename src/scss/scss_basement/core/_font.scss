@@ -8,19 +8,6 @@
 //
 
 
-// NUNITO
-// @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
-
-// HANDWRITING
-// @import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
-
-// PERSONAL
-// @import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
-
-// HEADING
-// @import url('https://fonts.googleapis.com/css2?family=Spectral+SC&display=swap');
-
-
 // SPECTRAL 
 @font-face {
     font-family: "Spectral SC";
@@ -73,7 +60,6 @@
 
 @mixin font-heading-1{
     font-family: 'Spectral SC', serif;
-    // font-weight: 400;
     font-display: block;
     font-weight: bold;
     font-size: 2rem;

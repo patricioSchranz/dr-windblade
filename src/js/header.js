@@ -3,7 +3,6 @@ let lastScrollPosition
 window.addEventListener('scroll', (event)=>{
 
     let currentScrollPosition= window.scrollY
-    // console.log('current scroll position =>', currentScrollPosition)
 
     if(currentScrollPosition > 0 && currentScrollPosition > lastScrollPosition){
         // console.log('page is scrolled down')

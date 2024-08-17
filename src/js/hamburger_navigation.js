@@ -1,6 +1,3 @@
-
-
-
 // => handle the hamburger button click
 hamburgerButton.addEventListener('click', ()=>{
 

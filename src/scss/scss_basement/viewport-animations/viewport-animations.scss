@@ -100,7 +100,6 @@
             height: 100%;
             background: radial-gradient(circle, rgba(255,255,255,0) var(--percent-tcg-1), rgba(255,255,255,1) var(--percent-tcg-2) );
             z-index: 2;
-            // animation: the-circle-grows 1s forwards ease-in-out;
         }
 
         &.in-right-place{
@@ -114,7 +113,6 @@
                 width: 100%;
                 height: 100%;
                 background: radial-gradient(circle, rgba(255,255,255,0) var(--percent-tcg-1), rgba(255,255,255,1) var(--percent-tcg-2) );
-                // background: white;
                 z-index: 2;
                 animation: the-circle-grows var(--animation-duration) var(--animation-delay) forwards var(--animation-timing);
             }
@@ -135,8 +133,6 @@
             height: 100%;
             background: radial-gradient(circle, rgba(255,255,255,0) var(--percent-tcg-1), rgba(255,255,255,1) var(--percent-tcg-2) );
             z-index: 2;
-           
-            // animation: the-circle-grows 1s forwards ease-in-out;
         }
 
         &.in-right-place{
@@ -151,7 +147,6 @@
                 width: 100%;
                 height: 100%;
                 background: radial-gradient(circle, rgba(255,255,255,0) var(--percent-tcg-1), rgba(255,255,255,1) var(--percent-tcg-2) );
-                // background: white;
                 z-index: 2;
                 animation: the-circle-grows var(--animation-duration) var(--animation-delay) forwards var(--animation-timing);
             }
@@ -235,10 +230,8 @@
 
     &.clippy-from-top-to-bottom{
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-        // opacity: 1;
 
         &.in-right-place{
-            // opacity: 1;
             clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
         }
     }
@@ -418,27 +411,6 @@
 }
 
 
-// .the-circle-grows{
-//     position: relative;
-
-
-//     &::before{
-
-//         content: '';
-//         position: absolute;
-//         top: 0;
-//         left: 0;
-//         display: block;
-//         width: 100%;
-//         height: 100%;
-//         background: radial-gradient(circle, rgba(255,255,255,0) var(--percent-tcg-1), rgba(255,255,255,1) var(--percent-tcg-2) );
-//         z-index: 2;
-//         animation: the-circle-grows 1s forwards ease-in-out;
-//     }
-// }
-
-
-
 // ::::::::::::::::::::::
 // KEYFRAMES
 // ::::::::::::::::::::::
@@ -480,12 +452,10 @@
 @keyframes mikro-2-makro {
     from{
         clip-path: circle(15.9% at 50% 50%);
-        // opacity: 0.5;
     }
 
     to{
         clip-path: circle(70.7% at 50% 50%);
-        // opacity: 1;
     }
 }
 

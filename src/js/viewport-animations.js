@@ -120,13 +120,6 @@ class AnimationElement{
 
             if(fullAnimationTriggerPoint) { this.element.classList.remove(fullAnimationTriggerPoint) }
 
-            // if(window.innerWidth > 600) { 
-            //     this.animationTriggerPoint = splitedAnimationTriggerPoint ? (splitedAnimationTriggerPoint[1] / 100) : 0.6
-            // }
-            // else{
-            //     this.animationTriggerPoint = splitedAnimationTriggerPoint ? (splitedAnimationTriggerPoint[1] / 100) : 0.75
-            // }
-
             this.animationTriggerPoint = splitedAnimationTriggerPoint ? (splitedAnimationTriggerPoint[1] / 100) : 0.75
             
     }
@@ -176,9 +169,6 @@ declaredAnimationElements.forEach(element =>{
     animationElements.push(new AnimationElement(element) )
 })
 
-// console.log(animationElements)
-
-
 // ::::::::::::::::::::::::
 // EVENTS
 // ::::::::::::::::::::::::
@@ -192,8 +182,6 @@ document.addEventListener('scroll', ()=>{
 })
 
 window.addEventListener('load', ()=>{
-    console.log(scrollDetected)
-    
     animationElements.forEach(animationElement =>{
         animationElement.triggerAnimation()
     })

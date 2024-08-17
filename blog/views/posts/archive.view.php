@@ -55,7 +55,6 @@ if(isset($_GET['archive'])){
 
     $filter_upper_chars = strtoupper($searched_meta);
     $filter_upper_chars = str_replace('_', ' ', $filter_upper_chars);
-    // $filter = "<span>Filter:</span> <span>{$filter_upper_chars}</span> / <span>{$searched_term}</span>";
     $filter = "<span>Angewendeter Filter : </span><span class='searched-term'>{$searched_term}</span>";
 
 }
@@ -112,7 +111,6 @@ $page_selection = array_slice($pages, $offset, $limit);
 
     <!-- INTRO SECTION -->
     <header class="blog_intro-section">
-        <!-- <img src="../graphics/pics/blog.webp" alt="a desk with some fancy accesoirs and a notebook"> -->
         <picture>
             <source srcset="./../graphics/pics/blog-wmc-750.webp" media="(max-width: 750px)">
             <source srcset="./../graphics/pics/blog-wmc-1500.webp" media="(max-width: 1500px)">

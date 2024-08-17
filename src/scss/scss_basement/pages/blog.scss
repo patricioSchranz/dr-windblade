@@ -12,7 +12,6 @@
     &_intro-section{
         height: calc(100svh - 5rem);
         width: 100%;
-        // border-bottom: 1px solid rgba(0,0,0, 0.2);
         margin-bottom: 2rem;
 
         @media screen and (max-width: 500px) {
@@ -37,13 +36,7 @@
         }
 
         h2{
-            // border: 1px solid black;
-            // height: 25%;
-            // @include flex-row-center;
-            // margin: 0;
-            // padding: 0;
-            // box-shadow: 1px 3px 6px rgba(0,0,0,.2);
-
+   
             height: 15vh;
             background-color: var(--color-secondary);
             box-shadow: 1px 3px 6px rgba(0,0,0,.2);
@@ -67,11 +60,8 @@
 
     // BLOG INFO
     &_info{
-        // border: 3px solid green;
         width: calc(60% + 20rem);
-        // padding-left: 5rem;
         @include flex-variable(row, wrap, flex-start, center);
-        // border: 1px solid black;
         margin: 0 auto 2rem;
 
         @media screen and (max-width: 875px) {
@@ -83,25 +73,17 @@
             margin-bottom: 0;
         }
 
-        // p{
-        //     // display: inline-block;
-        //     // background-color: var(--color-primary-light-2);
-        // }
-
         &_filter{
            background-color: var(--color-primary-light-2); 
            padding: .3rem 1rem;
            position: relative;
 
            .searched-term{
-            // font-style: italic;
-            // font-weight: 600;
             text-transform: uppercase;
            }
 
            @media screen and (max-width: 500px) {
                 width: 100%;
-                // margin: auto;
                 margin-bottom: 0rem;
                 margin-top: 2rem;
                 padding: 1rem;
@@ -147,13 +129,6 @@
             }
 
             @media screen and (max-width: 500px) {
-                // right: 0;
-                // top: -2.2rem;
-                // height: 100%;
-                // width: 100%;
-                // border-radius: 0;
-                // padding: 1.3rem;
-
                 position: fixed;
                 bottom: 1rem;
                 top: initial;
@@ -164,13 +139,11 @@
                 border-radius: 50%;
                 z-index: 100;
                 box-shadow: 0 0 10px rgba(0,0,0, 0.25);
-                // display: none;
                 visibility: hidden;
                 opacity: 0;
                 transition: all .3s;
 
                 &.visible-button{
-                    // display: flex;
                     visibility: visible;
                     opacity: 1;
                 }
@@ -186,7 +159,6 @@
 
     // POSTS CARDS CONTAINER
     &_post-cards-container{
-        // border: 3px solid tomato;
         width: 60%;
         margin: 0 auto 3rem;
 
@@ -200,7 +172,6 @@
 
         // WHOLE POST CARD
         &_card-link{
-            // border: 1px dashed black;
             margin: 3rem 0;
             display: block;
             box-shadow: 0 0 20px rgba(0,0,0, 0.1);
@@ -218,7 +189,6 @@
 
             header{
                 background: rgba(0,0,0, 0.02);
-                // background: rgba(188, 228, 251, 0.1);
                 padding: 1rem;
                 padding-bottom: 0;
             }
@@ -233,7 +203,6 @@
 
                    &.hashtags{
                         background: rgba(0,0,0, 0.02);
-                        // background: rgba(188, 228, 251, 0.1);
                         padding: 1rem 2rem;
                         width: calc(100% + 2rem);
                         margin-left: -1rem;
@@ -257,25 +226,12 @@
         }
 
         img{
-            // display: none;
             width: 100%;
         }
 
         // PAGINATION
         &_pagination-container{
-            // border: 2px solid pink;
             @include flex-variable(row, wrap, space-between, center);
-
-            // .aimless-link{
-            //     opacity: 0.2;
-            //     cursor: default;
-            // }
-
-            // .last-pagination-elem{
-            //     background: rgba(0,0,0, 0.8);
-            //     padding: 0.5rem;
-            //     color: white;
-            // }
 
             .current-page{
                 background: rgba(0,0,0, 0.8);
@@ -288,9 +244,7 @@
 
     // SIDEBAR
     &_sidebar{
-        // border: 3px solid blue;
         width: 20rem;
-        // padding: 1rem;
         border-radius: 2rem 0 0 2rem;
         background: var(--color-primary-light-2);
 
@@ -376,7 +330,6 @@
             padding-right: 4rem;
             border-color: #1E8BC3 ;
             transition: padding .5s;
-            // font-weight: bold;
 
             @media screen and (max-width: 1125px){
                 padding-right: 0.3rem;
@@ -395,7 +348,6 @@
                 border-radius: 0 2rem 2rem 0;
 
                 @media screen and (max-width: 1125px) {
-                    // width: 100%;
                     border-radius: 0;
                     text-align: center;
 
@@ -452,11 +404,9 @@
 
         img{
             width: 2.5rem;
-            // filter: drop-shadow(0px 2px 1px rgba(0,0,0, 0.3));
             transition: all .3s;
 
             &:hover{
-                // filter: drop-shadow(0px 2px 1px rgba(0,0,0, 0.8));
                 transform: scale(1.05);
             }
         }
@@ -466,7 +416,6 @@
 
             a{
                 margin-left: 1rem;
-                // text-decoration: underline;
                 color: var(--color-akzent-3);
                 border-bottom: 1px solid var(--color-akzent-3);
                 transition: all .3s;
@@ -526,13 +475,10 @@
 
         h1,h2,h3,h4,h5{
             margin: 2rem auto;
-            /* color: #D0EFB1; */
             background: #D0EFB1;
             padding:  1rem;
-            // color: white;
             display: inline-block;
             padding-right: 5rem;
-            // transform: perspective(1000px) rotateY(5deg);
         }
     }
 }
