@@ -10,7 +10,7 @@ require __DIR__ . '/views/header-index.php';
             <div class="startpage_intro_picture"></div>
 
             <div class="startpage_intro_heading-container">
-                <h2>Ich bin Dr. Windblade</h2>
+                <h2>Ich bin Dr. Windblade NEW NEW NEW</h2>
                 <p>aus Liebe zum Mensch</p>
             </div>     
         </section>
